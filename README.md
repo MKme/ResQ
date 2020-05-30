@@ -4,7 +4,7 @@ Various ESP8266 basics, functions and hardware support for incomplete projects
 
 <p align="center">
 <br>
- <img src="https://github.com/MKme/ESP8266/blob/master/Photos/D1%20Mini%20Pinoit.png" width="700"/>
+ <img src="https://github.com/MKme/ResQ/blob/master/Photos/NanoTalonprogramming.jpg" width="700"/>
  <br>
 Moving super secret source to Git for sharing on Hackaday- time to give ths project away
 <br>
