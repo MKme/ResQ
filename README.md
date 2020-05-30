@@ -37,9 +37,13 @@ SD Card Use: https://youtu.be/y-P627KBLBw
 Nano Talon Airframe Build:
 
 Nano Talon Build Pt 1 https://youtu.be/BveRkukH6Sg
+
 Nano Talon Build Pt 2 https://youtu.be/9segL9kFlmg
+
 Nano Talon Build Pt 3 https://youtu.be/56KqzPDGRqc
+
 Nano Talon Build Pt 4 https://youtu.be/-qZ3yurwyJo
+
 Adding 3DR telemetry radio to iNav RC plane https://youtu.be/XCQz9AeE2qA
 
 ## BOM:
