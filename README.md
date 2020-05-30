@@ -20,8 +20,10 @@ Chat with Me: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>
 </p>
 
 
-## Discussion Forum threads for more info:
-ResQ Tool and development- http://mkme.org/forum/viewtopic.php?f=28&t=1130
+# Links for more information
+Hackaday Project: 
+
+ResQ Tool Forum Thread For Discussion with Eric - http://mkme.org/forum/viewtopic.php?f=28&t=1130
 
 SD Card interface: http://mkme.org/forum/viewtopic.php?f=14&t=1126&p=1430#p1430
 
