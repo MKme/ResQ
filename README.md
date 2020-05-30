@@ -27,13 +27,13 @@ SD Card interface: http://mkme.org/forum/viewtopic.php?f=14&t=1126&p=1430#p1430
 
 ## FULL Video Tutorials:
 
-ResQ Overview:
+### ResQ Components/build:
 
 D1 mini Pro External Antenna (you need to mod the board for the external to work)  https://youtu.be/hXRcJXMjlyg
 
 SD Card Use: https://youtu.be/y-P627KBLBw
 
-Nano Talon Airframe Build:
+### Drone/Aircraft Builds:
 
 Nano Talon Build Pt 1 https://youtu.be/BveRkukH6Sg
 
