@@ -49,16 +49,21 @@ Adding 3DR telemetry radio to iNav RC plane https://youtu.be/XCQz9AeE2qA
 
 # BOM:
 
-D1 Mini : https://amzn.to/34XAxhJ
+D1 Mini Pro : https://amzn.to/2ZQArbl
+
+With antenna included: https://amzn.to/2ZNQEy1
 
 SD Card Reader https://amzn.to/2XPDv6B
 
-ESP01 https://amzn.to/2RSAvlR
-
-LOLIN Variants https://amzn.to/2XSdjrP
-
 0.96" OLED Display https://amzn.to/3cCHvvj
 
+2.4 GHz Yagi Antenna https://amzn.to/3gwLso9
+
+SMA adapter https://amzn.to/3ezOpT8
+
+nrf24l01 https://amzn.to/3exhePP
+
+LORA Modules https://amzn.to/2zB61ze
 
 # Wiring 
 
