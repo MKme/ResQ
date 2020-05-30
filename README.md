@@ -25,7 +25,7 @@ ResQ Tool and development- http://mkme.org/forum/viewtopic.php?f=28&t=1130
 
 SD Card interface: http://mkme.org/forum/viewtopic.php?f=14&t=1126&p=1430#p1430
 
-## FULL Video Tutorials:
+# FULL Video Tutorials:
 
 ### ResQ Components/build:
 
@@ -45,7 +45,7 @@ Nano Talon Build Pt 4 https://youtu.be/-qZ3yurwyJo
 
 Adding 3DR telemetry radio to iNav RC plane https://youtu.be/XCQz9AeE2qA
 
-## BOM:
+# BOM:
 
 D1 Mini : https://amzn.to/34XAxhJ
 
