@@ -29,7 +29,7 @@ SD Card interface: http://mkme.org/forum/viewtopic.php?f=14&t=1126&p=1430#p1430
 
 ResQ Overview:
 
-D1 mini Pro Externall Antenna (you need to mod the board for the external to work)  https://youtu.be/hXRcJXMjlyg
+D1 mini Pro External Antenna (you need to mod the board for the external to work)  https://youtu.be/hXRcJXMjlyg
 
 SD Card Use: https://youtu.be/y-P627KBLBw
 
