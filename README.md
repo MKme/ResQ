@@ -32,9 +32,9 @@ http://mkme.org/forum/viewtopic.php?f=14&t=1126&p=1430#p1430
 Req Overview: 
 SD Card Use: https://youtu.be/y-P627KBLBw
 
-## BUY THE SUPPLIES HERE:
+## BOM:
 
-Buy the D1 Mini here: https://amzn.to/34XAxhJ
+D1 Mini : https://amzn.to/34XAxhJ
 
 SD Card Reader https://amzn.to/2XPDv6B
 
@@ -44,7 +44,7 @@ LOLIN Variants https://amzn.to/2XSdjrP
 
 0.96" OLED Display https://amzn.to/3cCHvvj
 
-## SPI SD Card to WEMOS D1 Mini
+## SPI SD Card to WEMOS D1 Mini Wiring
 | Pin On SD Reader | Pin on D1 Mini |
 | ---------- |----------------|
 | SCK  | D5 |
@@ -62,6 +62,8 @@ LOLIN Variants https://amzn.to/2XSdjrP
 |GND   | GND |
 |VCC  | 3.3V or 5V (depends on display)  |
 
-# Useful Stuffz
+# Reference Material
+
+Credit to Andreas Spiess projects here (father of all ESP projects) : https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ
 
 More videos and information at http://youtube.com/mkmeorg or http://www.mkme.org
