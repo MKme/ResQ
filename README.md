@@ -21,17 +21,17 @@ Website, Forum and store are at http://mkme.org <br>
 Chat with Me: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>
 </p>
 
-### Discussion and further info I figure out (if any):
+## Discussion and further info I figure out (if any):
 ReQ Tool- TBD
 SD Card interface:
 http://mkme.org/forum/viewtopic.php?f=14&t=1126&p=1430#p1430
 
-### FULL Video Tutorials:
+## FULL Video Tutorials:
 
 Req Overview: 
 SD Card Use: https://youtu.be/y-P627KBLBw
 
-### BUY THE SUPPLIES HERE:
+## BUY THE SUPPLIES HERE:
 
 Buy the D1 Mini here: https://amzn.to/34XAxhJ
 
@@ -43,7 +43,7 @@ LOLIN Variants https://amzn.to/2XSdjrP
 
 0.96" OLED Display https://amzn.to/3cCHvvj
 
-### SPI SD Card to WEMOS D1 Mini
+## SPI SD Card to WEMOS D1 Mini
 | Pin On SD Reader | Pin on D1 Mini |
 | ---------- |----------------|
 | SCK  | D5 |
@@ -53,7 +53,7 @@ LOLIN Variants https://amzn.to/2XSdjrP
 |GND   | GND |
 |VCC  | 3.3V ONLY!  |
 
-### 0.96" OLED to WEMOS D1 Mini 
+## 0.96" OLED to WEMOS D1 Mini 
 | Pin On OLED | Pin on D1 Mini |
 | ---------- |----------------|
 | SDA  | D2 |
@@ -61,6 +61,6 @@ LOLIN Variants https://amzn.to/2XSdjrP
 |GND   | GND |
 |VCC  | 3.3V or 5V (depends on display)  |
 
-### Useful Stuffz
+# Useful Stuffz
 
 More videos and information at http://youtube.com/mkmeorg or http://www.mkme.org
