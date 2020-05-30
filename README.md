@@ -57,7 +57,10 @@ LOLIN Variants https://amzn.to/2XSdjrP
 
 0.96" OLED Display https://amzn.to/3cCHvvj
 
-## SPI SD Card to WEMOS D1 Mini Wiring
+
+# Wiring 
+
+### SPI SD Card to WEMOS D1 Mini Wiring
 | Pin On SD Reader | Pin on D1 Mini |
 | ---------- |----------------|
 | SCK  | D5 |
@@ -67,7 +70,7 @@ LOLIN Variants https://amzn.to/2XSdjrP
 |GND   | GND |
 |VCC  | 3.3V ONLY!  |
 
-## 0.96" OLED to WEMOS D1 Mini 
+### 0.96" OLED to WEMOS D1 Mini 
 | Pin On OLED | Pin on D1 Mini |
 | ---------- |----------------|
 | SDA  | D2 |
