@@ -1,12 +1,13 @@
 # ResQ
 # RESQ Open Source Wifi based Search and Rescue Device
-Various ESP8266 basics, functions and hardware support for incomplete projects
-
+Moving super secret source to Git for sharing on Hackaday- time to give ths project away 
+This open source project uses AP beacon packet sniffing from any commercially available aircraft/drone or manned aircraft to locate people on the ground such as lost hikers, 
+campers etc. The aircraft dtects the AP beacon from their cellular phone, records the GPS coordinates for later ground use and transmitas an alert to search teams on the ground
 <p align="center">
 <br>
  <img src="https://github.com/MKme/ResQ/blob/master/Photos/NanoTalonprogramming.jpg" width="700"/>
  <br>
-Moving super secret source to Git for sharing on Hackaday- time to give ths project away
+
 <br>
 <br>
 🐦 <a href="https://twitter.com/mkmeorg">Twitter</a>
