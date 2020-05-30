@@ -21,7 +21,7 @@ Chat with Me: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>
 
 
 ## Discussion Forum threads for more info:
-ReQ Tool and development- http://mkme.org/forum/viewtopic.php?f=28&t=1130
+ResQ Tool and development- http://mkme.org/forum/viewtopic.php?f=28&t=1130
 
 SD Card interface: http://mkme.org/forum/viewtopic.php?f=14&t=1126&p=1430#p1430
 
