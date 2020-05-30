@@ -17,13 +17,11 @@ Support this project and become a patron on <a href="http://mkme.org/patreon">Er
 Website, Forum and store are at http://mkme.org <br>
 Chat with Me: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>
 </p>
-Support this project and become a patron on <a href="http://mkme.org/patreon">Eric's Patreon</a>.<br>
-Website, Forum and store are at http://mkme.org <br>
-Chat with Me: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>
-</p>
 
-## Discussion and further info I figure out (if any):
+
+## Discussion and further info:
 ReQ Tool- TBD
+
 SD Card interface:
 http://mkme.org/forum/viewtopic.php?f=14&t=1126&p=1430#p1430
 
@@ -67,3 +65,8 @@ LOLIN Variants https://amzn.to/2XSdjrP
 Credit to Andreas Spiess projects here (father of all ESP projects) : https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ
 
 More videos and information at http://youtube.com/mkmeorg or http://www.mkme.org
+
+Support this project and become a patron on <a href="http://mkme.org/patreon">Eric's Patreon</a>.<br>
+Website, Forum and store are at http://mkme.org <br>
+Chat with Me: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>
+
