@@ -51,6 +51,8 @@ Nano Talon Build Pt 4 https://youtu.be/-qZ3yurwyJo
 
 Adding 3DR telemetry radio to the Nano Talon for autonymous flight control https://youtu.be/XCQz9AeE2qA
 
+Making a DIY 18650 2S1P battery pack for >1hr duration flight missions https://youtu.be/XwAqgR_XsYw
+
 # BOM:
 
 D1 Mini Pro : https://amzn.to/2ZQArbl
