@@ -29,7 +29,7 @@ SD Card interface: http://mkme.org/forum/viewtopic.php?f=14&t=1126&p=1430#p1430
 
 # FULL video tutorials:
 
-### Full playlist including all below::
+### Full playlist:
 
 https://www.youtube.com/playlist?list=PLxyM2a_cfnzifVreG8aKurH-9nNYl8QLr
 
@@ -49,7 +49,7 @@ Nano Talon Build Pt 3 https://youtu.be/56KqzPDGRqc
 
 Nano Talon Build Pt 4 https://youtu.be/-qZ3yurwyJo
 
-Adding 3DR telemetry radio to iNav RC plane https://youtu.be/XCQz9AeE2qA
+Adding 3DR telemetry radio to the Nano Talon for autonymous flight control https://youtu.be/XCQz9AeE2qA
 
 # BOM:
 
@@ -82,8 +82,8 @@ F722 Wing Flight Controller: https://amzn.to/2ZSoMsz
 
 # Wiring 
 
-### SPI SD Card to WEMOS D1 Mini Wiring
-| Pin On SD Reader | Pin on D1 Mini |
+### SPI SD Card to WEMOS D1  Wiring
+| Pin On SD Reader | Pin on D1  |
 | ---------- |----------------|
 | SCK  | D5 |
 | MISO| D6 |
@@ -92,13 +92,20 @@ F722 Wing Flight Controller: https://amzn.to/2ZSoMsz
 |GND   | GND |
 |VCC  | 3.3V ONLY!  |
 
-### 0.96" OLED to WEMOS D1 Mini 
-| Pin On OLED | Pin on D1 Mini |
+### 0.96" OLED to WEMOS D1 
+| Pin On OLED | Pin on D1  |
 | ---------- |----------------|
 | SDA  | D2 |
 | SCL| D1 |
 |GND   | GND |
 |VCC  | 3.3V or 5V (depends on display)  |
+
+### BN880 GPS Module
+| Pin On GPS | Pin on D1  |
+| ---------- |----------------|
+| TX | TBD |
+|GND   | GND |
+|VCC  | 3.3V |
 
 # Reference Material
 
