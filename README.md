@@ -27,7 +27,9 @@ ResQ Tool Forum Thread For Discussion with Eric - http://mkme.org/forum/viewtopi
 
 SD Card interface: http://mkme.org/forum/viewtopic.php?f=14&t=1126&p=1430#p1430
 
-# FULL Video Tutorials:
+# FULL video playlist documenting the entire project:
+
+https://www.youtube.com/playlist?list=PLxyM2a_cfnzifVreG8aKurH-9nNYl8QLr
 
 ### ResQ Components/build:
 
