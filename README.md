@@ -21,7 +21,7 @@ Chat with Me: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>
 
 
 # Links for more information
-Hackaday Project: 
+Hackaday Project: https://hackaday.io/project/172090-resq-open-source-search-and-rescue-tool
 
 ResQ Tool Forum Thread For Discussion with Eric - http://mkme.org/forum/viewtopic.php?f=28&t=1130
 
