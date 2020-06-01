@@ -44,6 +44,10 @@ SD CARD STUFF
 U8X8_SSD1306_128X64_NONAME_SW_I2C u8x8(/* clock=*/ SCL, /* data=*/ SDA, /* reset=*/ U8X8_PIN_NONE);   // OLEDs without Reset of the Display
 //End OLED add for this section ERIC
 
+//Preparing to Add GPS- IT DIDNT CRASH WITH INCLUDES YAYAYAYAYAYAAAAAAAAAAAAAAAAAAAAAAY
+#include <SoftwareSerial.h>
+#include <TinyGPS.h>
+//End GPS
 
 #include <SPI.h>
 #include <SD.h>
