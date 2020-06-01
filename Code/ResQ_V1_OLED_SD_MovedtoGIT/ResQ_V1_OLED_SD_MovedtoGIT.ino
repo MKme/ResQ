@@ -135,6 +135,7 @@ delay(3000);
 
 
 void loop() {
+  //Do display stuff right at the start- easy tracking/changing 
   u8x8.clear(); 
   u8x8.setFont(u8x8_font_chroma48medium8_r);
   u8x8.println("Active:");
