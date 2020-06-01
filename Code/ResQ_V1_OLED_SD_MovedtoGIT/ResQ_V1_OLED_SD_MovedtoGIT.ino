@@ -100,8 +100,6 @@ void setup() {
  //oled end init 
   
   Serial.begin(57600);
-  Serial.println(F("Based on the work of Andreas Spiess and..."));
-  Serial.println(F("Based on the work of Ray Burnette http://www.hackster.io/rayburne/projects"));
 
 //Serial from SD Example
   while (!Serial) {
@@ -138,14 +136,13 @@ delay(3000);
 
 void loop() {
   u8x8.clear(); 
-
   u8x8.setFont(u8x8_font_chroma48medium8_r);
   u8x8.println("Active:");
   u8x8.println("");
   u8x8.print("Clients: ");
   u8x8.println(clients_known_count);
   u8x8.println("");
-    u8x8.print("APs: ");
+  u8x8.print("APs: ");
   u8x8.println(aps_known_count);
  //"%4d Devices/Clients\n",aps_known_count + clients_known_count)
 //u8x8.printf("%4d Devices/Clients\n",aps_known_count + clients_known_count); // show count
