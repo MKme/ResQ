@@ -113,12 +113,16 @@ void setup() {
   Serial.println("card initialized.");
 //End SD Example 
 
+//Splash Screen
   u8x8.clear(); 
   u8x8.setFont(u8x8_font_chroma48medium8_r);
-  u8x8.println("Erics RESQ Init");
-
+  u8x8.println("Initializing...");
+  u8x8.println("");
+  u8x8.println("ResQ Tool V1.0");
+  u8x8.println("www.mkme.org");
+  
+//Dont remember if this delay is needed
 delay(3000); 
-
 
   wifi_set_opmode(STATION_MODE);            // Promiscuous works only with station mode
   wifi_set_channel(channel);
@@ -126,8 +130,6 @@ delay(3000);
   wifi_set_promiscuous_rx_cb(promisc_cb);   // Set up promiscuous callback
   wifi_promiscuous_enable(enable);
 }
-
-
 
 
 void loop() {
@@ -186,13 +188,6 @@ void loop() {
     showDevices();
     //sendDevices();
   }
-
-// Do display stuff HERE-------------------------------------------------------------------------------------
-
-  
-
-//Call SD Write TEST ONLY ERIC 
-//DoSD();
 
 }
 
