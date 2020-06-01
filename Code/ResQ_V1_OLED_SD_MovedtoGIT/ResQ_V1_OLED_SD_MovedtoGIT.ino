@@ -3,8 +3,11 @@
  Moving to Git HUUUUUUUUUUUUUUGE effaround as OLED and SPI wont work together
  traced back to Adafruit libs and possibly RAM issue
  Switched to u8x8 lib WORKS!
+ FINALLY displaying active APs and clients on OLED but this is VERY unstable.  2 uploads have caused gibberish serial output- slowed down to 57600 to test if related. 
+
+ 
   
-  ERGER NOTE: USE THIS IDE 1.8.8 -----------------------
+  Erics NOTE: USE THIS IDE 1.8.8 -----------------------
   ^^^^^^^^^^^^^^^^^^^^^^^ Pay attention
   USE THIS PubClient lib- ONLY ONE THAT WORKS!!! https://github.com/heman4t/Arduino-pubsubclient
 VIDEO: https://www.youtube.com/watch?v=fmhjtzmLrg8 explains why apple devices not connected keep spamming new MAC's
@@ -35,7 +38,6 @@ SD CARD STUFF
 //Adding OLED Functions ERIC
 #include <Arduino.h>
 #include <U8x8lib.h>
-
 #ifdef U8X8_HAVE_HW_SPI
 #include <SPI.h>
 #endif
@@ -97,7 +99,6 @@ void setup() {
   Serial.println(F("Based on the work of Andreas Spiess and..."));
   Serial.println(F("Based on the work of Ray Burnette http://www.hackster.io/rayburne/projects"));
 
-
 //Serial from SD Example
   while (!Serial) {
     ; // wait for serial port to connect. Needed for Leonardo only
@@ -112,6 +113,9 @@ void setup() {
   Serial.println("card initialized.");
 //End SD Example 
 
+  u8x8.clear(); 
+  u8x8.setFont(u8x8_font_chroma48medium8_r);
+  u8x8.println("Erics RESQ Init");
 
 delay(3000); 
 
