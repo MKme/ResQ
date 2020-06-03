@@ -105,8 +105,8 @@ F722 Wing Flight Controller: https://amzn.to/2ZSoMsz
 ### BN880 GPS Module
 | Pin On GPS | Pin on D1  |
 | ---------- |----------------|
-| TX | 3 (0 in code) |
-| RX | 4 (2 in code) |
+| TX | 4 (2 in code) |
+| RX | 3 (0 in code) |
 |GND   | GND |
 |VCC  | 3.3V |
 
