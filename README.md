@@ -110,6 +110,8 @@ F722 Wing Flight Controller: https://amzn.to/2ZSoMsz
 |GND   | GND |
 |VCC  | 3.3V |
 
+ <img src="https://github.com/MKme/ResQ/blob/master/Photos/BN220%20Pinout%20.jpg" width="700"/>
+
 # Reference Material
 
 Credit to Andreas Spiess projects here (father of all ESP projects) : https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ
