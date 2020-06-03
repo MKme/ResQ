@@ -1,0 +1,3 @@
+Software serial doesnt work on older board manager install (IE MINE!)  Update from by adding in boards manager and selecting update on the boards 
+
+ https://arduino.esp8266.com/stable/package_esp8266com_index.json
