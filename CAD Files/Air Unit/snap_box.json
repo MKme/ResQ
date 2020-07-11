@@ -76,7 +76,7 @@
             "right_row_holes": "[]",
             "screw_mount_diameter": "0",
             "screw_mount_offset": "0",
-            "snap_clearance": "0.9",
+            "snap_clearance": "1.4",
             "snap_depth": "2",
             "wall_thickness": "1",
             "width": "44"
