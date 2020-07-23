@@ -48,9 +48,13 @@ U8X8_SSD1306_128X64_NONAME_SW_I2C u8x8(/* clock=*/ SCL, /* data=*/ SDA, /* reset
 
 //Preparing to Add GPS- IT DIDNT CRASH WITH INCLUDES YAYAYAYAYAYAAAAAAAAAAAAAAAAAAAAAAY
 #include <SoftwareSerial.h>
-#include <TinyGPS.h>
+#include <TinyGPS++.h>
 TinyGPSPlus gps;  // The TinyGPS++ object
 SoftwareSerial ss(2, 0);
+float latitude , longitude;
+int year , month , date, hour , minute , second;
+String date_str , time_str , lat_str , lng_str;
+int pm;
 //End GPS
 
 #include <SPI.h>
