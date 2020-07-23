@@ -102,7 +102,7 @@ F722 Wing Flight Controller: https://amzn.to/2ZSoMsz
 |GND   | GND |
 |VCC  | 3.3V or 5V (depends on display)  |
 
-### BN880 GPS Module
+### BN220 GPS Module
 | Pin On GPS | Pin on Wemos D1  |
 | ---------- |----------------|
 | TX | 4 (2 in Arduino code) |
