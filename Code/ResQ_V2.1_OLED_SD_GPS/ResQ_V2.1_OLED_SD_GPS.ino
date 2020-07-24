@@ -382,14 +382,20 @@ void showDevices() {
     Serial.print("C ");
     Serial.print(formatMac1(clients_known[u].station));
 
+
+
+    
+
+    //--------------------------------------------------- Added GPS HERE- Only place that works reliably :(
+
   while (ss.available() > 0) //while data is available
     if (gps.encode(ss.read())) //read gps data
     {
-      Serial.print("----------------TRIED TO READ GPS AT LEAST_------------------------------------------------- ---- ");
+      Serial.println("----TRIED TO READ GPS---");
     
       if (gps.location.isValid()) //check whether gps location is valid
       {
-        Serial.print("----------------LOCATION===VALID ------------------------------------------------- ---- ");
+        Serial.println("--LOCATION===VALID -- ");
         latitude = gps.location.lat();
         lat_str = String(latitude , 6); // latitude location is stored in a string
         longitude = gps.location.lng();
@@ -465,12 +471,19 @@ void showDevices() {
         File dataFile = SD.open("datalog.txt", FILE_WRITE);
         // if the file is available, write to it:
          if (dataFile) {
+          dataFile.print("Time;");
+          dataFile.print(time_str);
+          dataFile.print("Lat;");
+          dataFile.print(lat_str);
+          dataFile.print("Lon;");
+          dataFile.print(lng_str);
           dataFile.print("Client;");
           dataFile.print(formatMac1(clients_known[u].station));
           dataFile.print(";RSSI;");
           dataFile.print(clients_known[u].rssi);
           dataFile.print(";channel;");
           dataFile.println(clients_known[u].channel);
+          
           dataFile.close();
           Serial.print("----MAC Written To SD ---- ");
           Serial.print("Time:");
