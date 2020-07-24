@@ -404,11 +404,11 @@ void showDevices() {
          if (dataFile) {
           dataFile.print("Time;");
           dataFile.print(time_str);
-          dataFile.print("Lat;");
+          dataFile.print(";Lat;");
           dataFile.print(lat_str);
-          dataFile.print("Lon;");
+          dataFile.print(";Lon;");
           dataFile.print(lng_str);
-          dataFile.print("Client;");
+          dataFile.print(";Client;");
           dataFile.print(formatMac1(clients_known[u].station));
           dataFile.print(";RSSI;");
           dataFile.print(clients_known[u].rssi);
