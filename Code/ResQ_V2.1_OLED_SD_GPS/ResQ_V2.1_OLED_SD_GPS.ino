@@ -1,5 +1,5 @@
 /*
-
+ V1.xxx standalone with oled and sd card working stable and usable
  V2.1 Incorporating GPS code- Wish me luck
  
  Moving to Git HUUUUUUUUUUUUUUGE effaround as OLED and SPI wont work together
@@ -102,12 +102,15 @@ StaticJsonBuffer<JBUFFER>  jsonBuffer;
 
 
 void setup() {
+  //GPS Init
+  ss.begin(9600);
+  
   //OLED init
   u8x8.begin();
   u8x8.setPowerSave(0);
  //oled end init 
   
-  Serial.begin(57600);
+  Serial.begin(9600);
 
 //Serial from SD Example
   while (!Serial) {
@@ -143,16 +146,101 @@ delay(3000);
 
 
 void loop() {
+
+  while (ss.available() > 0) //while data is available
+    if (gps.encode(ss.read())) //read gps data
+    {
+      Serial.print("----------------TRIED TO READ GPS AT LEAST_------------------------------------------------- ---- ");
+    
+      if (gps.location.isValid()) //check whether gps location is valid
+      {
+        Serial.print("----------------LOCATION===VALID ------------------------------------------------- ---- ");
+        latitude = gps.location.lat();
+        lat_str = String(latitude , 6); // latitude location is stored in a string
+        longitude = gps.location.lng();
+        lng_str = String(longitude , 6); //longitude location is stored in a string
+      }
+      if (gps.date.isValid()) //check whether gps date is valid
+      {
+        date_str = "";
+        date = gps.date.day();
+        month = gps.date.month();
+        year = gps.date.year();
+        if (date < 10)
+          date_str = '0';
+        date_str += String(date);// values of date,month and year are stored in a string
+        date_str += " / ";
+
+        if (month < 10)
+          date_str += '0';
+        date_str += String(month); // values of date,month and year are stored in a string
+        date_str += " / ";
+        if (year < 10)
+          date_str += '0';
+        date_str += String(year); // values of date,month and year are stored in a string
+      }
+      if (gps.time.isValid())  //check whether gps time is valid
+      {
+        time_str = "";
+        hour = gps.time.hour();
+        minute = gps.time.minute();
+        second = gps.time.second();
+        minute = (minute + 30); // converting to IST
+        if (minute > 59)
+        {
+          minute = minute - 60;
+          hour = hour + 1;
+        }
+        hour = (hour + 5) ;
+        if (hour > 23)
+          hour = hour - 24;   // converting to IST
+        if (hour >= 12)  // checking whether AM or PM
+          pm = 1;
+        else
+          pm = 0;
+        hour = hour % 12;
+        if (hour < 10)
+          time_str = '0';
+        time_str += String(hour); //values of hour,minute and time are stored in a string
+        time_str += " : ";
+        if (minute < 10)
+          time_str += '0';
+        time_str += String(minute); //values of hour,minute and time are stored in a string
+        time_str += " : ";
+        if (second < 10)
+          time_str += '0';
+        time_str += String(second); //values of hour,minute and time are stored in a string
+        if (pm == 1)
+          time_str += " PM ";
+        else
+          time_str += " AM ";
+      }
+    }
+
+
+
+  
   //Do display stuff right at the start- easy tracking/changing 
+ 
+  
   u8x8.clear(); 
   u8x8.setFont(u8x8_font_chroma48medium8_r);
   u8x8.println("Active:");
-  u8x8.println("");
+  //u8x8.println("");
   u8x8.print("Clients: ");
   u8x8.println(clients_known_count);
-  u8x8.println("");
+  //u8x8.println("");
   u8x8.print("APs: ");
   u8x8.println(aps_known_count);
+  u8x8.println("");
+  //u8x8.print("Time:");
+  u8x8.println(time_str);
+  u8x8.print("Lat");
+  u8x8.println(lat_str);
+  u8x8.print("Lon");
+  u8x8.println(lng_str);
+
+  
  //"%4d Devices/Clients\n",aps_known_count + clients_known_count)
 //u8x8.printf("%4d Devices/Clients\n",aps_known_count + clients_known_count); // show count
 //u8x8.printf("%4d Devices/Clients\n",aps_known_count + clients_known_count); // show count
@@ -224,6 +312,7 @@ void connectToWiFi() {
 }
 
 void purgeDevice() {
+  
   for (int u = 0; u < clients_known_count; u++) {
     if ((millis() - clients_known[u].lastDiscoveredTime) > PURGETIME) {
       Serial.print("purge Client" );
@@ -246,6 +335,10 @@ void purgeDevice() {
 
 
 void showDevices() {
+
+
+
+  
   Serial.println("");
   Serial.println("");
   Serial.println("-------------------Devices Detected Currently-------------------");
@@ -289,6 +382,84 @@ void showDevices() {
     Serial.print("C ");
     Serial.print(formatMac1(clients_known[u].station));
 
+  while (ss.available() > 0) //while data is available
+    if (gps.encode(ss.read())) //read gps data
+    {
+      Serial.print("----------------TRIED TO READ GPS AT LEAST_------------------------------------------------- ---- ");
+    
+      if (gps.location.isValid()) //check whether gps location is valid
+      {
+        Serial.print("----------------LOCATION===VALID ------------------------------------------------- ---- ");
+        latitude = gps.location.lat();
+        lat_str = String(latitude , 6); // latitude location is stored in a string
+        longitude = gps.location.lng();
+        lng_str = String(longitude , 6); //longitude location is stored in a string
+      }
+      if (gps.date.isValid()) //check whether gps date is valid
+      {
+        date_str = "";
+        date = gps.date.day();
+        month = gps.date.month();
+        year = gps.date.year();
+        if (date < 10)
+          date_str = '0';
+        date_str += String(date);// values of date,month and year are stored in a string
+        date_str += " / ";
+
+        if (month < 10)
+          date_str += '0';
+        date_str += String(month); // values of date,month and year are stored in a string
+        date_str += " / ";
+        if (year < 10)
+          date_str += '0';
+        date_str += String(year); // values of date,month and year are stored in a string
+      }
+      if (gps.time.isValid())  //check whether gps time is valid
+      {
+        time_str = "";
+        hour = gps.time.hour();
+        minute = gps.time.minute();
+        second = gps.time.second();
+        minute = (minute + 30); // converting to IST
+        if (minute > 59)
+        {
+          minute = minute - 60;
+          hour = hour + 1;
+        }
+        hour = (hour + 5) ;
+        if (hour > 23)
+          hour = hour - 24;   // converting to IST
+        if (hour >= 12)  // checking whether AM or PM
+          pm = 1;
+        else
+          pm = 0;
+        hour = hour % 12;
+        if (hour < 10)
+          time_str = '0';
+        time_str += String(hour); //values of hour,minute and time are stored in a string
+        time_str += " : ";
+        if (minute < 10)
+          time_str += '0';
+        time_str += String(minute); //values of hour,minute and time are stored in a string
+        time_str += " : ";
+        if (second < 10)
+          time_str += '0';
+        time_str += String(second); //values of hour,minute and time are stored in a string
+        if (pm == 1)
+          time_str += " PM ";
+        else
+          time_str += " AM ";
+      }
+    }
+
+
+
+
+
+
+
+    
+
 //---------------------Adding SD Write
     //Eric Adding SD Card Write here so we gat MAC 
         File dataFile = SD.open("datalog.txt", FILE_WRITE);
@@ -302,6 +473,12 @@ void showDevices() {
           dataFile.println(clients_known[u].channel);
           dataFile.close();
           Serial.print("----MAC Written To SD ---- ");
+          Serial.print("Time:");
+          Serial.println(time_str);
+          Serial.print("Lat");
+          Serial.println(lat_str);
+          Serial.print("Lon");
+          Serial.println(lng_str);
                     }
          // if the file isn't open, pop up an error:
           else {
