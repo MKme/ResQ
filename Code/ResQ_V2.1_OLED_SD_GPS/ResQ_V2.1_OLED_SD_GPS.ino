@@ -97,7 +97,7 @@ String device[MAXDEVICES];
 int nbrDevices = 0;
 int usedChannels[15];
 
-#ifndef CREDENTIALS
+#ifndef CREDENTIALS  //don't need this anymore- only for initial tests
 #define mySSID "*****"
 #define myPASSWORD "******"
 #endif
@@ -106,13 +106,13 @@ StaticJsonBuffer<JBUFFER>  jsonBuffer;
 
 void setup() {
   //GPS Init
-  ss.begin(9600);
+  ss.begin(9600); // software serial
   
   //OLED init
   u8x8.begin();
   u8x8.setPowerSave(0);
  //oled end init 
- Serial.begin(9600);
+ Serial.begin(9600); //hardware serial 
 
 //Serial from SD Example
   while (!Serial) {
@@ -215,7 +215,7 @@ void loop() {
 }
 
 
-void connectToWiFi() {
+void connectToWiFi() { //na anymore remove Eric to remove when he's not lazy...never
   delay(10);
   // We start by connecting to a WiFi network
   Serial.println();
@@ -309,7 +309,7 @@ void showDevices() {
 
     
 
- //--------------------------------------------------- Added GPS HERE- Good a place as any to do the thing
+ //---Do tha GPS thangz
 
   while (ss.available() > 0) //while data is available
     if (gps.encode(ss.read())) //read gps data
@@ -402,7 +402,7 @@ void showDevices() {
           dataFile.println(clients_known[u].channel);
           
           dataFile.close();
-          Serial.print("----MAC Written To SD ---- ");
+          Serial.print("----MAC Written To SD ---- "); //serial debugz
           Serial.print("Time:");
           Serial.println(time_str);
           Serial.print("Lat");
