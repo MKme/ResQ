@@ -29,7 +29,7 @@ SD Card interface: http://mkme.org/forum/viewtopic.php?f=14&t=1126&p=1430#p1430
 
 # FULL video tutorials:
 
-### Full playlist:
+### Full playlist (all related videos/tutorials):
 
 https://www.youtube.com/playlist?list=PLxyM2a_cfnzifVreG8aKurH-9nNYl8QLr
 
@@ -39,7 +39,7 @@ D1 mini Pro External Antenna (you need to mod the board for the external to work
 
 SD Card Use: https://youtu.be/y-P627KBLBw
 
-### Drone/Aircraft Builds:
+### Drone/Aircraft Builds and Tuning:
 
 Nano Talon Build Pt 1 https://youtu.be/BveRkukH6Sg
 
