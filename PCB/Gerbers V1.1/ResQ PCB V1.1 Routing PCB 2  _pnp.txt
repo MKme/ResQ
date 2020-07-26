@@ -1,0 +1,50 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=ResQ PCB V1.1 Routing PCB 2  
+*Date=13:15:42
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;7.5253;-16.2134;0;Bottom;Copper Fill17
+2;;;7.5253;-19.2106;0;Bottom;Copper Fill16
+3;;;7.8809;-22.5634;0;Bottom;Copper Fill15
+4;;THT;21.4357;-32.9568;90;Bottom;SD Card
+5;;;8.2619;-3.1578;0;Bottom;Copper Fill20
+6;;;15.9835;-3.1324;0;Bottom;Copper Fill21
+7;;;28.9121;-1.5576;0;Bottom;Copper Fill5
+8;;;16.3645;-34.1458;0;Bottom;Copper Fill7
+9;;;5.2647;-26.7798;0;Bottom;Copper Fill13
+10;;THT;9.24762;-16.1986;180;Bottom;GPS
+11;;;15.6787;-17.839;0;Bottom;Copper Fill19
+12;;THT;18.2371;-4.42255;180;Bottom;SP2
+13;;;15.4247;-27.6688;0;Bottom;Copper Fill2
+14;;;17.3196;-17.9319;0;Bottom;IMG2
+15;;;23.9591;-34.1204;0;Bottom;Copper Fill10
+16;;;6.2299;-28.7102;0;Bottom;Copper Fill6
+17;;;3.8677;-17.1786;0;Bottom;Copper Fill14
+18;;;18.8791;-34.1204;0;Bottom;Copper Fill8
+19;;;22.5646;-14.9999;0;Bottom;Via1
+20;;;7.5253;-13.6734;0;Bottom;Copper Fill18
+21;;THT;13.7519;-4.38907;180;Bottom;SP1
+22;;;27.4462;-4.18899;0;Bottom;Hole1
+23;;;1.6325;-3.1832;0;Bottom;Copper Fill4
+24;;THT;2.18368;-28.7447;180;Bottom;OLED
+25;;;23.0955;-25.078;0;Bottom;Copper Fill1
+26;;;17.2441;-17.8268;0;Bottom;WeMos D1 Mini1
+27;;;5.9759;-30.6406;0;Bottom;Copper Fill12
+28;;;15.4247;-16.6452;0;Bottom;Copper Fill3
+29;;;27.6421;-24.2144;0;Bottom;Copper Fill11
+30;;THT;2.78851;-3.18644;180;Bottom;Vin
+31;;;28.9121;-1.5576;0;Bottom;Copper Fill22
+32;;;16.5639;-24.8777;0;Bottom;TXT2
+33;;;17.0534;-27.1675;0;Bottom;TXT1
+34;;;17.297;-11.5576;0;Bottom;TXT3
+35;;;21.4191;-34.1204;0;Bottom;Copper Fill9
