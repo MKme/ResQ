@@ -1,20 +1,26 @@
 /*
- V1.xxx standalone with oled and sd card working stable and usable
- V2.1 Incorporating GPS code- Wish me luck
+
+Erics Open Source ResQ Search and Rescue Tool
+My Youtube Channel  : http://www.youtube.com/mkmeorg
+If you use this code or personalize it etc- please consider sharing it back with the world via the forum at http://www.mkme.org/forum
+Website, Forum http://mkme.org
+Chat with Me: Discord http://mkme.org/discord
+Store http://mkme.org/store
+  
+This software is based on the work of Ray Burnette: https://www.hackster.io/rayburne/esp8266-mini-sniff-f6b93a
+AND Human detector by Andreas Spiess
+Handy info- VIDEO: https://www.youtube.com/watch?v=fmhjtzmLrg8 explains why apple devices not connected keep spamming new MAC's
+Channel -2 in serial is what m iphone beacons on when not connected- Maybe minus channels are non connected?
+  
  
- Moving to Git HUUUUUUUUUUUUUUGE effaround as OLED and SPI wont work together
- traced back to Adafruit libs and possibly RAM issue
+V1 Spring 2020:
+ V1.xxx standalone with oled and sd card working stable and usable
+ Moving to Git HUUUUUUUUUUUUUUGE effaround as OLED and SPI wont work together- traced back to Adafruit libs and possibly RAM issue
  Switched to u8x8 lib WORKS!
  FINALLY displaying active APs and clients on OLED but this is VERY unstable.  2 uploads have caused gibberish serial output- slowed down to 57600 to test if related. 
 
- 
-  
-  Erics NOTE: USE THIS IDE 1.8.8 -----------------------
-  ^^^^^^^^^^^^^^^^^^^^^^^ Pay attention
-  USE THIS PubClient lib- ONLY ONE THAT WORKS!!! https://github.com/heman4t/Arduino-pubsubclient
-VIDEO: https://www.youtube.com/watch?v=fmhjtzmLrg8 explains why apple devices not connected keep spamming new MAC's
-Channel -2 in serial is what m iphone beacons on when not connected- Maybe minus channels are non connected?
-Add sound buzzer- sweeps higher pitch as more clients found
+ IDE Used: 1.8.8
+ USE THIS PubClient lib- ONLY ONE THAT WORKS!!! https://github.com/heman4t/Arduino-pubsubclient
   
 SD CARD STUFF
  * ERIC Confirms working using D5-D8 and no pullup 
@@ -30,10 +36,10 @@ SD CARD STUFF
  * D8 = CS
 
  
-
-  This software is based on the work of Ray Burnette: https://www.hackster.io/rayburne/esp8266-mini-sniff-f6b93a
-  AND
-  Human detector by Andreas Spiess
+V2.1 July 2020
+ GPS code incorporated and working
+ High load soft resets if large # of beacons being indexed initially- seems fine after stabilising
+ 
 */
 
 
@@ -46,7 +52,7 @@ SD CARD STUFF
 U8X8_SSD1306_128X64_NONAME_SW_I2C u8x8(/* clock=*/ SCL, /* data=*/ SDA, /* reset=*/ U8X8_PIN_NONE);   // OLEDs without Reset of the Display
 //End OLED add for this section ERIC
 
-//Preparing to Add GPS- IT DIDNT CRASH WITH INCLUDES YAYAYAYAYAYAAAAAAAAAAAAAAAAAAAAAAY
+//GPS req's added
 #include <SoftwareSerial.h>
 #include <TinyGPS++.h>
 TinyGPSPlus gps;  // The TinyGPS++ object
@@ -87,30 +93,26 @@ int clients_known_count_old, aps_known_count_old;
 unsigned long sendEntry, deleteEntry;
 char jsonString[JBUFFER];
 
-
 String device[MAXDEVICES];
 int nbrDevices = 0;
 int usedChannels[15];
 
-#ifndef CREDENTIALS
+#ifndef CREDENTIALS  //don't need this anymore- only for initial tests
 #define mySSID "*****"
 #define myPASSWORD "******"
 #endif
 
 StaticJsonBuffer<JBUFFER>  jsonBuffer;
 
-
-
 void setup() {
   //GPS Init
-  ss.begin(9600);
+  ss.begin(9600); // software serial
   
   //OLED init
   u8x8.begin();
   u8x8.setPowerSave(0);
  //oled end init 
-  
-  Serial.begin(9600);
+ Serial.begin(9600); //hardware serial 
 
 //Serial from SD Example
   while (!Serial) {
@@ -131,7 +133,7 @@ void setup() {
   u8x8.setFont(u8x8_font_chroma48medium8_r);
   u8x8.println("Initializing...");
   u8x8.println("");
-  u8x8.println("ResQ Tool V1.0");
+  u8x8.println("ResQ Tool V2.1");
   u8x8.println("www.mkme.org");
   
 //Dont remember if this delay is needed
@@ -146,14 +148,8 @@ delay(3000);
 
 
 void loop() {
-
-
-
-
   
-  //Do display stuff right at the start- easy tracking/changing 
- 
-  
+ //Do display stuff right at the start- easy tracking/changing 
   u8x8.clear(); 
   u8x8.setFont(u8x8_font_chroma48medium8_r);
   u8x8.println("Active:");
@@ -171,11 +167,9 @@ void loop() {
   u8x8.print("Lon");
   u8x8.println(lng_str);
 
-  
- //"%4d Devices/Clients\n",aps_known_count + clients_known_count)
+//"%4d Devices/Clients\n",aps_known_count + clients_known_count)
 //u8x8.printf("%4d Devices/Clients\n",aps_known_count + clients_known_count); // show count
 //u8x8.printf("%4d Devices/Clients\n",aps_known_count + clients_known_count); // show count
-
   
   channel = 1;
   boolean sendMQTT = false;
@@ -221,7 +215,7 @@ void loop() {
 }
 
 
-void connectToWiFi() {
+void connectToWiFi() { //na anymore remove Eric to remove when he's not lazy...never
   delay(10);
   // We start by connecting to a WiFi network
   Serial.println();
@@ -267,9 +261,7 @@ void purgeDevice() {
 
 void showDevices() {
 
-
-
-  
+ 
   Serial.println("");
   Serial.println("");
   Serial.println("-------------------Devices Detected Currently-------------------");
@@ -317,7 +309,7 @@ void showDevices() {
 
     
 
-    //--------------------------------------------------- Added GPS HERE- Only place that works reliably :(
+ //---Do tha GPS thangz
 
   while (ss.available() > 0) //while data is available
     if (gps.encode(ss.read())) //read gps data
@@ -389,13 +381,7 @@ void showDevices() {
       }
     }
 
-
-
-
-
-
-
-    
+  
 
 //---------------------Adding SD Write
     //Eric Adding SD Card Write here so we gat MAC 
@@ -416,7 +402,7 @@ void showDevices() {
           dataFile.println(clients_known[u].channel);
           
           dataFile.close();
-          Serial.print("----MAC Written To SD ---- ");
+          Serial.print("----MAC Written To SD ---- "); //serial debugz
           Serial.print("Time:");
           Serial.println(time_str);
           Serial.print("Lat");
