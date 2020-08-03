@@ -1,0 +1,171 @@
+diff all
+
+# version
+# INAV/MATEKF722SE 2.2.1 Jul  3 2019 / 22:44:40 (a6d847482)
+# GCC-8.2.1 20181213 (release) [gcc-8-branch revision 267074]
+
+# reset configuration to default settings
+defaults noreboot
+
+# resources
+
+# mixer
+mmix 0  1.000  0.000  0.000  0.000
+
+# servo mix
+smix 0 2 0 -100 0 -1
+smix 1 3 1 -100 0 -1
+smix 2 4 1 100 0 -1
+smix 3 3 2 75 0 -1
+smix 4 4 2 75 0 -1
+
+# servo
+
+# logic
+
+# feature
+feature MOTOR_STOP
+feature SOFTSERIAL
+feature GPS
+feature DASHBOARD
+feature PWM_OUTPUT_ENABLE
+
+# beeper
+
+# map
+
+# serial
+serial 0 1 57600 115200 0 115200
+serial 2 2 115200 115200 0 115200
+serial 3 4096 115200 115200 0 115200
+serial 5 1024 115200 115200 0 115200
+serial 30 32 115200 115200 0 115200
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 1700 2100
+aux 1 3 1 900 1300
+aux 2 9 4 1300 1700
+aux 3 8 4 1700 2100
+aux 4 8 3 1300 1700
+aux 5 35 1 900 1300
+aux 6 10 1 1700 2100
+aux 7 14 3 1300 1600
+aux 8 28 2 1300 1700
+aux 9 11 4 1700 2100
+aux 10 18 2 1700 2100
+aux 11 37 3 1700 2100
+
+# adjrange
+
+# rxrange
+
+# temp_sensor
+
+# wp
+#wp 0 invalid
+
+# osd_layout
+osd_layout 0 0 23 1 V
+osd_layout 0 1 1 11 V
+osd_layout 0 7 13 11 V
+osd_layout 0 13 3 7 V
+osd_layout 0 14 22 2 V
+osd_layout 0 15 23 6 V
+osd_layout 0 20 19 13 V
+osd_layout 0 21 1 13 V
+osd_layout 0 22 17 1 V
+osd_layout 0 23 10 1 V
+osd_layout 0 25 22 4 V
+osd_layout 0 26 23 7 V
+osd_layout 0 27 2 6 V
+osd_layout 0 30 1 12 V
+osd_layout 0 32 1 10 V
+osd_layout 0 34 10 2 V
+osd_layout 0 46 1 1 V
+
+# master
+set gyro_hardware_lpf = 188HZ
+set gyro_lpf_hz = 20
+set acc_hardware = MPU6000
+set acczero_x = 87
+set acczero_y = -16
+set acczero_z = -80
+set accgain_x = 4105
+set accgain_y = 4062
+set accgain_z = 4034
+set mag_hardware = NONE
+set baro_hardware = BMP280
+set pitot_hardware = ADC
+set rssi_channel = 16
+set min_throttle = 1100
+set max_throttle = 2000
+set failsafe_procedure = RTH
+set align_board_roll = 50
+set align_board_pitch = 9
+set align_board_yaw = -900
+set current_meter_scale = 250
+set platform_type = AIRPLANE
+set model_preview_type = 30
+set nav_rth_climb_first = OFF
+set nav_rth_allow_landing = NEVER
+set nav_rth_altitude = 50000
+set nav_fw_bank_angle = 40
+set nav_fw_launch_max_angle = 60
+set nav_fw_launch_thr = 1900
+set nav_fw_launch_motor_delay = 150
+set nav_fw_launch_climb_angle = 25
+set name = Talon
+set vtx_power = 5
+set vtx_low_power_disarm = UNTIL_FIRST_ARM
+
+# profile
+profile 1
+
+set fw_i_pitch = 9
+set fw_ff_pitch = 90
+set fw_i_roll = 8
+set fw_ff_roll = 110
+set fw_ff_yaw = 90
+set rc_expo = 60
+set roll_rate = 25
+set pitch_rate = 15
+set yaw_rate = 9
+set manual_rc_expo = 60
+set manual_roll_rate = 85
+set manual_pitch_rate = 85
+
+# profile
+profile 2
+
+
+# profile
+profile 3
+
+
+# battery_profile
+battery_profile 1
+
+set battery_capacity = 1300
+
+# battery_profile
+battery_profile 2
+
+
+# battery_profile
+battery_profile 3
+
+
+# restore original profile selection
+profile 1
+battery_profile 1
+
+# save configuration
+save
+
+# 
