@@ -101,6 +101,15 @@ See schematic and PCB gerber files for detailed view but this is the summary
 
  <img src="https://github.com/MKme/ResQ/blob/master/Photos/BN220%20Pinout%20.jpg" width="700"/>
 
+# Camer Expansion Module
+
+Winter 2020/2021 I would like to develop the expansion module to automatically capture images when target is aquired. This is planned to simply use an ESP32 with camera
+module. With the single GPIO I will use this as an interrupt driven signal to wake the ESP from deep-sleep then begin capturing images to the SD card
+I may do other methods but for now it makes sense in my mind to use the ESP32 due to weight and power considerations. In deep sleep this should be a simple addition
+to the air unit whihc will draw virtually no powe runtil capture is needed. 
+
+The images can be used to correlate with the satellite imagery or existing aircraft FPV DVR footage.  It may be handy to have standalone images to quikly review any target detected. 
+
 # Reference Material
 
 Credit to Andreas Spiess projects here (father of all ESP projects) : https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ
