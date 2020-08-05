@@ -1,4 +1,4 @@
-# RESQ Open Source Wifi based Search and Rescue Device
+# RESQ Open Source Wifi based Search and Rescue Devices
 Moving super secret source to Git for sharing on Hackaday- time to give ths project away 
 
 
