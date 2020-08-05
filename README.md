@@ -71,7 +71,6 @@ Full BOM is located in teh BOM folder in CSV file
 |18650 LiOn cells | https://amzn.to/2ZSoMsz
 
 
-
 # Wiring 
 See schematic and PCB gerber files for detailed view but this is the summary
 ### SPI SD Card to WEMOS D1  Wiring
@@ -102,9 +101,24 @@ See schematic and PCB gerber files for detailed view but this is the summary
 
  <img src="https://github.com/MKme/ResQ/blob/master/Photos/BN220%20Pinout%20.jpg" width="700"/>
 
-# Camera Expansion Module
+# Enclosure/CAD Files Notes
+V1.4 Air unit case is first compatible enclusure for V1.1 PCBs/Gerbers as manufactured/supplied
+All boards and enclusures will follow version 1.XX will be compatible with all 1.XX PCBs and onward to 2.xx etc
+This project is my first made with Fusion 360 
+This was made from the awesome Adafruit Tutorial here (Thanks Noe!) https://www.youtube.com/watch?v=VVmOtM60VWw
+The box is fully parametric in Fusion so you can easily modify it as your needs/expansion or future changes to this project- HANDY!
 
-Winter 2020/2021 I would like to develop the expansion module to automatically capture images when target is aquired. This is planned to simply use an ESP32 with camera
+# PCB Notes
+## V1.1 
+First to be manufactured (PCBWay)
+- OLED is powered by 5V not 3.3V (just note in case yours is not 5V tolerant)
+- OLED Wiring startes with VCC on the end then GND- Apparently almost every other OLED in the world outside my shop starts with GND then VCC
+- OLED can be wired backwards as above point and burn your fingers....twice.... but still works after.... sigh....
+
+
+# Camera Expansion Module (Winter 2020 ETA)
+
+I would like to develop the expansion module to automatically capture images when target is aquired. This is planned to simply use an ESP32 with camera
 module. With the single GPIO I will use this as an interrupt driven signal to wake the ESP from deep-sleep then begin capturing images to the SD card
 I may do other methods but for now it makes sense in my mind to use the ESP32 due to weight and power considerations. In deep sleep this should be a simple addition
 to the air unit whihc will draw virtually no powe runtil capture is needed. 

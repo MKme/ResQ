@@ -54,12 +54,12 @@
             "wall_thickness": "1",
             "width": "70"
         },
-        "Air Unit v2": {
+        "Air Unit v3": {
             "$fn": "256",
             "center_column_holes": "[]",
             "center_row_holes": "[0]",
-            "depth": "31",
-            "height": "14",
+            "depth": "33",
+            "height": "24",
             "left_column_holes": "[]",
             "left_row_holes": "[0, 0]",
             "part": "both",
@@ -79,7 +79,7 @@
             "snap_clearance": "1.4",
             "snap_depth": "2",
             "wall_thickness": "1",
-            "width": "44"
+            "width": "49"
         }
     },
     "fileFormatVersion": "1"
