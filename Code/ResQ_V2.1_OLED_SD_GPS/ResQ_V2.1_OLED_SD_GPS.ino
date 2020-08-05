@@ -40,10 +40,14 @@ V2.1 July 2020
  GPS code incorporated and working
  High load soft resets if large # of beacons being indexed initially- seems fine after stabilising
 
- Note PCB V1.1 
+2020-8-4
+Note PCB V1.1 
  - OLED is VCC, GND then I2c- ALL my other OLEDs in the bin start with GROUND on the end.  blargh
  Of note- An oled can get hot enough to burn fingers...twice...and still work   ¯\_(ツ)_/¯
  Also check OLED VCC- looks like I may have used 5v instead of 3.3- no biggie but verify schematics someday eric....
+
+ 2020-8-4
+ killed setp SD card fail return block- otherwise test stand rigs without SD will fail and hang and never sniff clients
  
 */
 
@@ -125,11 +129,13 @@ void setup() {
   }
   Serial.print("Initializing SD card...");
   // see if the card is present and can be initialized:
-  if (!SD.begin(chipSelect)) {
-    Serial.println("Card failed, or not present");
+
+  //Uncomment out this if block if you desire to STOP if there is an SD card problem 
+  //if (!SD.begin(chipSelect)) {
+    //Serial.println("Card failed, or not present");
     // don't do anything more:
-    return;
-  }
+   // return;
+ // }
   Serial.println("card initialized.");
 //End SD Example 
 
