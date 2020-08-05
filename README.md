@@ -55,7 +55,7 @@ Making a DIY 18650 2S1P battery pack for >1hr duration flight missions https://y
 
 ### Truncated Bill of Materials (BOM):
 Full BOM is located in the BOM folder in CSV file
-| Component | Source  |
+| Component              | Source                 |
 | --------------------- |--------------------------|
 |D1 Mini Pro | https://amzn.to/2ZQArbl
 |With antenna included| https://amzn.to/2ZNQEy1
