@@ -102,11 +102,11 @@ See schematic and PCB gerber files for detailed view but this is the summary
  <img src="https://github.com/MKme/ResQ/blob/master/Photos/BN220%20Pinout%20.jpg" width="700"/>
 
 # Enclosure/CAD Files Notes
-V1.4 Air unit case is first compatible enclusure for V1.1 PCBs/Gerbers as manufactured/supplied
-All boards and enclusures will follow version 1.XX will be compatible with all 1.XX PCBs and onward to 2.xx etc
-This project is my first made with Fusion 360 
-This was made from the awesome Adafruit Tutorial here (Thanks Noe!) https://www.youtube.com/watch?v=VVmOtM60VWw
-The box is fully parametric in Fusion so you can easily modify it as your needs/expansion or future changes to this project- HANDY!
+- V1.4 Air unit case is first compatible enclusure for V1.1 PCBs/Gerbers as manufactured/supplied
+- All boards and enclusures will follow version 1.XX will be compatible with all 1.XX PCBs and onward to 2.xx etc
+- This project is my first made with Fusion 360 
+- This was made from the awesome Adafruit Tutorial here (Thanks Noe!) https://www.youtube.com/watch?v=VVmOtM60VWw
+- The box is fully parametric in Fusion so you can easily modify it as your needs/expansion or future changes to this project- HANDY!
 
 # PCB Notes
 ## V1.1 
@@ -127,11 +127,10 @@ The images can be used to correlate with the satellite imagery or existing aircr
 
 # Reference Material
 
-Credit to Andreas Spiess projects here (father of all ESP projects) : https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ
-
 More videos and information at http://youtube.com/mkmeorg or http://www.mkme.org
-
 Support this project and become a patron on <a href="http://mkme.org/patreon">Eric's Patreon</a>.<br>
 Website, Forum and store are at http://mkme.org <br>
 Chat with Me: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>
+
+Credit to Andreas Spiess projects here (father of all ESP projects) : https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ
 
