@@ -39,6 +39,11 @@ SD CARD STUFF
 V2.1 July 2020
  GPS code incorporated and working
  High load soft resets if large # of beacons being indexed initially- seems fine after stabilising
+
+ Note PCB V1.1 
+ - OLED is VCC, GND then I2c- ALL my other OLEDs in the bin start with GROUND on the end.  blargh
+ Of note- An oled can get hot enough to burn fingers...twice...and still work   ¯\_(ツ)_/¯
+ Also check OLED VCC- looks like I may have used 5v instead of 3.3- no biggie but verify schematics someday eric....
  
 */
 
@@ -91,7 +96,7 @@ const int chipSelect = D4;
 unsigned int channel = 1;
 int clients_known_count_old, aps_known_count_old;
 unsigned long sendEntry, deleteEntry;
-char jsonString[JBUFFER];
+char jsonString[JBUFFER];// working 
 
 String device[MAXDEVICES];
 int nbrDevices = 0;
@@ -116,7 +121,7 @@ void setup() {
 
 //Serial from SD Example
   while (!Serial) {
-    ; // wait for serial port to connect. Needed for Leonardo only
+    ; // wait for serial port to connect. 
   }
   Serial.print("Initializing SD card...");
   // see if the card is present and can be initialized:
@@ -133,7 +138,7 @@ void setup() {
   u8x8.setFont(u8x8_font_chroma48medium8_r);
   u8x8.println("Initializing...");
   u8x8.println("");
-  u8x8.println("ResQ Tool V2.1");
+  u8x8.println("ResQ Tool V2.1"); // YAY 2.1 works
   u8x8.println("www.mkme.org");
   
 //Dont remember if this delay is needed
@@ -166,7 +171,7 @@ void loop() {
   u8x8.println(lat_str);
   u8x8.print("Lon");
   u8x8.println(lng_str);
-
+//moved dont ask or try again
 //"%4d Devices/Clients\n",aps_known_count + clients_known_count)
 //u8x8.printf("%4d Devices/Clients\n",aps_known_count + clients_known_count); // show count
 //u8x8.printf("%4d Devices/Clients\n",aps_known_count + clients_known_count); // show count
@@ -175,14 +180,14 @@ void loop() {
   boolean sendMQTT = false;
   wifi_set_channel(channel);
   while (true) {
-    nothing_new++;                          // Array is not finite, check bounds and adjust if required
-    if (nothing_new > 200) {                // monitor channel for 200 ms
+    nothing_new++;                         
+    if (nothing_new > 200) {                // check
       nothing_new = 0;
       channel++;
-      if (channel == 15) break;             // Only scan channels 1 to 14
+      if (channel == 15) break;             // can channels 1 to 14
       wifi_set_channel(channel);
     }
-    delay(1);  // critical processing timeslice for NONOS SDK! No delay(0) yield()
+    delay(1);  // do not try to remove this
 
     if (clients_known_count > clients_known_count_old) {
       clients_known_count_old = clients_known_count;
@@ -236,7 +241,7 @@ void connectToWiFi() { //na anymore remove Eric to remove when he's not lazy...n
   Serial.println(WiFi.localIP());
 }
 
-void purgeDevice() {
+void purgeDevice() { //off with their heads
   
   for (int u = 0; u < clients_known_count; u++) {
     if ((millis() - clients_known[u].lastDiscoveredTime) > PURGETIME) {
@@ -296,7 +301,7 @@ void showDevices() {
                Serial.println("error opening datalog.txt");
           }
  //END Adding SD write for belnacons-------------------------------- 
-   
+   //Eric fix up sloppy SD work- its bad
   }
 
   // show Clients
@@ -415,7 +420,7 @@ void showDevices() {
                Serial.println("error opening datalog.txt");
           }
  //END Adding SD--------------------------------  
-
+//yeah brilliant doing sd functions twice- fix it yourself as Im done :)
 Serial.print(" RSSI ");
     Serial.print(clients_known[u].rssi);
     Serial.print(" channel ");
