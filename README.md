@@ -53,10 +53,9 @@ Adding 3DR telemetry radio to the Nano Talon for autonymous flight control https
 
 Making a DIY 18650 2S1P battery pack for >1hr duration flight missions https://youtu.be/XwAqgR_XsYw
 
-### Truncated Bill of Materials (BOM):
-Full BOM is located in the BOM folder in CSV file
-| Component              | Source                 |
-| --------------------- |--------------------------|
+### Truncated Bill of Materials (Full BOM in Folder):
+|     Component    | Source  |
+| ---------- |----------------|
 |D1 Mini Pro | https://amzn.to/2ZQArbl
 |With antenna included| https://amzn.to/2ZNQEy1
 |SD Card Reader| https://amzn.to/2XPDv6B
