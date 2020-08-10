@@ -1,0 +1,93 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Module:WeMos_D1_mini U?
+U 1 1 5F31691B
+P 5700 3000
+F 0 "U?" H 5700 2111 50  0000 C CNN
+F 1 "WeMos_D1_mini" H 5700 2020 50  0000 C CNN
+F 2 "Module:WEMOS_D1_mini_light" H 5700 1850 50  0001 C CNN
+F 3 "https://wiki.wemos.cc/products:d1:d1_mini#documentation" H 3850 1850 50  0001 C CNN
+	1    5700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery BT?
+U 1 1 5F31A8A9
+P 4250 2900
+F 0 "BT?" H 4358 2946 50  0000 L CNN
+F 1 "5V" H 4358 2855 50  0000 L CNN
+F 2 "" V 4250 2960 50  0001 C CNN
+F 3 "~" V 4250 2960 50  0001 C CNN
+	1    4250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 5F31DE3A
+P 7000 3500
+F 0 "J?" H 7028 3476 50  0000 L CNN
+F 1 "SD Card" H 7028 3385 50  0000 L CNN
+F 2 "" H 7000 3500 50  0001 C CNN
+F 3 "~" H 7000 3500 50  0001 C CNN
+	1    7000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 5F31F299
+P 7000 4500
+F 0 "J?" H 7028 4476 50  0000 L CNN
+F 1 "OLED" H 7028 4385 50  0000 L CNN
+F 2 "" H 7000 4500 50  0001 C CNN
+F 3 "~" H 7000 4500 50  0001 C CNN
+	1    7000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 5F321884
+P 8400 4500
+F 0 "J?" H 8428 4476 50  0000 L CNN
+F 1 "GPS" H 8428 4385 50  0000 L CNN
+F 2 "" H 8400 4500 50  0001 C CNN
+F 3 "~" H 8400 4500 50  0001 C CNN
+	1    8400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 5F322635
+P 8850 2900
+F 0 "J?" H 8878 2926 50  0000 L CNN
+F 1 "Spare 1" H 8878 2835 50  0000 L CNN
+F 2 "" H 8850 2900 50  0001 C CNN
+F 3 "~" H 8850 2900 50  0001 C CNN
+	1    8850 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 5F3230C4
+P 8850 3350
+F 0 "J?" H 8878 3376 50  0000 L CNN
+F 1 "Spare 2" H 8878 3285 50  0000 L CNN
+F 2 "" H 8850 3350 50  0001 C CNN
+F 3 "~" H 8850 3350 50  0001 C CNN
+	1    8850 3350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
