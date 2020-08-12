@@ -116,6 +116,11 @@ First to be manufactured (PCBWay)
 - OLED Wiring startes with VCC on the end then GND- Apparently almost every other OLED in the world outside my shop starts with GND then VCC
 - OLED can be wired backwards as above point and burn your fingers....twice.... but still works after.... sigh....
 
+## V2.1 
+Project files done in KiCAD
+- OLED is now powered 3.3V 
+- OLED VCC and Grnd reversed to accomodate the much more common pin layout 
+- Spare Signal wires now routed and dont need bodge wires if used
 
 # Camera Expansion Module (Winter 2020 ETA)
 
