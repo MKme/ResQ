@@ -131,7 +131,8 @@ to the air unit whihc will draw virtually no powe runtil capture is needed.
 
 The images can be used to correlate with the satellite imagery or existing aircraft FPV DVR footage.  It may be handy to have standalone images to quikly review any target detected. 
 
-# Reference Material
+# Reference & Press Coverage
+Hackaday Article: https://hackaday.com/2020/08/12/resq-hunts-for-lost-hikers-from-the-air/
 
 More videos and information at http://youtube.com/mkmeorg or http://www.mkme.org
 Support this project and become a patron on <a href="http://mkme.org/patreon">Eric's Patreon</a>.<br>
