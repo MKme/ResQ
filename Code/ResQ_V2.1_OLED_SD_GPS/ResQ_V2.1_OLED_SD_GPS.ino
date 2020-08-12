@@ -11,7 +11,9 @@ This software is based on the work of Ray Burnette: https://www.hackster.io/rayb
 AND Human detector by Andreas Spiess
 Handy info- VIDEO: https://www.youtube.com/watch?v=fmhjtzmLrg8 explains why apple devices not connected keep spamming new MAC's
 Channel -2 in serial is what m iphone beacons on when not connected- Maybe minus channels are non connected?
-  
+
+This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+https://creativecommons.org/licenses/by-nc/4.0/ 
  
 V1 Spring 2020:
  V1.xxx standalone with oled and sd card working stable and usable
