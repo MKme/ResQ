@@ -57,8 +57,8 @@ Making a DIY 18650 2S1P battery pack for >1hr duration flight missions https://y
 |     Component    | Source  |
 | ---------- |----------------|
 |D1 Mini Pro | https://amzn.to/2ZQArbl
-|Custom PCB | https://amzn.to/2ZQArbl http://store.mkme.org/product/resq-printed-circuit-board-v1-1/
-|With antenna included| https://amzn.to/2ZNQEy1
+|Custom PCB |  http://store.mkme.org/product/resq-printed-circuit-board-v1-1/
+|D1 Mini With antenna included| https://amzn.to/2ZNQEy1
 |SD Card Reader| https://amzn.to/2XPDv6B
 |0.96" OLED Display| https://amzn.to/3cCHvvj
 |2.4 GHz Yagi Antenna| https://amzn.to/3gwLso9
