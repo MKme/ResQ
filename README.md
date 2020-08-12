@@ -135,6 +135,6 @@ Chat with Me: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>
 
 Credit to Andreas Spiess projects here (father of all ESP projects) : https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ
 
-This proeject and all files/info  provided under CC BY-NC 3.0
-https://creativecommons.org/licenses/by-nc/3.0/
 
+This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+https://creativecommons.org/licenses/by-nc/4.0/
