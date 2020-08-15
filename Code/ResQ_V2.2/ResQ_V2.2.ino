@@ -54,9 +54,8 @@ Note PCB V1.1
 V2.2 
  Put 10K pullup on MISO and it stopped the SD card shenanegins!
  Added SDOK status indicator and added to OLED display
- Oddly it seems to have resolved the reboot issue (I also added delays and ield all over the place in desparation)
-
- Code is almost STABLE! yay
+Watchdo resets fought with delays and yield all over this code. Dont ask me to fix- not gonna touch it again
+ Code is seemingly STABLE even on serial! yay
  
 */
 
@@ -307,7 +306,8 @@ void showDevices() {
  
  
  
- // Erics desperate test to stop crashy crasy (way les snow but still annoying) 
+ //This delay seems to have resolved the watchdog resets from excess serial 
+ //WTD reset suuposed to work with just above yield but didnt work alone- this did it
  delay(10);
 
     
