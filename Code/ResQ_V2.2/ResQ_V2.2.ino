@@ -152,11 +152,11 @@ void setup() {
   u8x8.setFont(u8x8_font_chroma48medium8_r);
   u8x8.println("Initializing...");
   u8x8.println("");
-  u8x8.println("ResQ Tool V2.1"); // YAY 2.1 works
+  u8x8.println("ResQ Tool V2.2"); // YAY 2.1 works
   u8x8.println("www.mkme.org");
   
-//Dont remember if this delay is needed
-delay(3000); 
+//Dont
+delay(1000); 
 
   wifi_set_opmode(STATION_MODE);            // Promiscuous works only with station mode
   wifi_set_channel(channel);
@@ -201,10 +201,13 @@ void loop() {
     if (nothing_new > 200) {                // check
       nothing_new = 0;
       channel++;
+
       if (channel == 15) break;             // can channels 1 to 14
       wifi_set_channel(channel);
     }
+    
     delay(1);  // do not try to remove this
+   //delay originally 1 - trying higher values to see if it helps with soft resets
 
     if (clients_known_count > clients_known_count_old) {
       clients_known_count_old = clients_known_count;
@@ -213,7 +216,10 @@ void loop() {
       //ERIC READDED BELOW FROM ORIGINAL SKETCH
        Serial.println("\n-------------------------------------------------------------------------------------\n");
       for (int u = 0; u < clients_known_count; u++) print_client(clients_known[u]);
+            yield();// added this to trigger watchdog reset and stop crashes
+            // WDT crashes soft rest cool help guide found here: https://forum.arduino.cc/index.php?topic=442570.0
       for (int u = 0; u < aps_known_count; u++) print_beacon(aps_known[u]);
+     
       Serial.println("\n-------------------------------------------------------------------------------------\n");
      //ERIC READDED ABOVE FROM ORIGINAL SKETCH
     
@@ -264,6 +270,7 @@ void purgeDevice() { //off with their heads
     if ((millis() - clients_known[u].lastDiscoveredTime) > PURGETIME) {
       Serial.print("purge Client" );
       Serial.println(u);
+      
       for (int i = u; i < clients_known_count; i++) memcpy(&clients_known[i], &clients_known[i + 1], sizeof(clients_known[i]));
       clients_known_count--;
       break;
@@ -291,6 +298,7 @@ void showDevices() {
 
   // show Beacons
   for (int u = 0; u < aps_known_count; u++) {
+    yield();// added this to trigger watchdog reset and stop crashes
     Serial.printf( "%4d ",u); // Show beacon number
     Serial.print("B ");
     Serial.print(formatMac1(aps_known[u].bssid));
