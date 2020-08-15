@@ -47,14 +47,13 @@ Note PCB V1.1
  - OLED is VCC, GND then I2c- ALL my other OLEDs in the bin start with GROUND on the end.  blargh
  Of note- An oled can get hot enough to burn fingers...twice...and still work   ¯\_(ツ)_/¯
  Also check OLED VCC- looks like I may have used 5v instead of 3.3- no biggie but verify schematics someday eric....
-
  2020-8-4
  killed setp SD card fail return block- otherwise test stand rigs without SD will fail and hang and never sniff clients
 
 V2.2 
  Put 10K pullup on MISO and it stopped the SD card shenanegins!
  Added SDOK status indicator and added to OLED display
-Watchdo resets fought with delays and yield all over this code. Dont ask me to fix- not gonna touch them...>EVER
+Watchdog resets fought with delays and yield all over this code. Dont ask me to fix- not gonna touch them...>EVER
  Code is seemingly STABLE
  Still crashing whe long list of MACs is sent to serial - Moved hardware serial to 115200- YAY Fixed!
  9600 on hardare serial was causing the watchdog resets!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -119,7 +118,7 @@ String device[MAXDEVICES];
 int nbrDevices = 0;
 int usedChannels[15];
 
-#ifndef CREDENTIALS  //don't need this anymore- only for initial tests
+#ifndef CREDENTIALS  //don't need this anymore- only for initial tests but I got the laz so not gunna remove it
 #define mySSID "*****"
 #define myPASSWORD "******"
 #endif
@@ -134,7 +133,7 @@ void setup() {
   u8x8.begin();
   u8x8.setPowerSave(0);
  //oled end init 
- Serial.begin(115200); //hardware serial 
+ Serial.begin(115200); //hardware serial - if you run at 9600 to match GPS WTD resets will happen and little children will go to bed hungry. Don't
 
 //Serial from SD Example
   while (!Serial) {
@@ -195,6 +194,8 @@ void loop() {
   u8x8.println(lat_str);
   u8x8.print("Lon");
   u8x8.println(lng_str);
+
+  //dont look at this
 //moved dont ask or try again
 //"%4d Devices/Clients\n",aps_known_count + clients_known_count)
 //u8x8.printf("%4d Devices/Clients\n",aps_known_count + clients_known_count); // show count
@@ -261,7 +262,7 @@ void connectToWiFi() { //na anymore remove Eric to remove when he's not lazy...n
   WiFi.begin(mySSID, myPASSWORD);
 
   while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
+    delay(500);//stop the madness
     Serial.print(".");
   }
 
@@ -307,8 +308,7 @@ void showDevices() {
   for (int u = 0; u < aps_known_count; u++) {
     yield();// added this to trigger watchdog reset and stop crashes
  
- 
- 
+  
  //This delay seems to have resolved the watchdog resets from excess serial 
  //WTD reset suuposed to work with just above yield but didnt work alone- this did it
  delay(10);
@@ -352,12 +352,9 @@ void showDevices() {
     Serial.print("C ");
     Serial.print(formatMac1(clients_known[u].station));
 
-
-
     
 
  //---Do tha GPS thangz
-
   while (ss.available() > 0) //while data is available
     if (gps.encode(ss.read())) //read gps data
     {
@@ -430,7 +427,7 @@ void showDevices() {
 
   
 
-//---------------------Adding SD Write
+//---------------------Do the SD thangz
     //Eric Adding SD Card Write here so we gat MAC 
         File dataFile = SD.open("datalog.txt", FILE_WRITE);
         // if the file is available, write to it:
