@@ -56,6 +56,7 @@ V2.2
  Added SDOK status indicator and added to OLED display
 Watchdo resets fought with delays and yield all over this code. Dont ask me to fix- not gonna touch it again
  Code is seemingly STABLE even on serial! yay
+ Still crashing whe long list of MACs is sent to serial - Moved hardware serial to 115200- YAY gooder
  
 */
 
@@ -131,7 +132,7 @@ void setup() {
   u8x8.begin();
   u8x8.setPowerSave(0);
  //oled end init 
- Serial.begin(9600); //hardware serial 
+ Serial.begin(115200); //hardware serial 
 
 //Serial from SD Example
   while (!Serial) {
