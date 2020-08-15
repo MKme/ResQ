@@ -312,6 +312,7 @@ void showDevices() {
     dataFile.println(aps_known[u].channel);
     dataFile.close();
     Serial.println("----Beacon Written To SD ---- ");
+    SDOK=1;//Flag SD card is working status
                     }
          // if the file isn't open, pop up an error:
           else {
@@ -432,6 +433,7 @@ void showDevices() {
           Serial.println(lat_str);
           Serial.print("Lon");
           Serial.println(lng_str);
+          SDOK=1;//Flag SD card is working status
                     }
          // if the file isn't open, pop up an error:
           else {
