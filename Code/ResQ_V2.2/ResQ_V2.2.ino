@@ -56,7 +56,9 @@ V2.2
  Added SDOK status indicator and added to OLED display
 Watchdo resets fought with delays and yield all over this code. Dont ask me to fix- not gonna touch it again
  Code is seemingly STABLE even on serial! yay
- Still crashing whe long list of MACs is sent to serial - Moved hardware serial to 115200- YAY gooder
+ Still crashing whe long list of MACs is sent to serial - Moved hardware serial to 115200- YAY Fixed!
+ 9600 on hardare serial was causing the watchdog resets
+ derrrrp
  
 */
 
