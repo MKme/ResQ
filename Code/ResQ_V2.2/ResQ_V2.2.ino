@@ -52,6 +52,11 @@ Note PCB V1.1
  killed setp SD card fail return block- otherwise test stand rigs without SD will fail and hang and never sniff clients
 
 V2.2 
+ Put 10K pullup on MISO and it stopped the SD card shenanegins!
+ Added SDOK status indicator and added to OLED display
+ Oddly it seems to have resolved the reboot issue (I also added delays and ield all over the place in desparation)
+
+ Code is almost STABLE! yay
  
 */
 
@@ -152,11 +157,11 @@ void setup() {
   u8x8.setFont(u8x8_font_chroma48medium8_r);
   u8x8.println("Initializing...");
   u8x8.println("");
-  u8x8.println("ResQ Tool V2.2"); // YAY 2.1 works
+  u8x8.println("ResQ Tool V2.2"); // YAY 2.2 fixed crashing/sd card shenanegins
   u8x8.println("www.mkme.org");
   
 //Dont
-delay(1000); 
+delay(3000); 
 
   wifi_set_opmode(STATION_MODE);            // Promiscuous works only with station mode
   wifi_set_channel(channel);
@@ -299,6 +304,13 @@ void showDevices() {
   // show Beacons
   for (int u = 0; u < aps_known_count; u++) {
     yield();// added this to trigger watchdog reset and stop crashes
+ 
+ 
+ 
+ // Erics desperate test to stop crashy crasy (way les snow but still annoying) 
+ delay(10);
+
+    
     Serial.printf( "%4d ",u); // Show beacon number
     Serial.print("B ");
     Serial.print(formatMac1(aps_known[u].bssid));
