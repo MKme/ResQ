@@ -2852,4 +2852,27 @@ Wire Notes Line
 	5550 3550 7450 3550
 Wire Notes Line
 	5550 5950 7450 5950
+$Comp
+L Device:R R1
+U 1 1 5F3B9579
+P 8750 5050
+F 0 "R1" H 8820 5096 50  0000 L CNN
+F 1 "10k" H 8820 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 8680 5050 50  0001 C CNN
+F 3 "~" H 8750 5050 50  0001 C CNN
+	1    8750 5050
+	1    0    0    -1  
+$EndComp
+Text GLabel 8750 4850 1    50   Input ~ 0
+3V3
+Text GLabel 8750 5250 3    50   Input ~ 0
+MISO
+Wire Wire Line
+	8750 4850 8750 4900
+Wire Wire Line
+	8750 5200 8750 5250
+Text Notes 9000 5050 0    50   ~ 0
+10K pullup
+Text Notes 8400 6050 0    50   ~ 0
+Note:\nBN220 has no compass but has battery for \nquick signal lock if location hasn't moved.
 $EndSCHEMATC
