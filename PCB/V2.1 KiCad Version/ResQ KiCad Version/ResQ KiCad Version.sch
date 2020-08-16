@@ -2556,323 +2556,323 @@ BD C0 75 00 00 00 00 49 45 4E 44 AE 42 60 82
 EndData
 $EndBitmap
 Wire Notes Line
-	7650 6400 10150 6400
+	8200 6400 10700 6400
 Wire Notes Line
-	8250 5800 7650 5800
+	8800 5800 8200 5800
 Wire Notes Line
-	8250 5650 8250 5800
+	8800 5650 8800 5800
 Wire Notes Line
-	4750 4950 4300 4950
+	5300 4950 4850 4950
 Wire Notes Line
-	4750 4800 4750 4950
+	5300 4800 5300 4950
 Wire Notes Line
-	4300 4800 4300 5700
+	4850 4800 5850 4800
 Wire Notes Line
-	5300 4800 5300 5700
+	5700 3500 4900 3500
 Wire Notes Line
-	4300 4800 5300 4800
+	5700 3350 5700 3500
 Wire Notes Line
-	5150 3500 4350 3500
+	4900 3350 4900 4200
 Wire Notes Line
-	5150 3350 5150 3500
+	5900 3350 5900 4200
 Wire Notes Line
-	4350 3350 4350 4200
+	4900 3350 5900 3350
 Wire Notes Line
-	5350 3350 5350 4200
-Wire Notes Line
-	4350 3350 5350 3350
-Wire Notes Line
-	5550 3550 5550 5950
+	6100 3550 6100 5950
 Wire Wire Line
-	6950 5200 6850 5200
+	7500 5200 7400 5200
 Wire Wire Line
-	6950 5100 6850 5100
+	7500 5100 7400 5100
 Wire Wire Line
-	6850 5000 6950 5000
+	7400 5000 7500 5000
 Wire Wire Line
-	6850 4900 6950 4900
+	7400 4900 7500 4900
 Wire Wire Line
-	6850 4800 6950 4800
+	7400 4800 7500 4800
 Wire Wire Line
-	6950 4700 6850 4700
+	7500 4700 7400 4700
 Wire Wire Line
-	6850 4600 6950 4600
+	7400 4600 7500 4600
 Wire Wire Line
-	6950 4500 6850 4500
+	7500 4500 7400 4500
 Wire Wire Line
-	6850 4400 6950 4400
+	7400 4400 7500 4400
 Wire Wire Line
-	6950 4300 6850 4300
-Text Notes 7650 5750 0    50   ~ 10
+	7500 4300 7400 4300
+Text Notes 8200 5750 0    50   ~ 10
 GPS Receiver
-Text GLabel 7950 6200 0    50   Input ~ 0
+Text GLabel 8500 6200 0    50   Input ~ 0
 D3
-Text GLabel 7950 6100 0    50   Input ~ 0
+Text GLabel 8500 6100 0    50   Input ~ 0
 D4
 $Comp
 L Connector:Conn_01x04_Female J5
 U 1 1 5F321884
-P 8150 6100
-F 0 "J5" H 8178 6076 50  0000 L CNN
-F 1 "GPS" H 8178 5985 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 8150 6100 50  0001 C CNN
-F 3 "~" H 8150 6100 50  0001 C CNN
-	1    8150 6100
+P 8700 6100
+F 0 "J5" H 8728 6076 50  0000 L CNN
+F 1 "GPS" H 8728 5985 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 8700 6100 50  0001 C CNN
+F 3 "~" H 8700 6100 50  0001 C CNN
+	1    8700 6100
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	10150 5650 7650 5650
+	10700 5650 8200 5650
 Wire Notes Line
-	10150 6400 10150 5650
+	10700 6400 10700 5650
 Wire Notes Line
-	7650 5650 7650 6400
+	8200 5650 8200 6400
 Wire Notes Line
-	8250 4700 8250 4550
+	8800 4700 8800 4550
 Wire Notes Line
-	7650 4700 8250 4700
-Text Notes 7650 4650 0    50   ~ 10
+	8200 4700 8800 4700
+Text Notes 8200 4650 0    50   ~ 10
 SPI SD Card 
 Wire Notes Line
-	10150 4550 7650 4550
+	10700 4550 8200 4550
 Wire Notes Line
-	10150 5550 10150 4550
+	10700 5550 10700 4550
 Wire Notes Line
-	7650 5550 10150 5550
+	8200 5550 10700 5550
 Wire Notes Line
-	7650 4550 7650 5550
+	8200 4550 8200 5550
 Wire Notes Line
-	8300 3500 7650 3500
+	8850 3500 8200 3500
 Wire Notes Line
-	8300 3350 8300 3500
-Text Notes 7700 3450 0    50   ~ 10
+	8850 3350 8850 3500
+Text Notes 8250 3450 0    50   ~ 10
 OLED Display
 Wire Notes Line
-	7650 3350 7650 4450
-Text Notes 4350 3450 0    50   ~ 10
+	8200 3350 8200 4450
+Text Notes 4900 3450 0    50   ~ 10
 Power Management
-Text Notes 5550 3650 0    50   ~ 10
+Text Notes 6100 3650 0    50   ~ 10
 Microcontroller
 Wire Notes Line
-	6250 3750 6250 3550
+	6800 3750 6800 3550
 Wire Notes Line
-	5550 3750 6250 3750
+	6100 3750 6800 3750
 Wire Wire Line
-	6350 3850 6350 4000
-Text GLabel 6950 4400 2    50   Input ~ 0
+	6900 3850 6900 4000
+Text GLabel 7500 4400 2    50   Input ~ 0
 D0
-Text GLabel 6950 4300 2    50   Input ~ 0
+Text GLabel 7500 4300 2    50   Input ~ 0
 A0
 $Comp
 L Connector:Conn_01x04_Female J3
 U 1 1 5F31F299
-P 8150 4050
-F 0 "J3" H 8178 4026 50  0000 L CNN
-F 1 "OLED" H 8178 3935 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 8150 4050 50  0001 C CNN
-F 3 "~" H 8150 4050 50  0001 C CNN
-	1    8150 4050
+P 8700 4050
+F 0 "J3" H 8728 4026 50  0000 L CNN
+F 1 "OLED" H 8728 3935 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 8700 4050 50  0001 C CNN
+F 3 "~" H 8700 4050 50  0001 C CNN
+	1    8700 4050
 	1    0    0    -1  
 $EndComp
-Text GLabel 7950 3950 0    50   Input ~ 0
+Text GLabel 8500 3950 0    50   Input ~ 0
 GND
-Text GLabel 7950 4150 0    50   Input ~ 0
+Text GLabel 8500 4150 0    50   Input ~ 0
 SCL
-Text GLabel 7950 4250 0    50   Input ~ 0
+Text GLabel 8500 4250 0    50   Input ~ 0
 SDA
-Text GLabel 6950 4500 2    50   Input ~ 0
+Text GLabel 7500 4500 2    50   Input ~ 0
 SCL
-Text Notes 4350 4900 0    50   ~ 10
+Text Notes 4900 4900 0    50   ~ 10
 Spare IO
-Wire Notes Line
-	4300 5700 5300 5700
-Text GLabel 6950 4600 2    50   Input ~ 0
+Text GLabel 7500 4600 2    50   Input ~ 0
 SDA
 Wire Notes Line
-	4350 4200 5350 4200
+	4900 4200 5900 4200
 Wire Wire Line
-	4550 3850 4700 3850
-Connection ~ 4700 3850
+	5100 3850 5250 3850
+Connection ~ 5250 3850
 Wire Wire Line
-	5200 3850 5150 3850
+	5750 3850 5700 3850
 Wire Wire Line
-	5200 3750 5200 3850
-Text Notes 4450 3650 0    50   ~ 0
+	5750 3750 5750 3850
+Text Notes 5000 3650 0    50   ~ 0
 Vin 4-6V
 Wire Wire Line
-	4700 3850 4700 3900
-$Comp
-L MCU_Module:WeMos_D1_mini U1
-U 1 1 5F31691B
-P 6450 4800
-F 0 "U1" H 6050 4150 50  0000 C CNN
-F 1 "WeMos_D1_mini" H 6050 4050 50  0000 C CNN
-F 2 "Module:WEMOS_D1_mini_light" H 6450 3650 50  0001 C CNN
-F 3 "https://wiki.wemos.cc/products:d1:d1_mini#documentation" H 4600 3650 50  0001 C CNN
-	1    6450 4800
-	1    0    0    -1  
-$EndComp
-Text GLabel 6350 3850 1    50   Input ~ 0
+	5250 3850 5250 3900
+Text GLabel 6900 3850 1    50   Input ~ 0
 5V
 $Comp
 L Device:Battery BT1
 U 1 1 5F31A8A9
-P 4950 3850
-F 0 "BT1" H 5058 3896 50  0000 L CNN
-F 1 "5V" H 5058 3805 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 4950 3910 50  0001 C CNN
-F 3 "~" V 4950 3910 50  0001 C CNN
-	1    4950 3850
+P 5500 3850
+F 0 "BT1" H 5608 3896 50  0000 L CNN
+F 1 "5V" H 5608 3805 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 5500 3910 50  0001 C CNN
+F 3 "~" V 5500 3910 50  0001 C CNN
+	1    5500 3850
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 5F34EF30
-P 4550 3850
-F 0 "#PWR01" H 4550 3600 50  0001 C CNN
-F 1 "GND" V 4555 3722 50  0000 R CNN
-F 2 "" H 4550 3850 50  0001 C CNN
-F 3 "" H 4550 3850 50  0001 C CNN
-	1    4550 3850
+P 5100 3850
+F 0 "#PWR01" H 5100 3600 50  0001 C CNN
+F 1 "GND" V 5105 3722 50  0000 R CNN
+F 2 "" H 5100 3850 50  0001 C CNN
+F 3 "" H 5100 3850 50  0001 C CNN
+	1    5100 3850
 	1    0    0    -1  
 $EndComp
-Text GLabel 4700 3900 3    50   Input ~ 0
+Text GLabel 5250 3900 3    50   Input ~ 0
 GND
 Wire Wire Line
-	4750 3850 4700 3850
-Text GLabel 4650 5250 0    50   Input ~ 0
+	5300 3850 5250 3850
+Text GLabel 5200 5300 0    50   Input ~ 0
 A0
-Text GLabel 4650 5400 0    50   Input ~ 0
-3V3
-Text GLabel 4650 5150 0    50   Input ~ 0
+Text GLabel 5200 5200 0    50   Input ~ 0
 GND
-Text GLabel 4650 5050 0    50   Input ~ 0
+Text GLabel 5200 5100 0    50   Input ~ 0
 3V3
-$Comp
-L Connector:Conn_01x03_Female J1
-U 1 1 5F3230C4
-P 4850 5150
-F 0 "J1" H 4878 5176 50  0000 L CNN
-F 1 "Spare 1" H 4878 5085 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4850 5150 50  0001 C CNN
-F 3 "~" H 4850 5150 50  0001 C CNN
-	1    4850 5150
-	1    0    0    -1  
-$EndComp
-Text GLabel 4650 5500 0    50   Input ~ 0
-GND
-Text GLabel 4650 5600 0    50   Input ~ 0
-D0
-$Comp
-L Connector:Conn_01x03_Female J2
-U 1 1 5F322635
-P 4850 5500
-F 0 "J2" H 4878 5526 50  0000 L CNN
-F 1 "Spare 2" H 4878 5435 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4850 5500 50  0001 C CNN
-F 3 "~" H 4850 5500 50  0001 C CNN
-	1    4850 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6550 3900 6550 4000
-NoConn ~ 6050 4800
-NoConn ~ 6050 4700
-NoConn ~ 6050 4400
-Text GLabel 6950 4700 2    50   Input ~ 0
+	7100 3900 7100 4000
+NoConn ~ 6600 4800
+NoConn ~ 6600 4700
+NoConn ~ 6600 4400
+Text GLabel 7500 4700 2    50   Input ~ 0
 D3
-Text GLabel 6950 4800 2    50   Input ~ 0
+Text GLabel 7500 4800 2    50   Input ~ 0
 D4
-Text GLabel 7950 6000 0    50   Input ~ 0
+Text GLabel 8500 6000 0    50   Input ~ 0
 GND
-Text GLabel 6550 3900 1    50   Input ~ 0
+Text GLabel 7100 3900 1    50   Input ~ 0
 3V3
-Text GLabel 6950 4900 2    50   Input ~ 0
+Text GLabel 7500 4900 2    50   Input ~ 0
 CLK
-Text GLabel 6950 5000 2    50   Input ~ 0
+Text GLabel 7500 5000 2    50   Input ~ 0
 MISO
-Text GLabel 6950 5100 2    50   Input ~ 0
+Text GLabel 7500 5100 2    50   Input ~ 0
 MOSI
-Text GLabel 6950 5200 2    50   Input ~ 0
+Text GLabel 7500 5200 2    50   Input ~ 0
 CS
-Text GLabel 7950 5400 0    50   Input ~ 0
+Text GLabel 8500 5400 0    50   Input ~ 0
 GND
-Text GLabel 7950 4900 0    50   Input ~ 0
+Text GLabel 8500 4900 0    50   Input ~ 0
 3V3
-Text GLabel 7950 5200 0    50   Input ~ 0
+Text GLabel 8500 5200 0    50   Input ~ 0
 CLK
-Text GLabel 7950 5300 0    50   Input ~ 0
+Text GLabel 8500 5300 0    50   Input ~ 0
 MISO
-Text GLabel 7950 5100 0    50   Input ~ 0
+Text GLabel 8500 5100 0    50   Input ~ 0
 MOSI
-Text GLabel 7950 5000 0    50   Input ~ 0
+Text GLabel 8500 5000 0    50   Input ~ 0
 CS
 $Comp
 L Connector:Conn_01x06_Female J4
 U 1 1 5F31DE3A
-P 8150 5100
-F 0 "J4" H 8178 5076 50  0000 L CNN
-F 1 "SD Card" H 8178 4985 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 8150 5100 50  0001 C CNN
-F 3 "~" H 8150 5100 50  0001 C CNN
-	1    8150 5100
+P 8700 5100
+F 0 "J4" H 8728 5076 50  0000 L CNN
+F 1 "SD Card" H 8728 4985 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 8700 5100 50  0001 C CNN
+F 3 "~" H 8700 5100 50  0001 C CNN
+	1    8700 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 5600 6450 5700
-Text GLabel 5200 3750 1    50   Input ~ 0
+	7000 5600 7000 5700
+Text GLabel 5750 3750 1    50   Input ~ 0
 5V
-Text GLabel 7950 4050 0    50   Input ~ 0
+Text GLabel 8500 4050 0    50   Input ~ 0
 3V3
-Text Notes 7700 3750 0    50   ~ 0
+Text Notes 8250 3750 0    50   ~ 0
 NOTE: Some OLEDs Power & Ground are reversed
-Text Notes 8500 4000 0    50   ~ 0
+Text Notes 9050 4000 0    50   ~ 0
 V1.1 Had OLED VCC-GND-XX-XX\nV2.1 Has OLED GND-VCC-XX-XX \n
-Text GLabel 7950 6300 0    50   Input ~ 0
+Text GLabel 8500 6300 0    50   Input ~ 0
 3V3
 $Comp
 L power:GND #PWR02
 U 1 1 5F34FDAC
-P 6450 5700
-F 0 "#PWR02" H 6450 5450 50  0001 C CNN
-F 1 "GND" H 6455 5527 50  0000 C CNN
-F 2 "" H 6450 5700 50  0001 C CNN
-F 3 "" H 6450 5700 50  0001 C CNN
-	1    6450 5700
+P 7000 5700
+F 0 "#PWR02" H 7000 5450 50  0001 C CNN
+F 1 "GND" H 7005 5527 50  0000 C CNN
+F 2 "" H 7000 5700 50  0001 C CNN
+F 3 "" H 7000 5700 50  0001 C CNN
+	1    7000 5700
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	10150 3350 10150 4450
+	10700 3350 10700 4450
 Wire Notes Line
-	7650 3350 10150 3350
+	8200 3350 10700 3350
 Wire Notes Line
-	7650 4450 10150 4450
+	8200 4450 10700 4450
 Wire Notes Line
-	7450 3550 7450 5950
+	8000 3550 8000 5950
 Wire Notes Line
-	5550 3550 7450 3550
+	6100 3550 8000 3550
 Wire Notes Line
-	5550 5950 7450 5950
+	6100 5950 8000 5950
 $Comp
 L Device:R R1
 U 1 1 5F3B9579
-P 8750 5050
-F 0 "R1" H 8820 5096 50  0000 L CNN
-F 1 "10k" H 8820 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" V 8680 5050 50  0001 C CNN
-F 3 "~" H 8750 5050 50  0001 C CNN
-	1    8750 5050
+P 9200 5050
+F 0 "R1" H 9270 5096 50  0000 L CNN
+F 1 "10k" H 9270 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 9130 5050 50  0001 C CNN
+F 3 "~" H 9200 5050 50  0001 C CNN
+	1    9200 5050
 	1    0    0    -1  
 $EndComp
-Text GLabel 8750 4850 1    50   Input ~ 0
+Text GLabel 9200 4850 1    50   Input ~ 0
 3V3
-Text GLabel 8750 5250 3    50   Input ~ 0
+Text GLabel 9200 5250 3    50   Input ~ 0
 MISO
 Wire Wire Line
-	8750 4850 8750 4900
+	9200 4850 9200 4900
 Wire Wire Line
-	8750 5200 8750 5250
-Text Notes 9000 5050 0    50   ~ 0
-10K pullup
-Text Notes 8400 6050 0    50   ~ 0
+	9200 5200 9200 5250
+Text Notes 8950 6050 0    50   ~ 0
 Note:\nBN220 has no compass but has battery for \nquick signal lock if location hasn't moved.
+$Comp
+L MCU_Module:WeMos_D1_mini U1
+U 1 1 5F31691B
+P 7000 4800
+F 0 "U1" H 6250 3850 50  0000 C CNN
+F 1 "WeMos_D1_mini" H 6500 3750 50  0000 C CNN
+F 2 "Module:WEMOS_D1_mini_light" H 7000 3650 50  0001 C CNN
+F 3 "https://wiki.wemos.cc/products:d1:d1_mini#documentation" H 5150 3650 50  0001 C CNN
+	1    7000 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 5550 0    50   Input ~ 0
+3V3
+$Comp
+L Connector:Conn_01x03_Female J1
+U 1 1 5F3230C4
+P 5400 5200
+F 0 "J1" H 5428 5226 50  0000 L CNN
+F 1 "Spare 1" H 5428 5135 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5400 5200 50  0001 C CNN
+F 3 "~" H 5400 5200 50  0001 C CNN
+	1    5400 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 5650 0    50   Input ~ 0
+GND
+Text GLabel 5200 5750 0    50   Input ~ 0
+D0
+$Comp
+L Connector:Conn_01x03_Female J2
+U 1 1 5F322635
+P 5400 5650
+F 0 "J2" H 5428 5676 50  0000 L CNN
+F 1 "Spare 2" H 5428 5585 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5400 5650 50  0001 C CNN
+F 3 "~" H 5400 5650 50  0001 C CNN
+	1    5400 5650
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4850 6000 5850 6000
+Wire Notes Line
+	4850 4800 4850 6000
+Wire Notes Line
+	5850 4800 5850 6000
+Text Notes 9450 4900 0    50   ~ 0
+Note:\n10K pullup not always needed \nbut without can cause random \nwrite errors
 $EndSCHEMATC
