@@ -2683,53 +2683,16 @@ Text GLabel 7500 4600 2    50   Input ~ 0
 SDA
 Wire Notes Line
 	4900 4200 5900 4200
-Wire Wire Line
-	5100 3850 5250 3850
-Connection ~ 5250 3850
-Wire Wire Line
-	5750 3850 5700 3850
-Wire Wire Line
-	5750 3750 5750 3850
 Text Notes 5000 3650 0    50   ~ 0
 Vin 4-6V
-Wire Wire Line
-	5250 3850 5250 3900
-Text GLabel 6900 3850 1    50   Input ~ 0
+Text GLabel 6700 3850 0    50   Input ~ 0
 5V
-$Comp
-L Device:Battery BT1
-U 1 1 5F31A8A9
-P 5500 3850
-F 0 "BT1" H 5608 3896 50  0000 L CNN
-F 1 "5V" H 5608 3805 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 5500 3910 50  0001 C CNN
-F 3 "~" V 5500 3910 50  0001 C CNN
-	1    5500 3850
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR01
-U 1 1 5F34EF30
-P 5100 3850
-F 0 "#PWR01" H 5100 3600 50  0001 C CNN
-F 1 "GND" V 5105 3722 50  0000 R CNN
-F 2 "" H 5100 3850 50  0001 C CNN
-F 3 "" H 5100 3850 50  0001 C CNN
-	1    5100 3850
-	1    0    0    -1  
-$EndComp
-Text GLabel 5250 3900 3    50   Input ~ 0
-GND
-Wire Wire Line
-	5300 3850 5250 3850
 Text GLabel 5200 5300 0    50   Input ~ 0
 A0
 Text GLabel 5200 5200 0    50   Input ~ 0
 GND
 Text GLabel 5200 5100 0    50   Input ~ 0
 3V3
-Wire Wire Line
-	7100 3900 7100 4000
 NoConn ~ 6600 4800
 NoConn ~ 6600 4700
 NoConn ~ 6600 4400
@@ -2739,7 +2702,7 @@ Text GLabel 7500 4800 2    50   Input ~ 0
 D4
 Text GLabel 8500 6000 0    50   Input ~ 0
 GND
-Text GLabel 7100 3900 1    50   Input ~ 0
+Text GLabel 7250 3850 2    50   Input ~ 0
 3V3
 Text GLabel 7500 4900 2    50   Input ~ 0
 CLK
@@ -2774,8 +2737,6 @@ F 3 "~" H 8700 5100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7000 5600 7000 5700
-Text GLabel 5750 3750 1    50   Input ~ 0
-5V
 Text GLabel 8500 4050 0    50   Input ~ 0
 3V3
 Text Notes 8250 3750 0    50   ~ 0
@@ -2875,4 +2836,50 @@ Wire Notes Line
 	5850 4800 5850 6000
 Text Notes 9450 4900 0    50   ~ 0
 Note:\n10K pullup not always needed \nbut without can cause random \nwrite errors
+Text GLabel 5750 3750 1    50   Input ~ 0
+5V
+Text GLabel 5250 3900 3    50   Input ~ 0
+GND
+$Comp
+L power:GND #PWR01
+U 1 1 5F34EF30
+P 5050 3850
+F 0 "#PWR01" H 5050 3600 50  0001 C CNN
+F 1 "GND" V 5055 3722 50  0000 R CNN
+F 2 "" H 5050 3850 50  0001 C CNN
+F 3 "" H 5050 3850 50  0001 C CNN
+	1    5050 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery BT1
+U 1 1 5F31A8A9
+P 5500 3850
+F 0 "BT1" H 5608 3896 50  0000 L CNN
+F 1 "5V" H 5608 3805 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 5500 3910 50  0001 C CNN
+F 3 "~" V 5500 3910 50  0001 C CNN
+	1    5500 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 3850 5250 3900
+Wire Wire Line
+	5750 3750 5750 3850
+Wire Wire Line
+	5750 3850 5700 3850
+Wire Wire Line
+	5050 3850 5250 3850
+Connection ~ 5250 3850
+Wire Wire Line
+	5250 3850 5300 3850
+Connection ~ 5300 3850
+Wire Wire Line
+	5300 3850 5400 3850
+Wire Wire Line
+	7100 3850 7100 4000
+Wire Wire Line
+	6700 3850 6900 3850
+Wire Wire Line
+	7100 3850 7250 3850
 $EndSCHEMATC

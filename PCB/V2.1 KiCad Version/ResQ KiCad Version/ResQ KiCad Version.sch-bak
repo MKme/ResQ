@@ -2683,45 +2683,10 @@ Text GLabel 7500 4600 2    50   Input ~ 0
 SDA
 Wire Notes Line
 	4900 4200 5900 4200
-Wire Wire Line
-	5100 3850 5250 3850
-Connection ~ 5250 3850
-Wire Wire Line
-	5750 3850 5700 3850
-Wire Wire Line
-	5750 3750 5750 3850
 Text Notes 5000 3650 0    50   ~ 0
 Vin 4-6V
-Wire Wire Line
-	5250 3850 5250 3900
 Text GLabel 6900 3850 1    50   Input ~ 0
 5V
-$Comp
-L Device:Battery BT1
-U 1 1 5F31A8A9
-P 5500 3850
-F 0 "BT1" H 5608 3896 50  0000 L CNN
-F 1 "5V" H 5608 3805 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 5500 3910 50  0001 C CNN
-F 3 "~" V 5500 3910 50  0001 C CNN
-	1    5500 3850
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR01
-U 1 1 5F34EF30
-P 5100 3850
-F 0 "#PWR01" H 5100 3600 50  0001 C CNN
-F 1 "GND" V 5105 3722 50  0000 R CNN
-F 2 "" H 5100 3850 50  0001 C CNN
-F 3 "" H 5100 3850 50  0001 C CNN
-	1    5100 3850
-	1    0    0    -1  
-$EndComp
-Text GLabel 5250 3900 3    50   Input ~ 0
-GND
-Wire Wire Line
-	5300 3850 5250 3850
 Text GLabel 5200 5300 0    50   Input ~ 0
 A0
 Text GLabel 5200 5200 0    50   Input ~ 0
@@ -2774,8 +2739,6 @@ F 3 "~" H 8700 5100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7000 5600 7000 5700
-Text GLabel 5750 3750 1    50   Input ~ 0
-5V
 Text GLabel 8500 4050 0    50   Input ~ 0
 3V3
 Text Notes 8250 3750 0    50   ~ 0
@@ -2810,22 +2773,22 @@ Wire Notes Line
 $Comp
 L Device:R R1
 U 1 1 5F3B9579
-P 9300 5050
-F 0 "R1" H 9370 5096 50  0000 L CNN
-F 1 "10k" H 9370 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" V 9230 5050 50  0001 C CNN
-F 3 "~" H 9300 5050 50  0001 C CNN
-	1    9300 5050
+P 9200 5050
+F 0 "R1" H 9270 5096 50  0000 L CNN
+F 1 "10k" H 9270 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 9130 5050 50  0001 C CNN
+F 3 "~" H 9200 5050 50  0001 C CNN
+	1    9200 5050
 	1    0    0    -1  
 $EndComp
-Text GLabel 9300 4850 1    50   Input ~ 0
+Text GLabel 9200 4850 1    50   Input ~ 0
 3V3
-Text GLabel 9300 5250 3    50   Input ~ 0
+Text GLabel 9200 5250 3    50   Input ~ 0
 MISO
 Wire Wire Line
-	9300 4850 9300 4900
+	9200 4850 9200 4900
 Wire Wire Line
-	9300 5200 9300 5250
+	9200 5200 9200 5250
 Text Notes 8950 6050 0    50   ~ 0
 Note:\nBN220 has no compass but has battery for \nquick signal lock if location hasn't moved.
 $Comp
@@ -2875,4 +2838,44 @@ Wire Notes Line
 	5850 4800 5850 6000
 Text Notes 9450 4900 0    50   ~ 0
 Note:\n10K pullup not always needed \nbut without can cause random \nwrite errors
+Text GLabel 5750 3750 1    50   Input ~ 0
+5V
+Text GLabel 5250 3900 3    50   Input ~ 0
+GND
+$Comp
+L power:GND #PWR01
+U 1 1 5F34EF30
+P 5050 3850
+F 0 "#PWR01" H 5050 3600 50  0001 C CNN
+F 1 "GND" V 5055 3722 50  0000 R CNN
+F 2 "" H 5050 3850 50  0001 C CNN
+F 3 "" H 5050 3850 50  0001 C CNN
+	1    5050 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery BT1
+U 1 1 5F31A8A9
+P 5500 3850
+F 0 "BT1" H 5608 3896 50  0000 L CNN
+F 1 "5V" H 5608 3805 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 5500 3910 50  0001 C CNN
+F 3 "~" V 5500 3910 50  0001 C CNN
+	1    5500 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 3850 5250 3900
+Wire Wire Line
+	5750 3750 5750 3850
+Wire Wire Line
+	5750 3850 5700 3850
+Wire Wire Line
+	5050 3850 5250 3850
+Connection ~ 5250 3850
+Wire Wire Line
+	5250 3850 5300 3850
+Connection ~ 5300 3850
+Wire Wire Line
+	5300 3850 5400 3850
 $EndSCHEMATC
