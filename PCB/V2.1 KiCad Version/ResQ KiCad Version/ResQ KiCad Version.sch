@@ -2693,8 +2693,6 @@ Text GLabel 5200 5200 0    50   Input ~ 0
 GND
 Text GLabel 5200 5100 0    50   Input ~ 0
 3V3
-NoConn ~ 6600 4800
-NoConn ~ 6600 4700
 NoConn ~ 6600 4400
 Text GLabel 7500 4700 2    50   Input ~ 0
 D3
@@ -2735,8 +2733,6 @@ F 3 "~" H 8700 5100 50  0001 C CNN
 	1    8700 5100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7000 5600 7000 5700
 Text GLabel 8500 4050 0    50   Input ~ 0
 3V3
 Text Notes 8250 3750 0    50   ~ 0
@@ -2789,17 +2785,6 @@ Wire Wire Line
 	9200 5200 9200 5250
 Text Notes 8950 6050 0    50   ~ 0
 Note:\nBN220 has no compass but has battery for \nquick signal lock if location hasn't moved.
-$Comp
-L MCU_Module:WeMos_D1_mini U1
-U 1 1 5F31691B
-P 7000 4800
-F 0 "U1" H 6250 3850 50  0000 C CNN
-F 1 "WeMos_D1_mini" H 6500 3750 50  0000 C CNN
-F 2 "Module:WEMOS_D1_mini_light" H 7000 3650 50  0001 C CNN
-F 3 "https://wiki.wemos.cc/products:d1:d1_mini#documentation" H 5150 3650 50  0001 C CNN
-	1    7000 4800
-	1    0    0    -1  
-$EndComp
 Text GLabel 5200 5550 0    50   Input ~ 0
 3V3
 $Comp
@@ -2880,4 +2865,62 @@ Wire Wire Line
 	6700 3850 6900 3850
 Wire Wire Line
 	7100 3850 7250 3850
+Wire Notes Line
+	8200 2150 8200 3250
+$Comp
+L Connector:Conn_01x04_Female J6
+U 1 1 5F3AE78D
+P 8700 2850
+F 0 "J6" H 8728 2826 50  0000 L CNN
+F 1 "Radio" H 8728 2735 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 8700 2850 50  0001 C CNN
+F 3 "~" H 8700 2850 50  0001 C CNN
+	1    8700 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 8500 2750 0    50   Input ~ 0
+GND
+Text GLabel 8500 2950 0    50   Input ~ 0
+TX
+Text GLabel 8500 3050 0    50   Input ~ 0
+RX
+Text GLabel 8500 2850 0    50   Input ~ 0
+3V3
+Text Notes 8200 2500 0    50   ~ 0
+Radio Module needs to be disconnected during flash \nBaud must match HW serial code  (currently 115200)
+Wire Notes Line
+	10700 2150 10700 3250
+Wire Notes Line
+	8200 2150 10700 2150
+Wire Notes Line
+	8200 3250 10700 3250
+Text Notes 8250 2250 0    50   ~ 10
+Telemetry Radio
+Wire Notes Line
+	8950 2150 8950 2300
+Wire Notes Line
+	8950 2300 8200 2300
+Text GLabel 6450 4800 0    50   Input ~ 0
+TX
+Text GLabel 6450 4700 0    50   Input ~ 0
+RX
+Wire Wire Line
+	7000 5600 7000 5700
+$Comp
+L MCU_Module:WeMos_D1_mini U1
+U 1 1 5F31691B
+P 7000 4800
+F 0 "U1" H 6250 3850 50  0000 C CNN
+F 1 "WeMos_D1_mini" H 6500 3750 50  0000 C CNN
+F 2 "Module:WEMOS_D1_mini_light" H 7000 3650 50  0001 C CNN
+F 3 "https://wiki.wemos.cc/products:d1:d1_mini#documentation" H 5150 3650 50  0001 C CNN
+	1    7000 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4700 6450 4700
+Wire Wire Line
+	6600 4800 6450 4800
+Text Notes 9050 2950 0    50   ~ 0
+Radio Rx to ResQ Tx\nRadio Tx to ResQ Rx
 $EndSCHEMATC
