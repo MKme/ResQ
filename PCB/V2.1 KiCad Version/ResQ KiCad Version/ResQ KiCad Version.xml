@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\Zbook\Desktop\git\ResQ\PCB\V2.1 KiCad Version\ResQ KiCad Version\ResQ KiCad Version.sch</source>
-    <date>2020-08-10 7:53:18 PM</date>
+    <source>C:\Users\Office\Desktop\git\ResQ\PCB\V2.1 KiCad Version\ResQ KiCad Version\ResQ KiCad Version.sch</source>
+    <date>2020-08-17 12:42:41 PM</date>
     <tool>Eeschema (5.1.6)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -19,6 +19,14 @@
     </sheet>
   </design>
   <components>
+    <comp ref="J5">
+      <value>GPS</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F321884</tstamp>
+    </comp>
     <comp ref="J3">
       <value>OLED</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
@@ -27,6 +35,22 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F31F299</tstamp>
     </comp>
+    <comp ref="J4">
+      <value>SD Card</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F31DE3A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3B9579</tstamp>
+    </comp>
     <comp ref="U1">
       <value>WeMos_D1_mini</value>
       <footprint>Module:WEMOS_D1_mini_light</footprint>
@@ -34,14 +58,6 @@
       <libsource lib="MCU_Module" part="WeMos_D1_mini" description="32-bit microcontroller module with WiFi"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F31691B</tstamp>
-    </comp>
-    <comp ref="BT1">
-      <value>5V</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Battery" description="Multiple-cell battery"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F31A8A9</tstamp>
     </comp>
     <comp ref="J1">
       <value>Spare 1</value>
@@ -59,21 +75,13 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F322635</tstamp>
     </comp>
-    <comp ref="J5">
-      <value>GPS</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+    <comp ref="B1">
+      <value>5V</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Device" part="Battery" description="Multiple-cell battery"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F321884</tstamp>
-    </comp>
-    <comp ref="J4">
-      <value>SD Card</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F31DE3A</tstamp>
+      <tstamp>5F31A8A9</tstamp>
     </comp>
   </components>
   <libparts>
@@ -141,6 +149,21 @@
         <pin num="2" name="-" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="MCU_Module" part="WeMos_D1_mini">
       <description>32-bit microcontroller module with WiFi</description>
       <docs>https://wiki.wemos.cc/products:d1:d1_mini#documentation</docs>
@@ -184,75 +207,77 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(U1-Pad15)">
-      <node ref="U1" pin="15"/>
-    </net>
-    <net code="2" name="GND">
-      <node ref="J1" pin="2"/>
-      <node ref="J4" pin="6"/>
-      <node ref="U1" pin="10"/>
-      <node ref="J3" pin="2"/>
-      <node ref="BT1" pin="2"/>
-      <node ref="J5" pin="1"/>
-      <node ref="J2" pin="2"/>
-    </net>
-    <net code="3" name="Net-(U1-Pad1)">
+    <net code="1" name="Net-(U1-Pad1)">
       <node ref="U1" pin="1"/>
     </net>
-    <net code="4" name="Net-(U1-Pad16)">
+    <net code="2" name="Net-(U1-Pad16)">
       <node ref="U1" pin="16"/>
     </net>
-    <net code="5" name="D0">
-      <node ref="U1" pin="3"/>
-      <node ref="J2" pin="3"/>
+    <net code="3" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
     </net>
-    <net code="6" name="3V3">
-      <node ref="J1" pin="1"/>
-      <node ref="J2" pin="1"/>
-      <node ref="U1" pin="8"/>
-      <node ref="J3" pin="1"/>
-      <node ref="J5" pin="4"/>
-      <node ref="J4" pin="1"/>
-    </net>
-    <net code="7" name="5V">
-      <node ref="BT1" pin="1"/>
-      <node ref="U1" pin="9"/>
-    </net>
-    <net code="8" name="MISO">
+    <net code="4" name="MISO">
+      <node ref="R1" pin="2"/>
       <node ref="U1" pin="5"/>
       <node ref="J4" pin="5"/>
     </net>
-    <net code="9" name="CLK">
-      <node ref="J4" pin="4"/>
-      <node ref="U1" pin="4"/>
+    <net code="5" name="3V3">
+      <node ref="J2" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J5" pin="4"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="8"/>
     </net>
-    <net code="10" name="MOSI">
-      <node ref="U1" pin="6"/>
-      <node ref="J4" pin="3"/>
+    <net code="6" name="GND">
+      <node ref="J5" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="10"/>
+      <node ref="J4" pin="6"/>
+      <node ref="B1" pin="2"/>
     </net>
-    <net code="11" name="CS">
-      <node ref="U1" pin="7"/>
-      <node ref="J4" pin="2"/>
+    <net code="7" name="5V">
+      <node ref="U1" pin="9"/>
+      <node ref="B1" pin="1"/>
     </net>
-    <net code="12" name="D3">
-      <node ref="J5" pin="3"/>
-      <node ref="U1" pin="12"/>
+    <net code="8" name="D0">
+      <node ref="U1" pin="3"/>
+      <node ref="J2" pin="3"/>
     </net>
-    <net code="13" name="D4">
-      <node ref="U1" pin="11"/>
+    <net code="9" name="D4">
       <node ref="J5" pin="2"/>
+      <node ref="U1" pin="11"/>
     </net>
-    <net code="14" name="SDA">
+    <net code="10" name="SCL">
+      <node ref="U1" pin="14"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="11" name="SDA">
       <node ref="J3" pin="4"/>
       <node ref="U1" pin="13"/>
     </net>
-    <net code="15" name="A0">
-      <node ref="J1" pin="3"/>
+    <net code="12" name="A0">
       <node ref="U1" pin="2"/>
+      <node ref="J1" pin="3"/>
     </net>
-    <net code="16" name="SCL">
-      <node ref="U1" pin="14"/>
-      <node ref="J3" pin="3"/>
+    <net code="13" name="D3">
+      <node ref="U1" pin="12"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="14" name="CLK">
+      <node ref="U1" pin="4"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="15" name="MOSI">
+      <node ref="J4" pin="3"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="16" name="CS">
+      <node ref="J4" pin="2"/>
+      <node ref="U1" pin="7"/>
     </net>
   </nets>
 </export>

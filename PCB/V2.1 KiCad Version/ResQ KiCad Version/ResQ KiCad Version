@@ -1,18 +1,19 @@
-"Source:","C:\Users\Zbook\Desktop\git\ResQ\PCB\V2.1 KiCad Version\ResQ KiCad Version\ResQ KiCad Version.sch"
-"Date:","2020-08-10 7:53:18 PM"
+"Source:","C:\Users\Office\Desktop\git\ResQ\PCB\V2.1 KiCad Version\ResQ KiCad Version\ResQ KiCad Version.sch"
+"Date:","2020-08-17 12:42:41 PM"
 "Tool:","Eeschema (5.1.6)-1"
 "Generator:","C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py"
-"Component Count:","7"
+"Component Count:","8"
 
 "Individual Components:"
 
 "Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
-"","","BT1","5V","Device:Battery","Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical","~"
+"","","B1","5V","Device:Battery","Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical","~"
 "","","J1","Spare 1","Connector:Conn_01x03_Female","Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical","~"
 "","","J2","Spare 2","Connector:Conn_01x03_Female","Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical","~"
 "","","J3","OLED","Connector:Conn_01x04_Female","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~"
 "","","J4","SD Card","Connector:Conn_01x06_Female","Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical","~"
 "","","J5","GPS","Connector:Conn_01x04_Female","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~"
+"","","R1","10k","Device:R","Resistor_SMD:R_0201_0603Metric","~"
 "","","U1","WeMos_D1_mini","MCU_Module:WeMos_D1_mini","Module:WEMOS_D1_mini_light","https://wiki.wemos.cc/products:d1:d1_mini#documentation"
 
 
@@ -20,10 +21,11 @@
 "Collated Components:"
 
 "Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
-"1","1","BT1","5V","Device:Battery","Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical","~"
+"1","1","B1","5V","Device:Battery","Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical","~"
 "2","1","J1","Spare 1","Connector:Conn_01x03_Female","Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical","~"
 "3","1","J2","Spare 2","Connector:Conn_01x03_Female","Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical","~"
 "4","1","J3","OLED","Connector:Conn_01x04_Female","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~"
 "5","1","J4","SD Card","Connector:Conn_01x06_Female","Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical","~"
 "6","1","J5","GPS","Connector:Conn_01x04_Female","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~"
-"7","1","U1","WeMos_D1_mini","MCU_Module:WeMos_D1_mini","Module:WEMOS_D1_mini_light","https://wiki.wemos.cc/products:d1:d1_mini#documentation"
+"7","1","R1","10k","Device:R","Resistor_SMD:R_0201_0603Metric","~"
+"8","1","U1","WeMos_D1_mini","MCU_Module:WeMos_D1_mini","Module:WEMOS_D1_mini_light","https://wiki.wemos.cc/products:d1:d1_mini#documentation"
