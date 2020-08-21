@@ -1,5 +1,5 @@
 # RESQ Open Source Wifi based Search and Rescue Devices
-Moving super secret source to Git for sharing on Hackaday- time to give ths project away 
+Moving super secret source to Git for sharing on Hackaday- time to give ths project away  Show it some love with a like on Hacaday IO here: https://hackaday.io/project/172090-resq-search-and-rescue-tools
 
 
 This open source project uses AP beacon packet sniffing from any commercially available aircraft/drone or manned aircraft OR by a handheld YAGI antenna unit to locate people on the ground such as lost hikers, 
@@ -53,7 +53,7 @@ Adding 3DR telemetry radio to the Nano Talon for autonymous flight control https
 
 Making a DIY 18650 2S1P battery pack for >1hr duration flight missions https://youtu.be/XwAqgR_XsYw
 
-### system Overview 
+### System Overview 
 <img src="https://github.com/MKme/ResQ/blob/master/Photos/Flow%20Diagram.png" width="500"/>
 
 
