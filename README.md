@@ -1,5 +1,5 @@
 # RESQ Open Source Wifi based Search and Rescue Devices
-Moving super secret source to Git for sharing on Hackaday- time to give ths project away  Show it some love with a like on Hacaday IO here: https://hackaday.io/project/172090-resq-search-and-rescue-tools
+Moving super secret source to Git for sharing on Hackaday- time to give ths project away  Show it some love with a like on Hackaday IO here: https://hackaday.io/project/172090-resq-search-and-rescue-tools
 
 
 This open source project uses AP beacon packet sniffing from any commercially available aircraft/drone or manned aircraft OR by a handheld YAGI antenna unit to locate people on the ground such as lost hikers, 
@@ -126,6 +126,7 @@ Project files done in KiCAD
 - OLED is now powered 3.3V 
 - OLED VCC and Grnd reversed to accomodate the much more common pin layout 
 - Spare Signal wires now routed and dont need bodge wires if used
+- Serial lines broken out for teletry transmission via LORA radio (or other UART radio module)
 
 # Camera Expansion Module (Winter 2020 ETA)
 
@@ -144,7 +145,11 @@ Support this project and become a patron on <a href="http://mkme.org/patreon">Er
 Website, Forum and store are at http://mkme.org <br>
 Chat with Me: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>
 
-Credit to Andreas Spiess projects here (father of all ESP projects) : https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ
+Credit M. Ray Burnette for publication as WiFi Sniffer 20161013 (MIT) 
+Source https://www.hackster.io/rayburne/esp8266-mini-sniff-f6b93a  
+Ray's example helped this whole project by providing a base to work and expand from.  Ray your code caused me to pull my hair out and jump for joy many many nights. You rock. I apologise for the current mess that once resembled some of your code :) 
+
+Credit to Andreas Spiess for inspiring all of us to use ESP8266 boards more in our projects (Andreas=father of all ESP projects) : https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ
 
 
 This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
