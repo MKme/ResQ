@@ -131,7 +131,7 @@
   )
 
   (module Resistor_SMD:R_0201_0603Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5F3BE4B9)
-    (at 179.07 111.76)
+    (at 194.31 114.3)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F3B9579)
