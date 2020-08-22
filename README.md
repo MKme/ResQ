@@ -126,6 +126,7 @@ Project files done in KiCAD
 - OLED is now powered 3.3V 
 - OLED VCC and Grnd reversed to accomodate the much more common pin layout 
 - Spare Signal wires now routed and dont need bodge wires if used
+- Serial lines broken out for teletry transmission via LORA radio (or other UART radio module)
 
 # Camera Expansion Module (Winter 2020 ETA)
 
