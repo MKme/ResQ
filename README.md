@@ -145,6 +145,10 @@ Support this project and become a patron on <a href="http://mkme.org/patreon">Er
 Website, Forum and store are at http://mkme.org <br>
 Chat with Me: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>
 
+Credit M. Ray Burnette for publication as WiFi Sniffer 20161013 (MIT) 
+Source https://www.hackster.io/rayburne/esp8266-mini-sniff-f6b93a  
+Ray's example helped this whole project by providing a base to work and expand from.  Ray your code caused me to pull my hair out and jump for joy many many nights. You rock. I apologise for the current mess that once resembled some of your code :) 
+
 Credit to Andreas Spiess for inspiring all of us to use ESP8266 boards more in our projects (Andreas=father of all ESP projects) : https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ
 
 
