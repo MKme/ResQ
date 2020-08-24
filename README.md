@@ -57,7 +57,7 @@ https://www.youtube.com/playlist?list=PLxyM2a_cfnzifVreG8aKurH-9nNYl8QLr
 
 # Wiring 
 See schematic and PCB gerber files for detailed view but this is the summary
- <img src="https://github.com/MKme/ResQ/blob/master/Photos/Schematic/Schematic%20V2.1%20Color.PNG" width="700"/>
+ <img src="https://github.com/MKme/ResQ/blob/master/Photos/Schematic/Schematic%20V2.1%20fixed%20%20Color.PNG" width="700"/>
 
 ### SPI SD Card to WEMOS D1  Wiring
 | Pin On SD Reader | Pin on D1  |
