@@ -33,26 +33,6 @@ SD Card interface: http://mkme.org/forum/viewtopic.php?f=14&t=1126&p=1430#p1430
 
 https://www.youtube.com/playlist?list=PLxyM2a_cfnzifVreG8aKurH-9nNYl8QLr
 
-### ResQ Components/build:
-
-D1 mini Pro External Antenna (you need to mod the board for the external to work)  https://youtu.be/hXRcJXMjlyg
-
-SD Card Use: https://youtu.be/y-P627KBLBw
-
-### Drone/Aircraft Builds and Tuning:
-
-Nano Talon Build Pt 1 https://youtu.be/BveRkukH6Sg
-
-Nano Talon Build Pt 2 https://youtu.be/9segL9kFlmg
-
-Nano Talon Build Pt 3 https://youtu.be/56KqzPDGRqc
-
-Nano Talon Build Pt 4 https://youtu.be/-qZ3yurwyJo
-
-Adding 3DR telemetry radio to the Nano Talon for autonymous flight control https://youtu.be/XCQz9AeE2qA
-
-Making a DIY 18650 2S1P battery pack for >1hr duration flight missions https://youtu.be/XwAqgR_XsYw
-
 ### System Overview 
 <img src="https://github.com/MKme/ResQ/blob/master/Photos/Flow%20Diagram.png" width="500"/>
 
@@ -145,6 +125,27 @@ More videos and information at http://youtube.com/mkmeorg or http://www.mkme.org
 Support this project and become a patron on <a href="http://mkme.org/patreon">Eric's Patreon</a>.<br>
 Website, Forum and store are at http://mkme.org <br>
 Chat with Me: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>
+
+### ResQ Components/build:
+
+D1 mini Pro External Antenna (you need to mod the board for the external to work)  https://youtu.be/hXRcJXMjlyg
+
+SD Card Use: https://youtu.be/y-P627KBLBw
+
+### Drone/Aircraft Builds and Tuning:
+
+Nano Talon Build Pt 1 https://youtu.be/BveRkukH6Sg
+
+Nano Talon Build Pt 2 https://youtu.be/9segL9kFlmg
+
+Nano Talon Build Pt 3 https://youtu.be/56KqzPDGRqc
+
+Nano Talon Build Pt 4 https://youtu.be/-qZ3yurwyJo
+
+Adding 3DR telemetry radio to the Nano Talon for autonymous flight control https://youtu.be/XCQz9AeE2qA
+
+Making a DIY 18650 2S1P battery pack for >1hr duration flight missions https://youtu.be/XwAqgR_XsYw
+
 
 Credit M. Ray Burnette for publication as WiFi Sniffer 20161013 (MIT) 
 Source https://www.hackster.io/rayburne/esp8266-mini-sniff-f6b93a  
