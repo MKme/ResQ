@@ -25,33 +25,11 @@ Hackaday Project: https://hackaday.io/project/172090-resq-open-source-search-and
 
 ResQ Tool Forum Thread For Discussion with Eric - http://mkme.org/forum/viewtopic.php?f=28&t=1130
 
-SD Card interface: http://mkme.org/forum/viewtopic.php?f=14&t=1126&p=1430#p1430
-
 # FULL video tutorials:
 
 ### Full playlist (all related videos/tutorials):
 
 https://www.youtube.com/playlist?list=PLxyM2a_cfnzifVreG8aKurH-9nNYl8QLr
-
-### ResQ Components/build:
-
-D1 mini Pro External Antenna (you need to mod the board for the external to work)  https://youtu.be/hXRcJXMjlyg
-
-SD Card Use: https://youtu.be/y-P627KBLBw
-
-### Drone/Aircraft Builds and Tuning:
-
-Nano Talon Build Pt 1 https://youtu.be/BveRkukH6Sg
-
-Nano Talon Build Pt 2 https://youtu.be/9segL9kFlmg
-
-Nano Talon Build Pt 3 https://youtu.be/56KqzPDGRqc
-
-Nano Talon Build Pt 4 https://youtu.be/-qZ3yurwyJo
-
-Adding 3DR telemetry radio to the Nano Talon for autonymous flight control https://youtu.be/XCQz9AeE2qA
-
-Making a DIY 18650 2S1P battery pack for >1hr duration flight missions https://youtu.be/XwAqgR_XsYw
 
 ### System Overview 
 <img src="https://github.com/MKme/ResQ/blob/master/Photos/Flow%20Diagram.png" width="500"/>
@@ -79,6 +57,8 @@ Making a DIY 18650 2S1P battery pack for >1hr duration flight missions https://y
 
 # Wiring 
 See schematic and PCB gerber files for detailed view but this is the summary
+ <img src="https://github.com/MKme/ResQ/blob/master/Photos/Schematic/Schematic%20V2.1%20Color.PNG" width="700"/>
+
 ### SPI SD Card to WEMOS D1  Wiring
 | Pin On SD Reader | Pin on D1  |
 | ---------- |----------------|
@@ -123,8 +103,9 @@ First to be manufactured (PCBWay)
 
 ## V2.1 
 Project files done in KiCAD
-- OLED is now powered 3.3V 
+- OLED is now powered 3.3V not 5V
 - OLED VCC and Grnd reversed to accomodate the much more common pin layout 
+-Pullup resistor added for SPI line
 - Spare Signal wires now routed and dont need bodge wires if used
 - Serial lines broken out for teletry transmission via LORA radio (or other UART radio module)
 
@@ -145,6 +126,34 @@ Support this project and become a patron on <a href="http://mkme.org/patreon">Er
 Website, Forum and store are at http://mkme.org <br>
 Chat with Me: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>
 
+### ResQ Components/build:
+
+D1 mini Pro External Antenna (you need to mod the board for the external to work)  https://youtu.be/hXRcJXMjlyg
+
+SD Card Use: https://youtu.be/y-P627KBLBw
+SD Card interface: http://mkme.org/forum/viewtopic.php?f=14&t=1126&p=1430#p1430
+
+
+### Drone/Aircraft Builds and Tuning:
+
+Nano Talon Build Pt 1 https://youtu.be/BveRkukH6Sg
+
+Nano Talon Build Pt 2 https://youtu.be/9segL9kFlmg
+
+Nano Talon Build Pt 3 https://youtu.be/56KqzPDGRqc
+
+Nano Talon Build Pt 4 https://youtu.be/-qZ3yurwyJo
+
+Adding 3DR telemetry radio to the Nano Talon for autonymous flight control https://youtu.be/XCQz9AeE2qA
+
+Making a DIY 18650 2S1P battery pack for >1hr duration flight missions https://youtu.be/XwAqgR_XsYw
+
+### Attribution
+
+This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+https://creativecommons.org/licenses/by-nc/4.0/
+See notes.h and comments in main code for detailed lineage/license info
+
 Credit M. Ray Burnette for publication as WiFi Sniffer 20161013 (MIT) 
 Source https://www.hackster.io/rayburne/esp8266-mini-sniff-f6b93a  
 Ray's example helped this whole project by providing a base to work and expand from.  Ray your code caused me to pull my hair out and jump for joy many many nights. You rock. I apologise for the current mess that once resembled some of your code :) 
@@ -152,5 +161,3 @@ Ray's example helped this whole project by providing a base to work and expand f
 Credit to Andreas Spiess for inspiring all of us to use ESP8266 boards more in our projects (Andreas=father of all ESP projects) : https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ
 
 
-This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
-https://creativecommons.org/licenses/by-nc/4.0/
