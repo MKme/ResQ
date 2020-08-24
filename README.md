@@ -123,8 +123,9 @@ First to be manufactured (PCBWay)
 
 ## V2.1 
 Project files done in KiCAD
-- OLED is now powered 3.3V 
+- OLED is now powered 3.3V not 5V
 - OLED VCC and Grnd reversed to accomodate the much more common pin layout 
+-Pullup resistor added for SPI line
 - Spare Signal wires now routed and dont need bodge wires if used
 - Serial lines broken out for teletry transmission via LORA radio (or other UART radio module)
 
