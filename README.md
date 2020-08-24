@@ -147,12 +147,15 @@ Adding 3DR telemetry radio to the Nano Talon for autonymous flight control https
 Making a DIY 18650 2S1P battery pack for >1hr duration flight missions https://youtu.be/XwAqgR_XsYw
 
 ### Attribution
+
+This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+https://creativecommons.org/licenses/by-nc/4.0/
+See notes.h and comments in main code for detailed lineage/license info
+
 Credit M. Ray Burnette for publication as WiFi Sniffer 20161013 (MIT) 
 Source https://www.hackster.io/rayburne/esp8266-mini-sniff-f6b93a  
 Ray's example helped this whole project by providing a base to work and expand from.  Ray your code caused me to pull my hair out and jump for joy many many nights. You rock. I apologise for the current mess that once resembled some of your code :) 
 
 Credit to Andreas Spiess for inspiring all of us to use ESP8266 boards more in our projects (Andreas=father of all ESP projects) : https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ
 
-This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
-https://creativecommons.org/licenses/by-nc/4.0/
-See notes.h and comments in main code for detailed lineage/license info
+
