@@ -25,8 +25,6 @@ Hackaday Project: https://hackaday.io/project/172090-resq-open-source-search-and
 
 ResQ Tool Forum Thread For Discussion with Eric - http://mkme.org/forum/viewtopic.php?f=28&t=1130
 
-SD Card interface: http://mkme.org/forum/viewtopic.php?f=14&t=1126&p=1430#p1430
-
 # FULL video tutorials:
 
 ### Full playlist (all related videos/tutorials):
@@ -131,6 +129,8 @@ Chat with Me: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>
 D1 mini Pro External Antenna (you need to mod the board for the external to work)  https://youtu.be/hXRcJXMjlyg
 
 SD Card Use: https://youtu.be/y-P627KBLBw
+SD Card interface: http://mkme.org/forum/viewtopic.php?f=14&t=1126&p=1430#p1430
+
 
 ### Drone/Aircraft Builds and Tuning:
 
