@@ -89,7 +89,7 @@ int pm;
 // LOLIN Micro SD Shield V1.2.0: D4 (Default)
 const int chipSelect = D4;
 
-
+//abandon all hope ye who try to clean the coming mess...
 #include <ESP8266WiFi.h>
 #include <ArduinoJson.h>
 // #include <credentials.h>
@@ -118,11 +118,11 @@ String device[MAXDEVICES];
 int nbrDevices = 0;
 int usedChannels[15];
 
-#ifndef CREDENTIALS  //don't need this anymore- only for initial tests but I got the laz so not gunna remove it
+#ifndef CREDENTIALS  //don't need this anymore- only for initial tests but I got the lazy so not gunna remove it
 #define mySSID "*****"
 #define myPASSWORD "******"
 #endif
-
+// JSON ALWAYS pissy about what version is installed- devs stop BREAKING CHANGES every month! Eric backed up the working lib in git for you... Install it or good luck adapting this mess
 StaticJsonBuffer<JBUFFER>  jsonBuffer;
 
 void setup() {
@@ -150,7 +150,7 @@ void setup() {
     //return;
   }
   Serial.println("card initialized.");
- 
+ //I weeeen!
 //End SD Example 
 
 //Splash Screen
@@ -196,11 +196,11 @@ void loop() {
   u8x8.println(lng_str);
 
   //dont look at this
-//moved dont ask or try again
+
 //"%4d Devices/Clients\n",aps_known_count + clients_known_count)
 //u8x8.printf("%4d Devices/Clients\n",aps_known_count + clients_known_count); // show count
 //u8x8.printf("%4d Devices/Clients\n",aps_known_count + clients_known_count); // show count
-  
+  //magic don't touch
   channel = 1;
   boolean sendMQTT = false;
   wifi_set_channel(channel);
@@ -209,12 +209,12 @@ void loop() {
     if (nothing_new > 200) {                // check
       nothing_new = 0;
       channel++;
-
+//moved dont ask or try again
       if (channel == 15) break;             // can channels 1 to 14
       wifi_set_channel(channel);
     }
     
-    delay(1);  // do not try to remove this
+    delay(1);  // don't...
    //delay originally 1 - trying higher values to see if it helps with soft resets
 
     if (clients_known_count > clients_known_count_old) {
@@ -230,6 +230,7 @@ void loop() {
      
       Serial.println("\n-------------------------------------------------------------------------------------\n");
      //ERIC READDED ABOVE FROM ORIGINAL SKETCH
+     //Eric is deeply sorry
     
     }
     
@@ -254,6 +255,7 @@ void loop() {
 void connectToWiFi() { //na anymore remove Eric to remove when he's not lazy...never
   delay(10);
   // We start by connecting to a WiFi network
+  //no we dont
   Serial.println();
   Serial.print("Connecting to ");
   Serial.println(mySSID);
@@ -311,6 +313,7 @@ void showDevices() {
   
  //This delay seems to have resolved the watchdog resets from excess serial 
  //WTD reset suuposed to work with just above yield but didnt work alone- this did it
+ //neither solved anything...
  delay(10);
 
     
@@ -342,7 +345,7 @@ void showDevices() {
                Serial.println("error opening datalog.txt");
                SDOK=0;// flag sd status as fail
           }
- //END Adding SD write for belnacons-------------------------------- 
+ //END Adding SD write for beacons-------------------------------- 
    //Eric fix up sloppy SD work- its bad
   }
 
@@ -355,6 +358,7 @@ void showDevices() {
     
 
  //---Do tha GPS thangz
+ // Make this work for local some day- stop being lazy Eric
   while (ss.available() > 0) //while data is available
     if (gps.encode(ss.read())) //read gps data
     {
@@ -468,3 +472,4 @@ Serial.print(" RSSI ");
     Serial.println(clients_known[u].channel);
   }
 }
+//the princess is in another castle...
