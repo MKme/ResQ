@@ -24,7 +24,7 @@ You find ALL my i3 printer settings in GIT here:  https://github.com/MKme/I3-Meg
 Or All my CR10 settings and profiles in GIT here:  https://github.com/MKme/CR10-3D-Printer-Settings-and-Reference
 
 ## Laser Cutter Settings
-On my K40:
+On my K40 (40 Watt Chinese laser cutter) :
 
 ### Acrylic
 
@@ -46,6 +46,6 @@ I dont have one yet but if you have tips please let me know so I can add them to
 
 Print out the design on paper then trace it on your materil of coice and cut it out.  Just that easy! 
 
-### TIP: 
+### TIPs- Hand made verision : 
 
 Use DollarTree foam board then just wrap it in packing tape for a super durable enclosure that costs you a dollar.  
