@@ -1,5 +1,5 @@
-# Enclosures Readme
-Welcome to the enchanted land of enclosures!!!
+# Enclosures Assembly-Manufacturing Guide Readme
+### Welcome to the enchanted land of enclosures!!!
 
 Here we have a variety of selections for your ResQ build.  Choose from the standard CAD files and .stls for 3D printing
 
@@ -7,12 +7,15 @@ or
 
 Try out the new and improved 2D svg files to laser, CNC or even hand cut your own!  No special equipment needed anymore. 
 
-##3D Printer Settings
+## 3D Printer Settings
+
 Print in your material of choice. I use PLA:
+
 0.3mm Layer height
 210C extruder
 No Supports
 15% Infill Rectillinear
+
 You find ALL my i3 printer settings in GIT here:  https://github.com/MKme/I3-Mega-3D-Printer-Settings-Resources
 Or All my CR10 settings and profiles in GIT here:  https://github.com/MKme/CR10-3D-Printer-Settings-and-Reference
 
