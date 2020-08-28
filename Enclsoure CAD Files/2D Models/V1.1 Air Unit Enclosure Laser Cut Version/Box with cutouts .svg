@@ -13,7 +13,7 @@
    version="1.1"
    preserveAspectRatio="xMidYMid meet"
    id="svg4614"
-   sodipodi:docname="Air Unit box with cutouts .svg"
+   sodipodi:docname="Box with cutouts .svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata4620">
@@ -44,7 +44,7 @@
      showgrid="false"
      inkscape:zoom="2.6733676"
      inkscape:cx="239.60604"
-     inkscape:cy="141.1019"
+     inkscape:cy="141.10191"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -97,12 +97,13 @@
      height="18"
      x="25.945215"
      y="4.7503657" />
-  <circle
-     style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0808;stroke-width:0.1000125;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+  <ellipse
+     style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0808;stroke-width:0.17088598;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
      id="path4586"
-     cx="80.017799"
-     cy="35.820686"
-     r="1.8520833" />
+     cx="79.683311"
+     cy="36.254257"
+     rx="3.1645572"
+     ry="3.164557" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0.98604647;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
