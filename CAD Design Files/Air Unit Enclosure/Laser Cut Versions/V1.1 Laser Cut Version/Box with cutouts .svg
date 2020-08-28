@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="159.10001mm"
+   height="81.099998mm"
+   viewBox="0 0 159.10001 81.099998"
+   version="1.1"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg4614"
+   sodipodi:docname="Air Unit box with cutouts .svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata4620">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4618" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1057"
+     id="namedview4616"
+     showgrid="false"
+     inkscape:zoom="2.6733676"
+     inkscape:cx="239.60604"
+     inkscape:cy="141.1019"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4614"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:document-units="mm" />
+  <g
+     id="svgGroup"
+     font-size="9pt"
+     style="font-size:12px;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.25000001mm;stroke-linecap:round"
+     transform="rotate(-180,79.525,40.525)">
+    <path
+       d="m 0,59 v 6.125 h 3 v 9.75 H 0 V 81 h 13.875 v -3 h 9.75 v 3 h 9.75 v -3 h 9.75 v 3 H 52.875 57 v -6.125 h -3 v -9.75 h 3 V 59 H 43.125 v 3 h -9.75 v -3 h -9.75 v 3 h -9.75 v -3 h -9.75 z"
+       id="front_outsideCutPath"
+       style="vector-effect:non-scaling-stroke;stroke:#ff0000;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 63,59 v 6.125 h -3 v 9.75 h 3 V 81 h 11.625 v -3 h 9.75 v 3 H 94.125 96 v -6.125 h 3 v -9.75 H 96 V 59 H 84.375 v 3 h -9.75 v -3 h -9.75 z"
+       id="left_outsideCutPath"
+       style="vector-effect:non-scaling-stroke;stroke:#ff0000;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 105,45 v 11.625 h -3 v 9.75 h 3 V 76.125 78 h 10.875 v 3 h 9.75 v -3 h 9.75 v 3 h 9.75 v -3 h 9.75 H 156 V 66.375 h 3 v -9.75 h -3 V 46.875 45 h -10.875 v -3 h -9.75 v 3 h -9.75 v -3 h -9.75 v 3 h -9.75 z"
+       id="top_outsideCutPath"
+       style="vector-effect:non-scaling-stroke;stroke:#ff0000;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 0,34 v 6.125 h 3 v 9.75 H 0 V 56 h 13.875 v -3 h 9.75 v 3 h 9.75 v -3 h 9.75 v 3 H 52.875 57 v -6.125 h -3 v -9.75 h 3 V 34 H 43.125 v 3 h -9.75 v -3 h -9.75 v 3 h -9.75 v -3 h -9.75 z"
+       id="back_outsideCutPath"
+       style="vector-effect:non-scaling-stroke;stroke:#ff0000;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 63,34 v 6.125 h -3 v 9.75 h 3 V 56 h 11.625 v -3 h 9.75 v 3 H 94.125 96 v -6.125 h 3 v -9.75 H 96 V 34 H 84.375 v 3 h -9.75 v -3 h -9.75 z"
+       id="right_outsideCutPath"
+       style="vector-effect:non-scaling-stroke;stroke:#ff0000;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 105,3 v 11.625 h -3 v 9.75 h 3 V 34.125 36 h 10.875 v 3 h 9.75 v -3 h 9.75 v 3 h 9.75 v -3 h 9.75 H 156 V 24.375 h 3 v -9.75 h -3 V 4.875 3 H 145.125 V 0 h -9.75 v 3 h -9.75 V 0 h -9.75 v 3 h -9.75 z"
+       id="bottom_outsideCutPath"
+       style="vector-effect:non-scaling-stroke;stroke:#ff0000;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+  </g>
+  <rect
+     style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#fd0000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     id="rect4560"
+     width="26"
+     height="18"
+     x="25.945215"
+     y="4.7503657" />
+  <circle
+     style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0808;stroke-width:0.1000125;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     id="path4586"
+     cx="80.017799"
+     cy="35.820686"
+     r="1.8520833" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0.98604647;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     x="6.3543406"
+     y="30.988949"
+     id="text4590"><tspan
+       sodipodi:role="line"
+       id="tspan4588"
+       x="6.3543406"
+       y="30.988949"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';fill:#000000;fill-opacity:0.98604647;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">ResQ</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666679px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+     x="6.680995"
+     y="34.138199"
+     id="text5237"><tspan
+       sodipodi:role="line"
+       id="tspan5235"
+       x="6.680995"
+       y="34.138199"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';stroke-width:0.26458335">OPEN SOURCE SEARCH AND RESCUE</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.11666679px;line-height:5.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+     x="31.423502"
+     y="28.892784"
+     id="text5267"><tspan
+       sodipodi:role="line"
+       id="tspan5265"
+       x="31.423502"
+       y="28.892784"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.11666679px;line-height:5.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';stroke-width:0.26458335">WWW.MKME.ORG</tspan></text>
+  <rect
+     style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:0.08206565;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     id="rect5269"
+     width="8.4466019"
+     height="2.4472365"
+     x="66.589767"
+     y="13.844448" />
+</svg>
