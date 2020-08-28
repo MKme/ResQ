@@ -26,9 +26,17 @@ Or All my CR10 settings and profiles in GIT here:  https://github.com/MKme/CR10-
 ## Laser Cutter Settings
 On my K40:
 
-Raster: 10% power 100mm/selections
+### Acrylic
 
-Vector Cuts: 60% power 3mm/s for 3mm acrylic
+Raster: 10% power 100mm/second
+
+Vector Cuts: 60% power 3mm/s 
+
+### 3mm Birch Plywood
+
+Raster: 11% power 100mm/second
+
+Vector Cuts: 60% power 3mm/s 
 
 
 ## CNC
