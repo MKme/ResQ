@@ -46,6 +46,8 @@ I dont have one yet but if you have tips please let me know so I can add them to
 
 Print out the design on paper then trace it on your materil of coice and cut it out.  Just that easy! 
 
-### TIPs- Hand made verision : 
+### TIPS- 
 
-Use DollarTree foam board then just wrap it in packing tape for a super durable enclosure that costs you a dollar.  
+- Hand made verision : Use DollarTree foam board then just wrap it in packing tape for a super durable enclosure that costs you a dollar.  
+
+- Modify the Box files yourself- If you want different dimensions simply go to this site: https://en.makercase.com/#/ Enter the dimensions you want and export the .svg for FREE
