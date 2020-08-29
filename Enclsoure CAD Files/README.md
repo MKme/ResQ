@@ -1,10 +1,10 @@
 # Enclosures Assembly-Manufacturing Guide Readme
 
-### Welcome to the Erics land of enclosures where we set you up with a shiny new case for your project. 
+### Welcome to Erics land of enclosures where everyone leaves with a shiny new project case. No matter what tools you have we have a case for you. No money down, no interest for all the days! 
 
 Here we have a variety of selections for your ResQ build.  Choose from the standard CAD files and .stls for 3D printing
 
-###or
+### or
 
 Try out the new and improved 2D svg files to laser, CNC or even hand cut your own!  No special equipment needed anymore. 
 
