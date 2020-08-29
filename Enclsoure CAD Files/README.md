@@ -28,15 +28,15 @@ On my K40 (40 Watt Chinese laser cutter) :
 
 ### Acrylic
 
-Raster: 10% power 100mm/second
+- Raster: 10% power 100mm/second
 
-Vector Cuts: 60% power 3mm/s 
+- Vector Cuts: 60% power 3mm/s 
 
 ### 3mm Birch Plywood
 
-Raster: 11% power 100mm/second
+- Raster: 11% power 100mm/second
 
-Vector Cuts: 60% power 3mm/s 
+- Vector Cuts: 60% power 3mm/s 
 
 
 ## CNC
