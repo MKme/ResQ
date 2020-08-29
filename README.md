@@ -36,7 +36,10 @@ https://www.youtube.com/playlist?list=PLxyM2a_cfnzifVreG8aKurH-9nNYl8QLr
 
 
 
-### Truncated Bill of Materials (Full BOM in Folder):
+#  Bill of Materials 
+
+This list is shortened for brevity - Full BOM in excel doc in BOM folder
+
 |     Component    | Source  |
 | ---------- |----------------|
 |D1 Mini Pro | https://amzn.to/2ZQArbl
