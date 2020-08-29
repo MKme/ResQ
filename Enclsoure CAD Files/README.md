@@ -11,13 +11,13 @@ Try out the new and improved 2D svg files to laser, CNC or even hand cut your ow
 
 Print in your material of choice. I use PLA:
 
-0.3mm Layer height
+- 0.3mm Layer height
 
-210C extruder
+- 210C extruder
 
-No Supports
+- No Supports
 
-15% Infill Rectillinear
+- 15% Infill Rectillinear
 
 You find ALL my i3 printer settings in GIT here:  https://github.com/MKme/I3-Mega-3D-Printer-Settings-Resources
 
