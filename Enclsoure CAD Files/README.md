@@ -1,4 +1,4 @@
-# Enclosures Assembly-Manufacturing Guide Readme
+# Enclosures Assembly-Manufacturing Guide
 
 ### Welcome to Erics land of enclosures where everyone leaves with a shiny new project case. No matter what tools you have we have a case for you. No money down, no interest for all the days! 
 
