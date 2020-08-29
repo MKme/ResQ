@@ -45,7 +45,9 @@ I dont have one yet but if you have tips please let me know so I can add them to
 
 ## Hand cutting
 
-Print out the design on paper then trace it on your materil of coice and cut it out.  Just that easy! 
+Print out the design on paper then trace it on your material of choice and cut it out.  
+
+Just that easy! 
 
 ### TIPS- 
 
