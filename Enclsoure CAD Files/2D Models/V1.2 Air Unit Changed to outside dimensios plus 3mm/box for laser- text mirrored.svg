@@ -13,7 +13,7 @@
    version="1.1"
    preserveAspectRatio="xMidYMid meet"
    id="svg877"
-   sodipodi:docname="box.svg"
+   sodipodi:docname="box for laser- text mirrored.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata883">
@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -92,7 +92,7 @@
   </g>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:15.76576042px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0.98604647;stroke:none;stroke-width:0.39476466;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="font-style:normal;font-weight:normal;font-size:15.76576042px;line-height:19.70720053px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0.98604647;stroke:none;stroke-width:0.39476466;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
      x="-57.510876"
      y="34.794731"
      id="text4590"
@@ -101,10 +101,10 @@
        id="tspan4588"
        x="-57.510876"
        y="34.794731"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.61260796px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';fill:#000000;fill-opacity:0.98604647;stroke:none;stroke-width:0.39476466;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">ResQ</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.61260796px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';fill:#000000;fill-opacity:0.98604647;stroke:none;stroke-width:0.39476466;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;line-height:19.70720053px;">ResQ</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.97445107px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37180638"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.97445107px;line-height:3.71806383px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37180638;"
      x="-57.135117"
      y="38.813652"
      id="text5237"
@@ -113,10 +113,10 @@
        id="tspan5235"
        x="-57.135117"
        y="38.813652"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';stroke-width:0.37180638">OPEN SOURCE SEARCH AND RESCUE</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';stroke-width:0.37180638;line-height:3.71806383px;">OPEN SOURCE SEARCH AND RESCUE</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.57621241px;line-height:5.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.32202655"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.57621241px;line-height:13.52511513px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.32202655;"
      x="-26.060471"
      y="32.58247"
      id="text5267"
@@ -125,7 +125,7 @@
        id="tspan5265"
        x="-26.060471"
        y="32.58247"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.57621241px;line-height:5.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';stroke-width:0.32202655">WWW.MKME.ORG</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.57621241px;line-height:13.52511513px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';stroke-width:0.32202655;">WWW.MKME.ORG</tspan></text>
   <rect
      style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#fd0000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
      id="rect4560"
