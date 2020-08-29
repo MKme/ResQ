@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="159.09999mm"
+   height="81.099998mm"
+   viewBox="0 0 159.09999 81.099998"
+   version="1.1"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg877"
+   sodipodi:docname="box.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata883">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs881" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1057"
+     id="namedview879"
+     showgrid="false"
+     inkscape:document-units="mm"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.8903564"
+     inkscape:cx="300.66142"
+     inkscape:cy="153.25984"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg877" />
+  <g
+     id="svgGroup"
+     font-size="9pt"
+     style="font-size:12px;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.25000001mm;stroke-linecap:round"
+     transform="rotate(-180,79.525,40.525)">
+    <path
+       d="m 0,56 v 7.438 H 3 V 73.563 H 0 V 81 h 13.313 v -3 h 10.125 v 3 h 10.125 v -3 h 10.125 v 3 H 53.813 57 V 73.563 H 54 V 63.438 h 3 V 56 H 43.688 v 3 H 33.563 V 56 H 23.438 v 3 H 13.313 V 56 H 3.188 Z"
+       id="front_outsideCutPath"
+       style="vector-effect:non-scaling-stroke;stroke:#ff0000;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 63,56 v 7.438 h -3 v 10.125 h 3 V 81 h 11.438 v -3 h 10.125 v 3 H 94.688 96 v -7.437 h 3 V 63.438 H 96 V 56 H 84.563 v 3 H 74.438 V 56 H 64.313 Z"
+       id="left_outsideCutPath"
+       style="vector-effect:non-scaling-stroke;stroke:#ff0000;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 105,45 v 11.438 h -3 v 10.125 h 3 V 76.688 78 h 10.313 v 3 h 10.125 v -3 h 10.125 v 3 h 10.125 V 78 H 155.813 156 V 66.563 h 3 V 56.438 h -3 V 46.313 45 h -10.312 v -3 h -10.125 v 3 h -10.125 v -3 h -10.125 v 3 h -10.125 z"
+       id="top_outsideCutPath"
+       style="vector-effect:non-scaling-stroke;stroke:#ff0000;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 0,28 v 7.438 H 3 V 45.563 H 0 V 53 h 13.313 v -3 h 10.125 v 3 h 10.125 v -3 h 10.125 v 3 H 53.813 57 V 45.563 H 54 V 35.438 h 3 V 28 H 43.688 v 3 H 33.563 V 28 H 23.438 v 3 H 13.313 V 28 H 3.188 Z"
+       id="back_outsideCutPath"
+       style="vector-effect:non-scaling-stroke;stroke:#ff0000;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 63,28 v 7.438 h -3 v 10.125 h 3 V 53 h 11.438 v -3 h 10.125 v 3 H 94.688 96 v -7.437 h 3 V 35.438 H 96 V 28 H 84.563 v 3 H 74.438 V 28 H 64.313 Z"
+       id="right_outsideCutPath"
+       style="vector-effect:non-scaling-stroke;stroke:#ff0000;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 105,3 v 11.438 h -3 v 10.125 h 3 V 34.688 36 h 10.313 v 3 h 10.125 v -3 h 10.125 v 3 h 10.125 V 36 H 155.813 156 V 24.563 h 3 V 14.438 h -3 V 4.313 3 H 145.688 V 0 H 135.563 V 3 H 125.438 V 0 h -10.125 v 3 h -10.125 z"
+       id="bottom_outsideCutPath"
+       style="vector-effect:non-scaling-stroke;stroke:#ff0000;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.25781536px;line-height:15.32226753px;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0.98604647;stroke:none;stroke-width:0.30692789;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     x="-50.563629"
+     y="30.781376"
+     id="text4590"
+     transform="scale(-1,1)"><tspan
+       sodipodi:role="line"
+       id="tspan4588"
+       x="-50.563629"
+       y="30.781376"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.80625057px;line-height:15.32226753px;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, ';fill:#000000;fill-opacity:0.98604647;stroke:none;stroke-width:0.30692789;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">ResQ</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.58819914px;line-height:3.23524904px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.32352489"
+     x="-51.022381"
+     y="34.397961"
+     id="text5237"
+     transform="scale(-1,1)"><tspan
+       sodipodi:role="line"
+       id="tspan5235"
+       x="-51.022381"
+       y="34.397961"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:3.23524904px;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy,  Bold';stroke-width:0.32352489">OPEN SOURCE SEARCH AND RESCUE</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.58463454px;line-height:18.81932831px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.44807932"
+     x="-23.217606"
+     y="7.6236682"
+     id="text5267"
+     transform="scale(-1,1)"><tspan
+       sodipodi:role="line"
+       id="tspan5265"
+       x="-23.217606"
+       y="7.6236682"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.58463454px;line-height:18.81932831px;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy,  Bold';stroke-width:0.44807932">MKME.ORG</tspan></text>
+  <rect
+     style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#fd0000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     id="rect4560"
+     width="26"
+     height="18"
+     x="25.680275"
+     y="-23.006868"
+     transform="scale(1,-1)" />
+  <ellipse
+     style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0808;stroke-width:0.17088601;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     id="path4586"
+     cx="79.323265"
+     cy="-12.587121"
+     rx="3.1645572"
+     ry="3.164557"
+     transform="scale(1,-1)" />
+  <rect
+     style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:0.11386964;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     id="rect5269"
+     width="11.720024"
+     height="3.3956463"
+     x="80.627403"
+     y="-48.101025"
+     transform="scale(1,-1)" />
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot1491"
+     style="fill:black;fill-opacity:1;stroke:none;font-family:Bahnschrift;font-style:normal;font-weight:normal;font-size:8px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Bahnschrift;font-stretch:normal;font-variant:normal"><flowRegion
+       id="flowRegion1493"><rect
+         id="rect1495"
+         width="154.46823"
+         height="45.494068"
+         x="46.023067"
+         y="85.397362" /></flowRegion><flowPara
+       id="flowPara1497"></flowPara></flowRoot></svg>
