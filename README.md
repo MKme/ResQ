@@ -48,13 +48,9 @@ This list is shortened for brevity - Full BOM in excel doc in BOM folder
 |SD Card Reader| https://amzn.to/2XPDv6B
 |0.96" OLED Display| https://amzn.to/3cCHvvj
 |2.4 GHz Yagi Antenna| https://amzn.to/3gwLso9
-|BN880 GPS| https://amzn.to/2ZPXUJH
+|BN220 GPS| https://amzn.to/2ZPXUJH
 |SMA adapter| https://amzn.to/3ezOpT8
-|nrf24l01| https://amzn.to/3exhePP
 |LORA Modules| https://amzn.to/2zB61ze
-|Nano Talon PNP AMAZON|https://amzn.to/33RWkJg 
-|Nano Talon PNP Bangood|https://www.banggood.com/ZOHD-Nano-Talon-860mm-Wingspan-AIO-HD-V-Tail-EPP-FPV-RC-Airplane-PNP-With-Gyro-p-1168297.html?rmmds=search&p=S808226360906201609Z&custlinkid=482321&cur_warehouse=CN
-|F722 Wing Flight Controller| https://amzn.to/2ZSoMsz
 |18650 LiOn cells | https://amzn.to/2ZSoMsz
 
 
