@@ -27,7 +27,9 @@ You find ALL my i3 printer settings in GIT here:  https://github.com/MKme/I3-Meg
 Or All my CR10 settings and profiles in GIT here:  https://github.com/MKme/CR10-3D-Printer-Settings-and-Reference
 
 ## Laser Cutter Settings
-On my K40 (40 Watt Chinese laser cutter) :
+On my K40 (40 Watt Chinese laser cutter) You can find all my reference and info for the K40 in my Git Repo Here: https://github.com/MKme/Laser-Cutter
+
+Settings Used for these designs: 
 
 ### Acrylic
 
