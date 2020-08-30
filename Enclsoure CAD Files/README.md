@@ -37,6 +37,8 @@ Settings Used for these designs:
 
 - Vector Cuts: 60% power 3mm/s 
 
+ <img src="https://github.com/MKme/ResQ/blob/master/Photos/Laser%20Cut%20Cases/IMG_0715.jpg" width="700"/>
+
 ### 3mm Birch Plywood
 
 - Raster: 11% power 100mm/second
