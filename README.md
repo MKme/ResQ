@@ -37,9 +37,13 @@ https://www.youtube.com/playlist?list=PLxyM2a_cfnzifVreG8aKurH-9nNYl8QLr
 # System Overview 
 <img src="https://github.com/MKme/ResQ/blob/master/Photos/Flow%20Diagram.png" width="500"/>
 
-# Reviewing Search Results Data
+# Reviewing a Search Result Data Recording
 
-To Review the hits recorded from SD card- download the datalog.txt file, change to CSV extension, remove the uneeded columns (only need MAC, Lat and Long) upload to Google maps as done here https://www.youtube.com/watch?v=SLMzhOoA29M  
+All data is stored to the SD card while the unit is powered on. Perorm any search then afterward- remove the SD card and download the contents to your PC. The file it datalog.txt 
+
+You can manually review the hits and plot them one by one in Google Maps or any other map software or you can do them all at once. 
+
+To review ALL the hits recorded from SD card- download the datalog.txt file, change to CSV extension, remove the uneeded columns (only need MAC, Lat and Long) upload to Google maps as done here https://www.youtube.com/watch?v=SLMzhOoA29M  
 
 You can then see all the MAC addresses plotted on a map! 
 
