@@ -61,3 +61,15 @@ Just that easy!
 - Hand made verision : Use DollarTree foam board then just wrap it in packing tape for a super durable enclosure that costs you a dollar.  
 
 - Modify the Box files yourself- If you want different dimensions simply go to this site: https://en.makercase.com/#/ Enter the dimensions you want and export the .svg for FREE
+
+##Enclosure/CAD Files Notes
+
+V1.4 Air unit case is first compatible enclusure for V1.1 PCBs/Gerbers as manufactured/supplied
+
+All boards and enclusures will follow version 1.XX will be compatible with all 1.XX PCBs and onward to 2.xx etc
+
+This project is my first made with Fusion 360
+
+Fusion 360 models were made from the awesome Adafruit Tutorial here (Thanks Noe!) https://www.youtube.com/watch?v=VVmOtM60VWw
+
+The fusion 360 boxes are fully parametric in Fusion so you can easily modify it as your needs/expansion or future changes to this project- HANDY!
