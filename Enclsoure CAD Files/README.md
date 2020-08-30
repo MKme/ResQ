@@ -1,6 +1,8 @@
-# Enclosures Assembly-Manufacturing Guide
+# Enclosures Assembly & Manufacturing Guide
 
 ### Welcome to Erics land of enclosures where everyone leaves with a shiny new project case. No matter what tools you have we have a case for you. No money down, no interest for all the days! 
+
+ <img src="https://github.com/MKme/ResQ/blob/master/Photos/Laser%20Cut%20Cases/IMG_0831.jpg" width="900"/>
 
 Here we have a variety of selections for your ResQ build.  Choose from the standard CAD files and .stls for 3D printing
 
@@ -39,6 +41,7 @@ On my K40 (40 Watt Chinese laser cutter) :
 
 - Vector Cuts: 60% power 3mm/s 
 
+ <img src="https://github.com/MKme/ResQ/blob/master/Photos/Laser%20Cut%20Cases/IMG_0794.jpg" width="700"/>
 
 ## CNC
 I dont have one yet but if you have tips please let me know so I can add them to the assembly guide and this doc!
