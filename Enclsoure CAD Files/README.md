@@ -62,7 +62,7 @@ Just that easy!
 
 - Modify the Box files yourself- If you want different dimensions simply go to this site: https://en.makercase.com/#/ Enter the dimensions you want and export the .svg for FREE
 
-##Enclosure/CAD Files Notes
+## Enclosure/CAD Files Notes
 
 V1.4 Air unit case is first compatible enclusure for V1.1 PCBs/Gerbers as manufactured/supplied
 
