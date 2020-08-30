@@ -43,9 +43,15 @@ All data is stored to the SD card while the unit is powered on. Perorm any searc
 
 You can manually review the hits and plot them one by one in Google Maps or any other map software or you can do them all at once. 
 
-To review ALL the hits recorded from SD card- download the datalog.txt file, change to CSV extension, remove the uneeded columns (only need MAC, Lat and Long) upload to Google maps as done here https://www.youtube.com/watch?v=SLMzhOoA29M  
+To review ALL the hits recorded from SD card on a map (all at once):
 
-You can then see all the MAC addresses plotted on a map! 
+1. Download the datalog.txt file, change to CSV extension, Add column headers above the LAT, LONG and MAC saying LAT, LONG and MAC :) 
+
+2. Remove the uneeded columns like time and RSSI 
+
+3. Upload to Google maps as done here https://www.youtube.com/watch?v=SLMzhOoA29M  
+
+Now You can then see all the MAC addresses plotted on a map- HANDY! 
 
 <img src="https://github.com/MKme/ResQ/blob/master/Photos/MAP%20Success%208-30-2020%20Test%20.png" width="700"/>
 
