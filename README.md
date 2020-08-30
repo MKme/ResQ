@@ -37,7 +37,11 @@ https://www.youtube.com/playlist?list=PLxyM2a_cfnzifVreG8aKurH-9nNYl8QLr
 # System Overview 
 <img src="https://github.com/MKme/ResQ/blob/master/Photos/Flow%20Diagram.png" width="500"/>
 
+# Reviewing Search Results Data
 
+To Review the hits recorded from SD card- download the datalog.txt file, change to CSV extension, remove the uneeded columns (only need MAC, Lat and Long) upload to Google maps as done here https://www.youtube.com/watch?v=SLMzhOoA29M  
+
+You can then see all the MAC addresses plotted on a map! 
 
 #  Bill of Materials 
 
