@@ -51,7 +51,7 @@ You can manually review the hits and plot them one by one in Google Maps or your
 
 4. Delete all other columns as we wont need those
 
-5. Upload to Google maps as done here https://www.youtube.com/watch?v=SLMzhOoA29M  
+5. Upload to Google maps as done here https://www.youtube.com/watch?v=SLMzhOoA29M  NOTE: Google seems to limit the plots to 2000 entries so ensure your CSV file only has less than 2000 lines. 
 
 Now You can then see all the MAC addresses plotted on a map- HANDY! 
 
