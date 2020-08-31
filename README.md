@@ -39,17 +39,19 @@ https://www.youtube.com/playlist?list=PLxyM2a_cfnzifVreG8aKurH-9nNYl8QLr
 
 # Reviewing a Search Result Data Recording
 
-All data is stored to the SD card while the unit is powered on. Perorm any search then afterward- remove the SD card and download the contents to your PC. The file it datalog.txt 
+All data is stored to the SD card while the unit is powered on. Perform your search then afterward- remove the SD card and download the contents to your PC. The file is datalog.txt 
 
-You can manually review the hits and plot them one by one in Google Maps or any other map software or you can do them all at once. 
+You can manually review the hits and plot them one by one in Google Maps or your preffered map software or you can do them all at once: 
 
-To review ALL the hits recorded from SD card on a map (all at once):
+1. Download the datalog.txt file, 
 
-1. Download the datalog.txt file, change to CSV extension, Add column headers above the LAT, LONG and MAC saying LAT, LONG and MAC :) 
+2. Rename from datalog.txt to datalog.csv
 
-2. Remove the uneeded columns like time and RSSI 
+3. Open in excel - Add a row above the data and within that row add the text LAT, LONG and MAC  above the corresponding columns for each (this will tell Google what each column is)
 
-3. Upload to Google maps as done here https://www.youtube.com/watch?v=SLMzhOoA29M  
+4. Delete all other columns as we wont need those
+
+5. Upload to Google maps as done here https://www.youtube.com/watch?v=SLMzhOoA29M  
 
 Now You can then see all the MAC addresses plotted on a map- HANDY! 
 
