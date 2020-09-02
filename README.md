@@ -141,6 +141,10 @@ The images can be used to correlate with the satellite imagery or existing aircr
 # Reference & Press Coverage
 Hackaday Article: https://hackaday.com/2020/08/12/resq-hunts-for-lost-hikers-from-the-air/
 
+Hackster I.O Article: https://www.hackster.io/news/resq-aims-to-help-find-lost-hikers-by-capturing-wifi-beacon-frames-6608e10e4b22
+
+Adafruit Article: https://blog.adafruit.com/2020/08/17/resq-hunts-for-lost-hikers-from-the-airdrone-droneday/
+
 More videos and information at http://youtube.com/mkmeorg or http://www.mkme.org
 Support this project and become a patron on <a href="http://mkme.org/patreon">Eric's Patreon</a>.<br>
 Website, Forum and store are at http://mkme.org <br>
