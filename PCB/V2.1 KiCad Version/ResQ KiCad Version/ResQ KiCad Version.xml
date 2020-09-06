@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>C:\Users\Office\Desktop\git\ResQ\PCB\V2.1 KiCad Version\ResQ KiCad Version\ResQ KiCad Version.sch</source>
-    <date>2020-08-17 12:42:41 PM</date>
+    <date>2020-09-06 9:16:25 AM</date>
     <tool>Eeschema (5.1.6)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ResQ Open Source Search and Rescue Hardware</title>
         <company>MKME Lab</company>
         <rev>2.1</rev>
-        <date>2020-08-10</date>
+        <date>2020-08-17</date>
         <source>ResQ KiCad Version.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -19,14 +19,6 @@
     </sheet>
   </design>
   <components>
-    <comp ref="J5">
-      <value>GPS</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F321884</tstamp>
-    </comp>
     <comp ref="J3">
       <value>OLED</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
@@ -43,13 +35,13 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F31DE3A</tstamp>
     </comp>
-    <comp ref="R1">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+    <comp ref="J6">
+      <value>Radio</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F3B9579</tstamp>
+      <tstamp>5F3AE78D</tstamp>
     </comp>
     <comp ref="U1">
       <value>WeMos_D1_mini</value>
@@ -59,6 +51,14 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F31691B</tstamp>
     </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3B9579</tstamp>
+    </comp>
     <comp ref="J1">
       <value>Spare 1</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
@@ -67,8 +67,16 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F3230C4</tstamp>
     </comp>
+    <comp ref="J5">
+      <value>GPS</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F321884</tstamp>
+    </comp>
     <comp ref="J2">
-      <value>Spare 2</value>
+      <value>Cam</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -207,77 +215,81 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(U1-Pad1)">
-      <node ref="U1" pin="1"/>
+    <net code="1" name="D0">
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="3"/>
     </net>
-    <net code="2" name="Net-(U1-Pad16)">
-      <node ref="U1" pin="16"/>
-    </net>
-    <net code="3" name="Net-(U1-Pad15)">
-      <node ref="U1" pin="15"/>
-    </net>
-    <net code="4" name="MISO">
-      <node ref="R1" pin="2"/>
-      <node ref="U1" pin="5"/>
-      <node ref="J4" pin="5"/>
-    </net>
-    <net code="5" name="3V3">
-      <node ref="J2" pin="1"/>
+    <net code="2" name="3V3">
       <node ref="J4" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J1" pin="1"/>
       <node ref="J5" pin="4"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="8"/>
       <node ref="R1" pin="1"/>
       <node ref="J3" pin="2"/>
-      <node ref="J1" pin="1"/>
-      <node ref="U1" pin="8"/>
     </net>
-    <net code="6" name="GND">
-      <node ref="J5" pin="1"/>
-      <node ref="J2" pin="2"/>
-      <node ref="J3" pin="1"/>
-      <node ref="J1" pin="2"/>
-      <node ref="U1" pin="10"/>
-      <node ref="J4" pin="6"/>
-      <node ref="B1" pin="2"/>
+    <net code="3" name="MISO">
+      <node ref="J4" pin="5"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R1" pin="2"/>
     </net>
-    <net code="7" name="5V">
-      <node ref="U1" pin="9"/>
-      <node ref="B1" pin="1"/>
+    <net code="4" name="CS">
+      <node ref="U1" pin="7"/>
+      <node ref="J4" pin="2"/>
     </net>
-    <net code="8" name="D0">
-      <node ref="U1" pin="3"/>
-      <node ref="J2" pin="3"/>
+    <net code="5" name="MOSI">
+      <node ref="J4" pin="3"/>
+      <node ref="U1" pin="6"/>
     </net>
-    <net code="9" name="D4">
-      <node ref="J5" pin="2"/>
+    <net code="6" name="CLK">
+      <node ref="U1" pin="4"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="7" name="D4">
       <node ref="U1" pin="11"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="8" name="D3">
+      <node ref="J5" pin="3"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="9" name="SDA">
+      <node ref="U1" pin="13"/>
+      <node ref="J3" pin="4"/>
     </net>
     <net code="10" name="SCL">
       <node ref="U1" pin="14"/>
       <node ref="J3" pin="3"/>
     </net>
-    <net code="11" name="SDA">
-      <node ref="J3" pin="4"/>
-      <node ref="U1" pin="13"/>
-    </net>
-    <net code="12" name="A0">
-      <node ref="U1" pin="2"/>
+    <net code="11" name="A0">
       <node ref="J1" pin="3"/>
+      <node ref="U1" pin="2"/>
     </net>
-    <net code="13" name="D3">
-      <node ref="U1" pin="12"/>
-      <node ref="J5" pin="3"/>
+    <net code="12" name="GND">
+      <node ref="U1" pin="10"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="B1" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J4" pin="6"/>
     </net>
-    <net code="14" name="CLK">
-      <node ref="U1" pin="4"/>
-      <node ref="J4" pin="4"/>
+    <net code="13" name="TX">
+      <node ref="U1" pin="16"/>
+      <node ref="J6" pin="3"/>
     </net>
-    <net code="15" name="MOSI">
-      <node ref="J4" pin="3"/>
-      <node ref="U1" pin="6"/>
+    <net code="14" name="5V">
+      <node ref="B1" pin="1"/>
+      <node ref="U1" pin="9"/>
     </net>
-    <net code="16" name="CS">
-      <node ref="J4" pin="2"/>
-      <node ref="U1" pin="7"/>
+    <net code="15" name="RX">
+      <node ref="U1" pin="15"/>
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
     </net>
   </nets>
 </export>

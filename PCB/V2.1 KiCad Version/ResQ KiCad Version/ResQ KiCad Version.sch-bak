@@ -2643,44 +2643,21 @@ Text GLabel 8800 3100 0    50   Input ~ 0
 D0
 Text Notes 9750 5750 0    50   ~ 0
 Note:\n10K pullup not always needed \nbut without can cause random \nwrite errors
-Text GLabel 5800 3800 2    50   Input ~ 0
+Text GLabel 5900 3800 2    50   Input ~ 0
 5V
-Text GLabel 5300 3850 3    50   Input ~ 0
+Text GLabel 5150 3900 3    50   Input ~ 0
 GND
 $Comp
 L power:GND #PWR01
 U 1 1 5F34EF30
-P 5100 3800
-F 0 "#PWR01" H 5100 3550 50  0001 C CNN
-F 1 "GND" V 5105 3672 50  0000 R CNN
-F 2 "" H 5100 3800 50  0001 C CNN
-F 3 "" H 5100 3800 50  0001 C CNN
-	1    5100 3800
+P 5000 3850
+F 0 "#PWR01" H 5000 3600 50  0001 C CNN
+F 1 "GND" V 5005 3722 50  0000 R CNN
+F 2 "" H 5000 3850 50  0001 C CNN
+F 3 "" H 5000 3850 50  0001 C CNN
+	1    5000 3850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Battery B1
-U 1 1 5F31A8A9
-P 5550 3800
-F 0 "B1" V 5700 3750 50  0000 L CNN
-F 1 "5V" V 5400 3750 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 5550 3860 50  0001 C CNN
-F 3 "~" V 5550 3860 50  0001 C CNN
-	1    5550 3800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5300 3800 5300 3850
-Wire Wire Line
-	5800 3800 5750 3800
-Wire Wire Line
-	5100 3800 5300 3800
-Connection ~ 5300 3800
-Wire Wire Line
-	5300 3800 5350 3800
-Connection ~ 5350 3800
-Wire Wire Line
-	5350 3800 5450 3800
 $Comp
 L Connector:Conn_01x04_Female J6
 U 1 1 5F3AE78D
@@ -2841,7 +2818,7 @@ Wire Notes Line
 Wire Notes Line
 	8500 2550 11000 2550
 Text Notes 9300 2900 0    50   ~ 0
-Optional camera expansion board\nTriggers external camera/image storage \nfrom air unit any time new target detected\n
+OPTIONAL camera expansion board\nTriggers external camera/image storage \nfrom air unit any time new target detected\n
 Text GLabel 4950 4750 0    50   Input ~ 0
 3V3
 $Comp
@@ -2941,4 +2918,29 @@ F 3 "~" H 9000 3000 50  0001 C CNN
 $EndComp
 Text GLabel 4950 4850 0    50   Input ~ 0
 GND
+Wire Wire Line
+	5750 3800 5900 3800
+$Comp
+L Device:Battery B1
+U 1 1 5F31A8A9
+P 5550 3800
+F 0 "B1" V 5700 3750 50  0000 L CNN
+F 1 "5V" V 5400 3750 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 5550 3860 50  0001 C CNN
+F 3 "~" V 5550 3860 50  0001 C CNN
+	1    5550 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 3800 5000 3850
+Connection ~ 5350 3800
+Wire Wire Line
+	5350 3800 5450 3800
+Wire Wire Line
+	5000 3800 5150 3800
+Wire Wire Line
+	5150 3900 5150 3800
+Connection ~ 5150 3800
+Wire Wire Line
+	5150 3800 5350 3800
 $EndSCHEMATC
