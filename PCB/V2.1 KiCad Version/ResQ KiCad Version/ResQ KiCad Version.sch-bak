@@ -2632,7 +2632,7 @@ Text GLabel 8750 4950 0    50   Input ~ 0
 Text Notes 8550 4650 0    50   ~ 0
 NOTE: Some OLEDs Power & Ground are reversed
 Text Notes 9450 5000 0    50   ~ 0
-V1.1 Had OLED VCC-GND-XX-XX\nV2.1 Has OLED GND-VCC-XX-XX \n
+V1.1 Had OLED VCC-GND-SCL-SDA\nV2.1 Has OLED GND-VCC-SCL-SDA \n
 Wire Notes Line
 	8500 4400 11000 4400
 Text GLabel 8800 2900 0    50   Input ~ 0
@@ -2669,16 +2669,12 @@ F 3 "~" H 9000 4000 50  0001 C CNN
 	1    9000 4000
 	1    0    0    -1  
 $EndComp
-Text GLabel 8800 3900 0    50   Input ~ 0
-GND
 Text GLabel 8800 4100 0    50   Input ~ 0
 TX
 Text GLabel 8800 4200 0    50   Input ~ 0
 RX
-Text GLabel 8800 4000 0    50   Input ~ 0
+Text GLabel 8800 3900 0    50   Input ~ 0
 3V3
-Text Notes 8550 3750 0    50   ~ 0
-Radio Module needs to be disconnected during flash \nBaud must match HW serial code  (currently 115200)
 Wire Notes Line
 	8500 3400 11000 3400
 Text Notes 8550 3500 0    50   ~ 10
@@ -2847,11 +2843,7 @@ Wire Notes Line
 Wire Notes Line
 	4650 5300 6400 5300
 Text Notes 5350 5600 0    50   ~ 0
-Note:\nBN220 has no compass
-Text GLabel 4950 5950 0    50   Input ~ 0
-3V3
-Text GLabel 4950 5650 0    50   Input ~ 0
-GND
+Note Layout Changes:\nV1.1 GND-D4-D3-3V3\nV2.xx 3V3-D3-D4-GND\n
 Wire Notes Line
 	4650 5300 4650 6050
 $Comp
@@ -2865,10 +2857,6 @@ F 3 "~" H 5150 5750 50  0001 C CNN
 	1    5150 5750
 	1    0    0    -1  
 $EndComp
-Text GLabel 4950 5750 0    50   Input ~ 0
-D4
-Text GLabel 4950 5850 0    50   Input ~ 0
-D3
 Text Notes 4650 5400 0    50   ~ 10
 GPS Receiver
 Wire Notes Line
@@ -2943,4 +2931,16 @@ Wire Wire Line
 Connection ~ 5150 3800
 Wire Wire Line
 	5150 3800 5350 3800
+Text Notes 8550 3750 0    50   ~ 0
+Radio Module needs to be disconnected during flash \nBaud must match HW serial code  (currently 115200)
+Text GLabel 8800 4000 0    50   Input ~ 0
+GND
+Text GLabel 4950 5650 0    50   Input ~ 0
+3V3
+Text GLabel 4950 5750 0    50   Input ~ 0
+D3
+Text GLabel 4950 5850 0    50   Input ~ 0
+D4
+Text GLabel 4950 5950 0    50   Input ~ 0
+GND
 $EndSCHEMATC
