@@ -20,8 +20,9 @@ First to be manufactured (PCBWay)
 Project files done in KiCAD and provided here for you!
 - OLED is now powered 3.3V not 5V
 - OLED VCC and Grnd reversed to accomodate the much more common pin layout 
--Pullup resistor added for SPI line
+- Pullup resistor added for SPI line
 - Spare Signal wires now routed and dont need bodge wires if used
+- Support for external camera expansion module added
 - Serial lines broken out for teletry transmission via LORA radio (or other UART radio module)
 - Ordered from PCBWay Sept 6th 2020 
 <img src="https://github.com/MKme/ResQ/blob/master/PCB/V2.1%20KiCad%20Version/PCB%20Final%20in%20KiCad.PNG" width="900"/>
@@ -29,11 +30,11 @@ Project files done in KiCAD and provided here for you!
 ## TIPS- 
 
 -  I have the PCBs avaialble on my website here: http://store.mkme.org/product-category/custom/
--  You can also make your own PCB under $10 at PCBWay, JLCPCB or other board house of your choice!  Just upload the gerbers I have provuided here and you are all set!
+-  You can also make your own PCB under $10 at PCBWay, JLCPCB, OSHPark or other board house of your choice!  Just upload the Gerbers I have provided here and you are all set!
 
 
 
-### Notes and Handy Informationz
+## Notes and Handy Informationz
 
 V1.4 Air unit case is first compatible enclusure for V1.1 PCBs/Gerbers as manufactured/supplied
 
