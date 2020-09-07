@@ -17,7 +17,7 @@ First to be manufactured (PCBWay)
 <img src="https://github.com/MKme/ResQ/blob/master/PCB/V1.1%20PCB%20Files%20and%20Gerbers/ResQ%20PCB%20V1.1%20Routing%20PCB%202%20%20_pcb.png" width="900"/>
 
 ## V2.1 
-Project files done in KiCAD
+Project files done in KiCAD and provided here for you!
 - OLED is now powered 3.3V not 5V
 - OLED VCC and Grnd reversed to accomodate the much more common pin layout 
 -Pullup resistor added for SPI line
@@ -26,14 +26,14 @@ Project files done in KiCAD
 - Ordered from PCBWay Sept 6th 2020 
 <img src="https://github.com/MKme/ResQ/blob/master/PCB/V2.1%20KiCad%20Version/PCB%20Final%20in%20KiCad.PNG" width="900"/>
 
-### TIPS- 
+## TIPS- 
 
 -  I have the PCBs avaialble on my website here: http://store.mkme.org/product-category/custom/
 -  You can also make your own PCB under $10 at PCBWay, JLCPCB or other board house of your choice!  Just upload the gerbers I have provuided here and you are all set!
 
 
 
-## Enclosure/CAD Files Notes
+### Notes and Handy Informationz
 
 V1.4 Air unit case is first compatible enclusure for V1.1 PCBs/Gerbers as manufactured/supplied
 
