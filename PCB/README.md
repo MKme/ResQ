@@ -14,7 +14,7 @@ First to be manufactured (PCBWay)
 - OLED Wiring startes with VCC on the end then GND- Apparently almost every other OLED in the world outside my shop starts with GND then VCC
 - OLED can be wired backwards as above point and burn your fingers....twice.... but still works after.... sigh....
 - Extra unused I/O is broken out (you have to add jumper wires for signal if you want to add anything) but not routed- they are fully functional in V2 and beyond
-<img src="https://github.com/MKme/ResQ/blob/master/PCB/V1.1%20PCB%20Files%20and%20Gerbers/ResQ%20PCB%20V1.1%20Routing%20PCB%202%20%20_pcb.png" width="900"/>
+<img src="https://github.com/MKme/ResQ/blob/master/PCB/V1.1%20PCB%20Files%20and%20Gerbers/ResQ%20PCB%20V1.1%20Routing%20PCB%202%20%20_pcb.png" width="500"/>
 
 ## V2.1 
 Project files done in KiCAD and provided here for you!
