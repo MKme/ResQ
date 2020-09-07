@@ -13,6 +13,7 @@ First to be manufactured (PCBWay)
 - OLED is powered by 5V not 3.3V (just note in case yours is not 5V tolerant)
 - OLED Wiring startes with VCC on the end then GND- Apparently almost every other OLED in the world outside my shop starts with GND then VCC
 - OLED can be wired backwards as above point and burn your fingers....twice.... but still works after.... sigh....
+- Extra unused I/O is broken out (you have to add jumper wires for signal if you want to add anything) but not routed- they are fully functional in V2 and beyond
 
 ## V2.1 
 Project files done in KiCAD
@@ -25,7 +26,9 @@ Project files done in KiCAD
 
 ### TIPS- 
 
--  Eric will add tips here
+-  I have the PCBs avaialble on my website here: http://store.mkme.org/product-category/custom/
+-  You can also make your own PCB under $10 at PCBWay, JLCPCB or other board house of your choice!  Just upload the gerbers I have provuided here and you are all set!
+
 
 
 ## Enclosure/CAD Files Notes
