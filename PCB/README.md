@@ -27,6 +27,10 @@ Project files done in KiCAD and provided here for you!
 - Ordered from PCBWay Sept 6th 2020 
 <img src="https://github.com/MKme/ResQ/blob/master/PCB/V2.1%20KiCad%20Version/PCB%20Final%20in%20KiCad.PNG" width="900"/>
 
+## V2.2
+
+- Nothing yet and hopefully don't need it :)
+
 ## TIPS- 
 
 -  I have the PCBs avaialble on my website here: http://store.mkme.org/product-category/custom/
