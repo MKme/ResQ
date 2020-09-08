@@ -1,10 +1,10 @@
 # Code Guide
 
 ### Welcome to Erics land of ResQ Arduino Code
+This is where you will find the current code/firmware for the ResQ project 
 
  <img src="https://github.com/MKme/ResQ/blob/master/Photos/Serial%202.PNG" width="900"/>
 
-This is where you will find the current code/firmware for the ResQ project 
 
 # Code Notes
 
@@ -18,9 +18,13 @@ NOTE: ResQ kits come with the ESP8266 programmed with the current ResQ firmware 
 Install the supporting libraries called out in the sketch (they are also included as backups in the GitHub Repo for you as libraries can be broken by new development.  Needed libraries are: 
 
 •	ArduinoJson
+
 •	TinyGPSPlus-1.0.2/TinyGPSPlus-1.0.2
+
 •	U8g2-2.27.6
+
 •	EspSoftwareSerial-6.8.1.zip
+
 
 For help installing libraries see this video: 
 
@@ -32,7 +36,7 @@ Flash the most current ResQ firmware (sketch) found on GitHub here: https://gith
 ## TIPS- 
 
 -  I have the PCBs avaialble on my website here: http://store.mkme.org/product-category/custom/
--  
+-  Backups of the working libraries are found in this directory 
 
 
 
