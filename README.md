@@ -141,6 +141,8 @@ The images can be used to correlate with the satellite imagery or existing aircr
 # Reference & Press Coverage
 Hackaday Article: https://hackaday.com/2020/08/12/resq-hunts-for-lost-hikers-from-the-air/
 
+Hackaday Prize 2020 Finalist status: https://hackaday.io/contest/171491-supplyframe-designlab-2020-hackaday-prize/log/183401-2020-hackaday-prize-finalists
+
 Hackster I.O Article: https://www.hackster.io/news/resq-aims-to-help-find-lost-hikers-by-capturing-wifi-beacon-frames-6608e10e4b22
 
 Adafruit Article: https://blog.adafruit.com/2020/08/17/resq-hunts-for-lost-hikers-from-the-airdrone-droneday/
