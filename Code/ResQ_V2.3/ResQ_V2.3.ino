@@ -14,7 +14,8 @@ Channel -2 in serial is what m iphone beacons on when not connected- Maybe minus
 
 This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
 https://creativecommons.org/licenses/by-nc/4.0/ 
- 
+IDE Used V1.8.8 - Use this or be forever in land of troubles....
+
 V1 Spring 2020:
  V1.xxx standalone with oled and sd card working stable and usable
  Moving to Git HUUUUUUUUUUUUUUGE effaround as OLED and SPI wont work together- traced back to Adafruit libs and possibly RAM issue
