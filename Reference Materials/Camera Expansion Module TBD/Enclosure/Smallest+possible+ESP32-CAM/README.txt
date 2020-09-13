@@ -1,1 +1,0 @@
-Smallest possible ESP32-CAM by MagnusT on Thingiverse: https://www.thingiverse.com/thing:4107609
