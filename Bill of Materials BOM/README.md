@@ -10,7 +10,7 @@ I provided Amazon and web links to all of them or grab a kit below.  Any additio
 
 # Bill of Materials Notes
 
-See my YouTube videos in the ResQ playlist 
+See my YouTube videos in the ResQ playlist https://www.youtube.com/playlist?list=PLxyM2a_cfnzifVreG8aKurH-9nNYl8QLr
 
 ## TIPS- 
 

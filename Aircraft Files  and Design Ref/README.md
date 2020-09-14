@@ -8,7 +8,18 @@ This area is for my aircraft goodies and drone configs.
 
 # Aircraft Notes 
 
-See my YouTube videos in the ResQ playlist and also see my entire Github repo devoted to my drone configs (ALL OF THEM) here:
+4-1-2020 
+iNav fully updated and old settings manually inputted. 433mhz telemetry working for wireless/mission
+July 2020
+inav fully tested- just needs final autotune or pid adjustments
+trim good
+all modes working
+transition to RTH is still rough and too high throttle- would be nice to reduce this but seems to rely on rate or some combination
+
+
+See my YouTube videos in the ResQ playlist https://www.youtube.com/playlist?list=PLxyM2a_cfnzifVreG8aKurH-9nNYl8QLr
+
+and also see my entire Github repo devoted to my drone configs (ALL OF THEM) here:
 
 https://github.com/MKme/DroneConfigs
 
