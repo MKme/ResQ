@@ -1,7 +1,7 @@
 # BOM
 
 ### Welcome to Erics land of ResQ material list (BOM)
-This area is for my aircraft goodies and drone configs.  
+This area is for the excel doc updated for all materials required for you to build this project.  Download BOM.xlsx above and you are all set. 
 
  <img src="https://github.com/MKme/ResQ/blob/master/Photos/IMG_0916.jpg" width="900"/>
 
