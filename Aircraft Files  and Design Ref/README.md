@@ -8,12 +8,14 @@ This area is for my aircraft goodies and drone configs.
 
 # Aircraft Notes 
 
-4-1-2020 
-iNav fully updated and old settings manually inputted. 433mhz telemetry working for wireless/mission
-July 2020
-inav fully tested- just needs final autotune or pid adjustments
+4-1-2020   iNav fully updated and old settings manually inputted. 433mhz telemetry working for wireless/mission
+
+July 2020  inav fully tested- just needs final autotune or pid adjustments
+
 trim good
+
 all modes working
+
 transition to RTH is still rough and too high throttle- would be nice to reduce this but seems to rely on rate or some combination
 
 
