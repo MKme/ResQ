@@ -36,7 +36,6 @@ More configs coming Fall 2020 when I build the new heavy-lift quadcopter.
 ## TIPS- 
 
 -  I have the aircraft and quacopter parts avaialble on my website here: http://store.mkme.org
--  
 
 
 
