@@ -25,9 +25,7 @@ July 2020:
 
 See my YouTube videos in the ResQ playlist https://www.youtube.com/playlist?list=PLxyM2a_cfnzifVreG8aKurH-9nNYl8QLr
 
-and also see my entire Github repo devoted to my drone configs (ALL OF THEM) here:
-
-https://github.com/MKme/DroneConfigs
+Also see my entire Github repo devoted to my drone configs (ALL OF THEM) here:  https://github.com/MKme/DroneConfigs
 
 See the CAD files folder for my 3D printed parts
 
