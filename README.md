@@ -77,7 +77,7 @@ This list is shortened for brevity - Full BOM in excel doc in BOM folder
 
 # Wiring 
 See schematic and PCB gerber files for detailed view but this is the summary
- <img src="https://github.com/MKme/ResQ/blob/master/Photos/Schematic/Schematic%20V2.1%20fixed%20%20Color.PNG" width="900"/>
+ <img src="https://github.com/MKme/ResQ/blob/master/PCB/V2.1%20KiCad%20Version/V2.1%20schematic%20as%20ordered%20.PNG" width="900"/>
 
 ### SPI SD Card to WEMOS D1  Wiring
 | Pin On SD Reader | Pin on D1  |

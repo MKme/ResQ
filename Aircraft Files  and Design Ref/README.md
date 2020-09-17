@@ -8,22 +8,24 @@ This area is for my aircraft goodies and drone configs.
 
 # Aircraft Notes 
 
-4-1-2020   iNav fully updated and old settings manually inputted. 433mhz telemetry working for wireless/mission
+4-1-2020:
 
-July 2020  inav fully tested- just needs final autotune or pid adjustments
+- iNav fully updated and old settings manually inputted. 433mhz telemetry working for wireless/mission
 
-trim good
+July 2020:
 
-all modes working
+- inav fully tested- just needs final autotune or pid adjustments
 
-transition to RTH is still rough and too high throttle- would be nice to reduce this but seems to rely on rate or some combination
+- trim good
+
+- all modes working
+
+- transition to RTH is still rough and too high throttle- would be nice to reduce this but seems to rely on rate or some combination
 
 
 See my YouTube videos in the ResQ playlist https://www.youtube.com/playlist?list=PLxyM2a_cfnzifVreG8aKurH-9nNYl8QLr
 
-and also see my entire Github repo devoted to my drone configs (ALL OF THEM) here:
-
-https://github.com/MKme/DroneConfigs
+Also see my entire Github repo devoted to my drone configs (ALL OF THEM) here:  https://github.com/MKme/DroneConfigs
 
 See the CAD files folder for my 3D printed parts
 
@@ -34,7 +36,6 @@ More configs coming Fall 2020 when I build the new heavy-lift quadcopter.
 ## TIPS- 
 
 -  I have the aircraft and quacopter parts avaialble on my website here: http://store.mkme.org
--  
 
 
 
