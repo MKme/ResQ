@@ -1,3 +1,15 @@
 Software serial doesnt work on older board manager install (IE MINE!)  Update from by adding in boards manager and selecting update on the boards 
 
  https://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+
+Sept2020- Copy paste from my preferences- yes the formatting looks crud but this is what works so Imm not changing :
+
+https://dl.espressif.com/dl/package_esp32_index.json
+https://raw.githubusercontent.com/digistump/arduino-boards-index/master/package_digistump_index.json
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+https://adafruit.github.io/arduino-board-index/package_adahttps://dl.espressif.com/dl/package_esp32_index.json
+fruit_index.json
+https://arduino.esp8266.com/stable/package_esp8266com_index.json
+https://dl.espressif.com/dl/package_esp32_index.json
+
