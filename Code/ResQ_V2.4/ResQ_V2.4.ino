@@ -64,6 +64,16 @@ Watchdog resets fought with delays and yield all over this code. Dont ask me to 
  Remove logging APs to SD card as it just messus up the ability to import coordinates to Google maps easily
 
  V2.4 Camera trigger functions integration
+ ESP32 Reset Pin is thrid down from ANt on left side. See pics in ref section
+ D0 is triggered low every time a new MAC is written to the SD card
+ D0 is tied directly to Reset Pin of ESP32 Camera module- this wakes it from deep sleep- takes a picture and goes back to sleep. EASY! 
+ It worrrrrrrrrrrrrks!  Eric Tested 9-20-2020 and it works perfectly with just shared ground and signal D0 as signal/reset trigger. YAY DOne
+
+
+
+
+
+ 
 */
 
 
@@ -131,6 +141,9 @@ int usedChannels[15];
 StaticJsonBuffer<JBUFFER>  jsonBuffer;
 
 void setup() {
+pinMode(D0, OUTPUT);     // Initialize the Camera Reset Pin
+
+  
   //GPS Init
   ss.begin(9600); // software serial
   
@@ -178,6 +191,8 @@ delay(3000);
 
 
 void loop() {
+
+  digitalWrite(D0, HIGH); //Init Camera Reset Pin
   
  //Do display stuff right at the start- easy tracking/changing 
   u8x8.clear(); 
@@ -442,6 +457,7 @@ void showDevices() {
 
 //---------------------Do the SD thangz
     //Eric Adding SD Card Write here so we gat MAC 
+    digitalWrite(D0, LOW); //Trigger the camera fire
         File dataFile = SD.open("datalog.txt", FILE_WRITE);
         // if the file is available, write to it:
          if (dataFile) {
@@ -473,6 +489,9 @@ void showDevices() {
                Serial.println("error opening datalog.txt");
                SDOK=0; //flag SD status fail
           }
+ 
+ digitalWrite(D0, HIGH); //Finished Cam Fire 
+ Serial.println("Camera Was Triggered!  ");
  //END Adding SD--------------------------------  
 //yeah brilliant doing sd functions twice- fix it yourself as Im done :)
 Serial.print(" RSSI ");
