@@ -131,12 +131,15 @@ Project files done in KiCAD
 
 # Camera Expansion Module (Winter 2020 ETA)
 
-I would like to develop the expansion module to automatically capture images when target is aquired. This is planned to simply use an ESP32 with camera
-module. With the single GPIO I will use this as an interrupt driven signal to wake the ESP from deep-sleep then begin capturing images to the SD card
-I may do other methods but for now it makes sense in my mind to use the ESP32 due to weight and power considerations. In deep sleep this should be a simple addition
-to the air unit whihc will draw virtually no powe runtil capture is needed. 
+ResQ Camera expansion module automatically captures images when target is aquired. This uses an ESP32 with camera
+module. With the single GPIO I use this as an interrupt driven signal to wake the ESP from deep-sleep then begin capturing images to the SD card
 
 The images can be used to correlate with the satellite imagery or existing aircraft FPV DVR footage.  It may be handy to have standalone images to quikly review any target detected. 
+
+The code and enclosure files are now posted to this repo for all to use. Refer to the assembly manual for details. 
+
+ <img src="https://github.com/MKme/ResQ/blob/master/Photos/ResQ%20Cam%20Photos/IMG_1038.jpg" width="700"/>
+
 
 # Reference & Press Coverage
 Hackaday Article: https://hackaday.com/2020/08/12/resq-hunts-for-lost-hikers-from-the-air/
