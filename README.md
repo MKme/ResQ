@@ -129,7 +129,7 @@ Project files done in KiCAD
 - Spare Signal wires now routed and dont need bodge wires if used
 - Serial lines broken out for teletry transmission via LORA radio (or other UART radio module)
 
-# Camera Expansion Module (Winter 2020 ETA)
+# Camera Expansion Module
 
 ResQ Camera expansion module automatically captures images when target is aquired. This uses an ESP32 with camera
 module. With the single GPIO I use this as an interrupt driven signal to wake the ESP from deep-sleep then begin capturing images to the SD card
