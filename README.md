@@ -35,7 +35,7 @@ https://www.youtube.com/playlist?list=PLxyM2a_cfnzifVreG8aKurH-9nNYl8QLr
 <img src="https://github.com/MKme/ResQ/blob/master/Reference%20Materials/Flow%20and%20Reference%20Diagrams/Main%20Sequence%20.png" width="900"/>
 
 # System Overview 
-<img src="https://github.com/MKme/ResQ/blob/master/Photos/Flow%20Diagram.png" width="500"/>
+<img src="https://github.com/MKme/ResQ/blob/master/Reference%20Materials/Flow%20and%20Reference%20Diagrams/Flow%20Diagram.png" width="500"/>
 
 # Reviewing a Search Result Data Recording
 
