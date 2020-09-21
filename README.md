@@ -140,6 +140,27 @@ The code and enclosure files are now posted to this repo for all to use. Refer t
 
  <img src="https://github.com/MKme/ResQ/blob/master/Photos/ResQ%20Cam%20Photos/IMG_1038.jpg" width="700"/>
 
+# ResQ Sentry
+
+Sentry is a ResQ variant which includes the existing hardware plus the camera module inside a case which then becomes a stationary camera for monitoring human traffic in any area. Any time a new cell phone MAC address is detected- the camera module is triggered and captures still images of the area. 
+
+ <img src="https://github.com/MKme/ResQ/blob/master/Enclsoure%20CAD%20Files/ResQ%20Sentry%20Enclosure/IMG_0949.jpg" width="700"/>
+ 
+This can be used in game preserves to catch poachers, private property surveillance, restricted areas, and many more! 
+
+The GPS is still used to allow for accurate date/time stamps without the need for adding a real time clock. Time function will work without clear line of site to any satellites (it works indoors just fine).
+
+2 different enclosures are provided:
+
+- 	3D printable .stl version
+-  Laser cut version (.svg files)
+
+1. Install the ResQ hardware along with the camera in to the Sentry enclosure (camera through front hole)
+
+2. Power the Sentry with an appropriate battery supply (5VDC to the ResQ) 
+
+3. Add an appropriate solar charging system if desired (I bought this panel for $21 CAD) https://amzn.to/3hOA5qX
+
 
 # Reference & Press Coverage
 Hackaday Article: https://hackaday.com/2020/08/12/resq-hunts-for-lost-hikers-from-the-air/
