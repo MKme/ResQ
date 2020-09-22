@@ -2,7 +2,7 @@
 
 ### Welcome to Erics land of Printed Circuit Boards where everyone leaves with a shiny new project board or schematic! 
 
- <img src="https://github.com/MKme/ResQ/blob/master/Photos/Schematic/Schematic%20V2.1%20fixed%20%20Color.PNG" width="900"/>
+ <img src="https://github.com/MKme/ResQ/blob/master/PCB/V2.1%20KiCad%20Version/V2.1%20schematic%20as%20ordered%20.PNG" width="900"/>
 
 Here we have a variety of selections for your ResQ build.  
 
