@@ -39,7 +39,7 @@ https://www.youtube.com/playlist?list=PLxyM2a_cfnzifVreG8aKurH-9nNYl8QLr
 
 # Current Development Status and Future Plans
  
- <img src="https://github.com/MKme/ResQ/blob/master/Reference%20Materials/Flow%20and%20Reference%20Diagrams/Kanban/Kanban.png" width="900"/>
+<img src="https://github.com/MKme/ResQ/blob/master/Reference%20Materials/Flow%20and%20Reference%20Diagrams/Kanban/kanban.png" width="900"/>
 
 #  Bill of Materials 
 
