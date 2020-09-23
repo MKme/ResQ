@@ -37,25 +37,9 @@ https://www.youtube.com/playlist?list=PLxyM2a_cfnzifVreG8aKurH-9nNYl8QLr
 # System Overview 
 <img src="https://github.com/MKme/ResQ/blob/master/Reference%20Materials/Flow%20and%20Reference%20Diagrams/Flow%20Diagram.png" width="500"/>
 
-# Reviewing a Search Result Data Recording
-
-All data is stored to the SD card while the unit is powered on. Perform your search then afterward- remove the SD card and download the contents to your PC. The file is datalog.txt 
-
-You can manually review the hits and plot them one by one in Google Maps or your preffered map software or you can do them all at once: 
-
-1. Download the datalog.txt file, 
-
-2. Rename from datalog.txt to datalog.csv
-
-3. Open in excel - Add a row above the data and within that row add the text LAT, LONG and MAC  above the corresponding columns for each (this will tell Google what each column is)
-
-4. Delete all other columns as we wont need those
-
-5. Upload to Google maps as done here https://www.youtube.com/watch?v=SLMzhOoA29M  NOTE: Google seems to limit the plots to 2000 entries so ensure your CSV file only has less than 2000 lines. 
-
-Now You can then see all the MAC addresses plotted on a map- HANDY! 
-
-<img src="https://github.com/MKme/ResQ/blob/master/Photos/MAP%20Success%208-30-2020%20Test%20.png" width="700"/>
+# Current Development Status and Future Plans
+ 
+ <img src="https://github.com/MKme/ResQ/blob/master/Reference%20Materials/Flow%20and%20Reference%20Diagrams/Kanban/Kanban.png" width="900"/>
 
 #  Bill of Materials 
 
@@ -161,6 +145,25 @@ The GPS is still used to allow for accurate date/time stamps without the need fo
 
 3. Add an appropriate solar charging system if desired (I bought this panel for $21 CAD) https://amzn.to/3hOA5qX
 
+# Reviewing a Search Result Data Recording
+
+All data is stored to the SD card while the unit is powered on. Perform your search then afterward- remove the SD card and download the contents to your PC. The file is datalog.txt 
+
+You can manually review the hits and plot them one by one in Google Maps or your preffered map software or you can do them all at once: 
+
+1. Download the datalog.txt file, 
+
+2. Rename from datalog.txt to datalog.csv
+
+3. Open in excel - Add a row above the data and within that row add the text LAT, LONG and MAC  above the corresponding columns for each (this will tell Google what each column is)
+
+4. Delete all other columns as we wont need those
+
+5. Upload to Google maps as done here https://www.youtube.com/watch?v=SLMzhOoA29M  NOTE: Google seems to limit the plots to 2000 entries so ensure your CSV file only has less than 2000 lines. 
+
+Now You can then see all the MAC addresses plotted on a map- HANDY! 
+
+<img src="https://github.com/MKme/ResQ/blob/master/Photos/MAP%20Success%208-30-2020%20Test%20.png" width="700"/>
 
 # Reference & Press Coverage
 Hackaday Article: https://hackaday.com/2020/08/12/resq-hunts-for-lost-hikers-from-the-air/
