@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-23T13:37:21.954Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="rVmGSp5rZbZcGaIgRNsu" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-23T13:44:46.068Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="pCxs3_nH2cy8fThh7BBr" version="13.7.3" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="2062" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -17,12 +17,12 @@
             <mxGeometry x="20" y="21" width="140" height="80" as="geometry" />
           </mxCell>
         </object>
-        <object label="Task 2&lt;br&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;i&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;%status%&lt;/font&gt;&lt;/i&gt;&lt;/span&gt;" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-4">
+        <object label="PCB v3- Entirely discreet components (board can be mass produced)" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-5">
           <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=swimlane;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=0;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" parent="_5mSTuPxr-ZiKRkBDSY7-2" vertex="1">
             <mxGeometry x="20" y="121" width="140" height="80" as="geometry" />
           </mxCell>
         </object>
-        <object label="PCB v3- Entirely discreet components (board can be mass produced)" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-5">
+        <object label="Gen 2 Stationary Install Version- Permanent Install version for aircraft/vehicles&amp;nbsp;" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-4">
           <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=swimlane;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=0;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" parent="_5mSTuPxr-ZiKRkBDSY7-2" vertex="1">
             <mxGeometry x="20" y="221" width="140" height="80" as="geometry" />
           </mxCell>
@@ -32,22 +32,22 @@
             <mxGeometry x="180" y="28" width="180" height="412" as="geometry" />
           </mxCell>
         </object>
-        <object label="Sentry Enclosure&amp;nbsp;" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-7">
+        <object label="ResQ Sentry Enclosure + Code Updates to support Sentry Mode" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-7">
           <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=swimlane;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=0;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" parent="_5mSTuPxr-ZiKRkBDSY7-6" vertex="1">
             <mxGeometry x="20" y="21" width="140" height="80" as="geometry" />
           </mxCell>
         </object>
-        <object label="Sentry Mode Code Updates" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-8">
+        <object label="User &amp;amp; Assembly Manuals + GIT Documentation" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-8">
           <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=swimlane;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=0;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" parent="_5mSTuPxr-ZiKRkBDSY7-6" vertex="1">
             <mxGeometry x="20" y="121" width="140" height="80" as="geometry" />
           </mxCell>
         </object>
         <object label="DONE" status="Completed" id="_5mSTuPxr-ZiKRkBDSY7-9">
           <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#1BA1E2;" parent="_5mSTuPxr-ZiKRkBDSY7-1" vertex="1">
-            <mxGeometry x="360" y="28" width="180" height="421" as="geometry" />
+            <mxGeometry x="360" y="28" width="180" height="412" as="geometry" />
           </mxCell>
         </object>
-        <object label="Camera Module Code Integration" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-10">
+        <object label="Camera Module Firmware Dev , Integration &amp;amp; Testing" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-10">
           <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=swimlane;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=0;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
             <mxGeometry x="20" y="21" width="140" height="80" as="geometry" />
           </mxCell>
@@ -62,7 +62,7 @@
             <mxGeometry x="20" y="221" width="140" height="80" as="geometry" />
           </mxCell>
         </object>
-        <object label="Task 8&lt;br&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;i&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;%status%&lt;/font&gt;&lt;/i&gt;&lt;/span&gt;" placeholders="1" id="Jm1vpD0kmA0fwGVbmE_k-1">
+        <object label="Air &amp;amp; Ground Enclosures Finalized (2D and 3D versions covering all manufacturing)" placeholders="1" id="Jm1vpD0kmA0fwGVbmE_k-1">
           <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=swimlane;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=0;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" vertex="1" parent="_5mSTuPxr-ZiKRkBDSY7-9">
             <mxGeometry x="20" y="321" width="140" height="80" as="geometry" />
           </mxCell>
