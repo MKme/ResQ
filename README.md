@@ -37,7 +37,7 @@ https://www.youtube.com/playlist?list=PLxyM2a_cfnzifVreG8aKurH-9nNYl8QLr
 # System Overview 
 <img src="https://github.com/MKme/ResQ/blob/master/Reference%20Materials/Flow%20and%20Reference%20Diagrams/Flow%20Diagram.png" width="500"/>
 
-# Current Development Status and Future Plans
+# Kanban Board- Current Status of ResQ
  
 <img src="https://github.com/MKme/ResQ/blob/master/Reference%20Materials/Flow%20and%20Reference%20Diagrams/Kanban/kanban.png" width="900"/>
 
