@@ -184,7 +184,7 @@ pinMode(D0, OUTPUT);     // Initialize the Camera Module Reset Pin
   u8x8.setFont(u8x8_font_chroma48medium8_r);
   u8x8.println("Initializing...");
   u8x8.println("");
-  u8x8.println("ResQ Tool V2.3"); // YAY 2.2 fixed crashing/sd card shenanegins
+  u8x8.println("ResQ Tool V2.5"); // YAY 2.2 fixed crashing/sd card shenanegins
   u8x8.println("www.mkme.org");
   
 //Dont
