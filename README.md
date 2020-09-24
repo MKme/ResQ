@@ -128,7 +128,7 @@ The code and enclosure files are now posted to this repo for all to use. Refer t
 
 Sentry is a ResQ variant which includes the existing hardware plus the camera module inside a case which then becomes a stationary camera for monitoring human traffic in any area. Any time a new cell phone MAC address is detected- the camera module is triggered and captures still images of the area. 
 
- <img src="https://github.com/MKme/ResQ/blob/master/Enclsoure%20CAD%20Files/ResQ%20Sentry%20Enclosure/IMG_0949.jpg" width="700"/>
+ <img src="https://github.com/MKme/ResQ/blob/master/Photos/Sentry/IMG_0949.jpg" width="700"/>
  
 This can be used in game preserves to catch poachers, private property surveillance, restricted areas, and many more! 
 
