@@ -32,6 +32,17 @@ https://www.youtube.com/watch?v=M6PZOqNHKxM&ab_channel=Brainy-Bits
 
 Flash the most current ResQ firmware (sketch) found on GitHub here: https://github.com/MKme/ResQ/tree/master/Code
 
+## Options 
+
+Sentry Mode can be enabled in setup by changing:
+
+int SENTRYMODE = 0;
+
+to
+
+int SENTRYMODE = 1;
+
+This will turn off the OLED after unit is fully initialized and detects the first target thereby saving battery power for solar/battery installs
 
 ## TIPS- 
 
