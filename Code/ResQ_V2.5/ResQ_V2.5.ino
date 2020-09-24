@@ -70,7 +70,14 @@ Watchdog resets fought with delays and yield all over this code. Dont ask me to 
  It worrrrrrrrrrrrrks!  Eric Tested 9-20-2020 and it works perfectly with just shared ground and signal D0 as signal/reset trigger. YAY DOne
 
 V2.5 
-Sentry Mode Integrationn
+2020-09-24
+Sentry Mode Integration
+It works!!!! 
+Simply toggle the int in setup from SENTRYMODE=0 to 1 and 
+The OLED will show init right up untill clients are detected to be written to SD card (you can use this to test function by NOT disabling wifi on your cell phone)
+This allows you to see if SD card and GPS are both OK then OLED will turn off to save power.  AWESOME!
+Method used is powersave mode right in the OLED library- so cool
+Done deal- Setry mode now works and is fully supported to capture poachers, theives, whatever you like. Enjoy!
 
 
  
@@ -122,7 +129,7 @@ const int chipSelect = D4;
 #define MINRSSI -70
 
 int SDOK = 1;//used to indicated if SD card is alive and still being written
-int SENTRYMODE = 1; //Sentry Mode enable 1 disable 0 --------------------------------------------------------- Sentry Mode here 
+int SENTRYMODE = 0; //Sentry Mode enable 1 disable 0 ------------------------------------------------------------------------------------- Sentry Mode Enable/Disable here 
 
 // uint8_t channel = 1;
 unsigned int channel = 1;
@@ -142,7 +149,7 @@ int usedChannels[15];
 StaticJsonBuffer<JBUFFER>  jsonBuffer;
 
 void setup() {
-pinMode(D0, OUTPUT);     // Initialize the Camera Reset Pin
+pinMode(D0, OUTPUT);     // Initialize the Camera Module Reset Pin
 
   
   //GPS Init
@@ -458,6 +465,7 @@ void showDevices() {
 
 //---------------------Do the SD thangz
     //Eric Adding SD Card Write here so we gat MAC 
+    if (SENTRYMODE == 1) u8x8.setPowerSave(1); // if sentry mode is enabled go ahead and turn off the OLED now
     digitalWrite(D0, LOW); //Trigger the camera fire
         File dataFile = SD.open("datalog.txt", FILE_WRITE);
         // if the file is available, write to it:
