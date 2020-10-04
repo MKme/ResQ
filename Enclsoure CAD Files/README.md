@@ -50,6 +50,8 @@ Settings Used for these designs:
 ## CNC
 I dont have one yet but if you have tips please let me know so I can add them to the assembly guide and this doc!
 
+*EDIT* I bough a 3018 CNC to test these 2D files and see how they cut compared to the laser. If there is anything I can do to fix them for others to easily make them I will. 
+
 ## Hand cutting
 
 Print out the design on paper then trace it on your material of choice and cut it out.  
