@@ -8,7 +8,7 @@ Here we have a variety of selections for your ResQ build.  Choose from the stand
 
 ### or
 
-Try out the new and improved 2D svg files to laser, CNC or even hand cut your own!  No special equipment needed anymore. 
+Try out the new and improved 2D svg files to laser, CNC or even hand cut your own!  No special equipment needed anymore. My goal was to make sure no one would be limited by their access to machinery or equipment- below are options for multiple enclosures depending on what you have access to or even nothing at all!
 
 ## 3D Printer Settings
 
