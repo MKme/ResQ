@@ -14,8 +14,7 @@ See my YouTube videos in the ResQ playlist https://www.youtube.com/playlist?list
 
 ## TIPS- 
 
--  I have made kits and various parts avaialble on my website here: http://store.mkme.org/product-category/custom/
-
+-  I have made kits and various parts avaialble on my website here: https://store.mkme.org/?product_cat=custom
 
 
 
