@@ -185,7 +185,7 @@ pinMode(D0, OUTPUT);     // Initialize the Camera Module Reset Pin
   Serial.println("card initialized.");
  //I weeeen!
 //End SD Example 
-Rate
+//Rate  Dunno where this came from 
 
 
 //Splash Screen
