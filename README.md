@@ -48,7 +48,7 @@ This list is shortened for brevity - Full BOM in excel doc in BOM folder
 |     Component    | Source  |
 | ---------- |----------------|
 |D1 Mini Pro | https://amzn.to/2ZQArbl
-|Custom PCB |  http://store.mkme.org/product/resq-printed-circuit-board-v1-1/
+|Custom PCB |  https://store.mkme.org/?product_cat=custom
 |D1 Mini With antenna included| https://amzn.to/2ZNQEy1
 |SD Card Reader| https://amzn.to/2XPDv6B
 |0.96" OLED Display| https://amzn.to/3cCHvvj
